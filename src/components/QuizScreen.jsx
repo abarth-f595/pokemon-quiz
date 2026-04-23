@@ -22,10 +22,9 @@ const QuizScreen = ({ title, questions, imageUrl, characterName, description, on
     
     const newFloating = [];
     for(let i = 0; i < count; i++) {
-        // 問題文の中央にかぶらないよう、左右の端や上部に散らす
-        const isLeft = Math.random() > 0.5;
-        const leftPos = isLeft ? (-10 + Math.random() * 20) : (75 + Math.random() * 20);
-        const topPos = -20 + Math.random() * 30; // -20%から10%
+        // 画面外にはみ出ないよう、コンテナ内側（5% 〜 85%）の範囲にランダム配置
+        const leftPos = 5 + Math.random() * 80;
+        const topPos = 5 + Math.random() * 50; // 下半分は問題とかぶるので上部に配置
         
         newFloating.push({
             img: shuffled[i],
@@ -33,7 +32,7 @@ const QuizScreen = ({ title, questions, imageUrl, characterName, description, on
             top: `${topPos}%`,
             animDuration: 2.5 + Math.random() * 2,
             animDelay: Math.random() * 1.5,
-            size: 60 + Math.random() * 30
+            size: 50 + Math.random() * 30
         });
     }
     setFloatingPokemon(newFloating);
@@ -147,7 +146,7 @@ const QuizScreen = ({ title, questions, imageUrl, characterName, description, on
           )}
           <p>{currentQuestion.explanation}</p>
           <button className="next-btn" onClick={handleNext}>
-            {currentIndex + 1 < questions.length ? "次の問題へ" : "けっかを見る"}
+            {currentIndex + 1 < questions.length ? "次の問題へ" : "結果を見る"}
           </button>
         </div>
       )}

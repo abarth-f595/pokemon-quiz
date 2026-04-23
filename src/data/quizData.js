@@ -111,7 +111,26 @@ export const baseQuizData = {
   }
 };
 
-export const quizData = {
-  ...baseQuizData,
-  ...notebookQuizData
+// ベースのデータに対してNotebookデータをマージする
+export const quizData = { ...baseQuizData };
+
+const mergeSubject = (baseKey, notebookKey) => {
+  if (notebookQuizData[notebookKey] && notebookQuizData[notebookKey].questions) {
+    const newQs = notebookQuizData[notebookKey].questions.map((q, i) => {
+      // 既存の国語のサブカテゴリに対応させるためのダミー処理
+      let type = baseKey === 'japanese' ? (i % 2 === 0 ? 'kanji' : 'text') : undefined;
+      return { ...q, type };
+    });
+    quizData[baseKey].questions = [
+      ...quizData[baseKey].questions,
+      ...newQs
+    ];
+  }
 };
+
+mergeSubject('japanese', 'notebook_japanese');
+mergeSubject('math', 'notebook_math');
+mergeSubject('science', 'notebook_science');
+mergeSubject('society', 'notebook_society');
+mergeSubject('english', 'notebook_english');
+
