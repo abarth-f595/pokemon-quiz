@@ -6,7 +6,7 @@ export const baseQuizData = {
     color: "#ff7675",
     characterName: "ヒスイゾロア",
     description: "いたずら好きなクイズマスター。漢字や文章のナゾ 🔍 を解き明かす。",
-    imageUrl: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10240.png",
+    imageUrl: "/images/pokemon/hisuian_zorua_v2.png",
     hasSubCategories: true,
     subCategories: [
       { id: "kanji", title: "漢字の読み書き" },
