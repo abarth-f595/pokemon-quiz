@@ -107,6 +107,7 @@ export const baseQuizData = {
 
       { id: "e_rev1", term: "review", question: "【ふりかえり】「こんにちは」と英語で言うと？", options: ["Hello.", "Goodbye.", "Yes."], correctOptionIndex: 0, explanation: "挨拶の基本は「Hello」です。" },
       { id: "e_adv1", term: "advanced", question: "【オリジナル応用】ピカチュウが「Pika!」と嬉しそうにしています。「彼はハッピーだ」と英語で言うと？", options: ["He is happy.", "She is happy.", "I am happy."], correctOptionIndex: 0, explanation: "男の子（彼）の話をするときは「He is ~」を使います。", isAdvanced: true }
+    ]
   }
 };
 

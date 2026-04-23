@@ -48,7 +48,7 @@ export function parseNotebookLMJsonToQuizData(jsonText) {
         color: config.color,
         characterName: config.characterName,
         description: "アップロードされたJSONデータです。",
-        imageUrl: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+        imageUrl: "/images/pokemon/pikachu.png",
         hasSubCategories: false,
         questions: []
       };
@@ -80,7 +80,7 @@ export function parseNotebookLMJsonToQuizData(jsonText) {
     const correctIndex = shuffledOptions.indexOf(correct);
 
     processedData[subjectKey].questions.push({
-      id: item.id || \`custom_json_\${Date.now()}_\${index}\`,
+      id: item.id || `custom_json_${Date.now()}_${index}`,
       term: term,
       isAdvanced: isAdvanced,
       question: item.問題文 || "問題文がありません",
