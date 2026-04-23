@@ -4,7 +4,7 @@ export const notebookQuizData = {
     "color": "#ff7675",
     "characterName": "ヒスイゾロア",
     "description": "NotebookLMが生成した学習データです。",
-    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+    "imageUrl": "/images/pokemon/hisuian_zorua.png",
     "hasSubCategories": false,
     "questions": [
       {
