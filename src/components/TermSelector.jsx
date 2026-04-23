@@ -6,6 +6,7 @@ const TermSelector = ({ subjectData, onSelectTerm, onBack }) => {
     { id: 2, title: "2学期 の もんだい" },
     { id: 3, title: "3学期 の もんだい" },
     { id: 'review', title: "ふりかえり編" },
+    { id: 'mix', title: "総集編 (苦手中心 全範囲ランダム)" },
     { id: 'advanced', title: "応用問題編" }
   ];
 
@@ -22,7 +23,12 @@ const TermSelector = ({ subjectData, onSelectTerm, onBack }) => {
           <button
             key={term.id}
             className="option-btn"
-            style={{ textAlign: 'center', background: 'rgba(255, 255, 255, 0.95)', borderLeft: `6px solid ${subjectData.color}` }}
+            style={{ 
+              textAlign: 'center', 
+              background: term.id === 'mix' ? 'linear-gradient(135deg, #feca57, #ff9f43)' : 'rgba(255, 255, 255, 0.95)', 
+              color: term.id === 'mix' ? '#fff' : '#333',
+              borderLeft: term.id === 'mix' ? 'none' : `6px solid ${subjectData.color}` 
+            }}
             onClick={() => onSelectTerm(term.id)}
           >
             {term.title}

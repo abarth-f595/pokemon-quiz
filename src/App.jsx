@@ -6,6 +6,7 @@ import QuizScreen from './components/QuizScreen';
 import ResultScreen from './components/ResultScreen';
 import FinalResultScreen from './components/FinalResultScreen';
 import { quizData as initialQuizData } from './data/quizData';
+import { getStats, getTermAccuracy, recordResult } from './utils/storage';
 
 function App() {
   const [quizData, setQuizData] = useState(initialQuizData);
@@ -49,16 +50,52 @@ function App() {
       // 応用問題編の場合は、通常問題フェーズを飛ばしていきなり応用モードへ
       const advPool = pool.filter(q => q.isAdvanced);
       const shuffled = [...advPool].sort(() => 0.5 - Math.random());
-      setCurrentAdvancedQuestions(shuffled.slice(0, 50)); // 最大50問出題可能
+      setCurrentAdvancedQuestions(shuffled.slice(0, 10)); // 最大10問
       setCurrentNormalQuestions([]);
       setCurrentScreen('advanced_quiz');
+    } else if (termId === 'mix') {
+      // 総集編：全学期ミックス + 苦手克服アダプティブロジック
+      let allNormal = subject.questions.filter(q => !q.isAdvanced);
+      
+      // 各学期の正答率を取得し、苦手度（1 - 正答率）を計算
+      const termWeights = {
+        1: Math.max(0.2, 1 - getTermAccuracy(selectedSubject, '1')),
+        2: Math.max(0.2, 1 - getTermAccuracy(selectedSubject, '2')),
+        3: Math.max(0.2, 1 - getTermAccuracy(selectedSubject, '3'))
+      };
+
+      // 問題ごとに基本ウェイトに乱数を掛けてスコア付けし、ソート
+      const scoredMix = allNormal.map(q => {
+        const weight = termWeights[q.term] || 0.5; // ふりかえり等はデフォルト
+        return { ...q, randomScore: Math.random() * weight };
+      });
+
+      scoredMix.sort((a, b) => b.randomScore - a.randomScore); // スコアが高い（苦手＆乱数大）ものを上へ
+      
+      setCurrentNormalQuestions(scoredMix.slice(0, 10));
+
+      const advPool = subject.questions.filter(q => q.isAdvanced);
+      const shuffledAdv = [...advPool].sort(() => 0.5 - Math.random());
+      setCurrentAdvancedQuestions(shuffledAdv.slice(0, 1));
+      
+      setCurrentScreen('normal_quiz');
     } else {
-      // 通常の学期・ふりかえりの場合
+      // 通常の学期・ふりかえりの場合もアダプティヴ（苦手な問題を優先）
       const normalPool = pool.filter(q => !q.isAdvanced);
       const advPool = pool.filter(q => q.isAdvanced);
       
-      const shuffledNormal = [...normalPool].sort(() => 0.5 - Math.random());
-      setCurrentNormalQuestions(shuffledNormal.slice(0, 10)); // 最大10問出題
+      const stats = getStats();
+      const subjectStats = stats[selectedSubject] || { questions: {} };
+      
+      const scoredNormal = normalPool.map(q => {
+          const qStats = subjectStats.questions[q.id] || { totalAnswered: 0, totalCorrect: 0 };
+          const accuracy = qStats.totalAnswered === 0 ? 0.5 : (qStats.totalCorrect / qStats.totalAnswered);
+          const weight = Math.max(0.1, 1 - accuracy); // 取れてない問題を優先
+          return { ...q, randomScore: Math.random() * weight };
+      });
+      
+      scoredNormal.sort((a, b) => b.randomScore - a.randomScore);
+      setCurrentNormalQuestions(scoredNormal.slice(0, 10)); // 最大10問
       
       const shuffledAdv = [...advPool].sort(() => 0.5 - Math.random());
       setCurrentAdvancedQuestions(shuffledAdv.slice(0, 1)); // 応用は最後に1問
@@ -105,10 +142,15 @@ function App() {
     }
   };
 
+  const handleAnswer = (questionId, isCorrect) => {
+    recordResult(selectedSubject, selectedTerm, questionId, isCorrect);
+  };
+
   const subjectData = selectedSubject ? quizData[selectedSubject] : null;
 
   // 動的にタイトルを生成
   const getTermTitle = (t) => {
+    if(t === 'mix') return "総集編 (AIアダプティブ)";
     if(t === 'review') return "ふりかえり編";
     if(t === 'advanced') return "応用問題編";
     return `${t}学期`;
@@ -191,6 +233,7 @@ function App() {
           imageUrl={subjectData.imageUrl}
           characterName={subjectData.characterName}
           description={subjectData.description}
+          onAnswer={handleAnswer}
           onComplete={handleNormalComplete}
         />
       )}
@@ -202,6 +245,7 @@ function App() {
           hasAdvancedData={currentAdvancedQuestions.length > 0}
           onStartAdvanced={handleStartAdvanced}
           onGoHome={handleGoHome}
+          subjectId={selectedSubject}
         />
       )}
 
@@ -212,6 +256,7 @@ function App() {
           imageUrl={subjectData.imageUrl}
           characterName={subjectData.characterName}
           description={subjectData.description}
+          onAnswer={handleAnswer}
           onComplete={handleAdvancedComplete}
         />
       )}

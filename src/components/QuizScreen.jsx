@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const QuizScreen = ({ title, questions, imageUrl, characterName, description, onComplete }) => {
+const QuizScreen = ({ title, questions, imageUrl, characterName, description, onAnswer, onComplete }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState(null);
   const [isAnswered, setIsAnswered] = useState(false);
@@ -45,8 +45,13 @@ const QuizScreen = ({ title, questions, imageUrl, characterName, description, on
     setSelectedOption(index);
     setIsAnswered(true);
     
-    if (index === currentQuestion.correctOptionIndex) {
+    const isCorrect = index === currentQuestion.correctOptionIndex;
+    if (isCorrect) {
       setScore(score + 1);
+    }
+    
+    if (onAnswer) {
+      onAnswer(currentQuestion.id, isCorrect);
     }
   };
 
