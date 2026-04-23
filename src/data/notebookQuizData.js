@@ -168,7 +168,7 @@ export const notebookQuizData = {
     "color": "#74b9ff",
     "characterName": "アルセウス",
     "description": "NotebookLMが生成した学習データです。",
-    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+    "imageUrl": "/images/pokemon/arceus.png",
     "hasSubCategories": false,
     "questions": [
       {
@@ -346,7 +346,7 @@ export const notebookQuizData = {
     "color": "#55efc4",
     "characterName": "スイクン",
     "description": "NotebookLMが生成した学習データです。",
-    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+    "imageUrl": "/images/pokemon/suicune.png",
     "hasSubCategories": false,
     "questions": [
       {
@@ -482,7 +482,7 @@ export const notebookQuizData = {
     "color": "#fdcb6e",
     "characterName": "ザマゼンタ",
     "description": "NotebookLMが生成した学習データです。",
-    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+    "imageUrl": "/images/pokemon/zamazenta.png",
     "hasSubCategories": false,
     "questions": [
       {
@@ -604,7 +604,7 @@ export const notebookQuizData = {
     "color": "#a29bfe",
     "characterName": "イーブイ",
     "description": "NotebookLMが生成した学習データです。",
-    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+    "imageUrl": "/images/pokemon/eevee.png",
     "hasSubCategories": false,
     "questions": [
       {
