@@ -13,7 +13,7 @@ export function parseNotebookLMJsonToQuizData(jsonText) {
   }
 
   const subjectConfig = {
-    "国語": { key: "japanese", title: "国語 (アップロード)", color: "#ff7675", characterName: "ヒスイゾロア", img: "/images/pokemon/hisuian_zorua.png" },
+    "国語": { key: "japanese", title: "国語 (アップロード)", color: "#ff7675", characterName: "ヒスイゾロア", img: "/images/pokemon/hisuian_zorua_v2.png" },
     "算数": { key: "math", title: "算数 (アップロード)", color: "#74b9ff", characterName: "アルセウス", img: "/images/pokemon/arceus.png" },
     "理科": { key: "science", title: "理科 (アップロード)", color: "#55efc4", characterName: "スイクン", img: "/images/pokemon/suicune.png" },
     "社会": { key: "society", title: "社会 (アップロード)", color: "#fdcb6e", characterName: "ザマゼンタ", img: "/images/pokemon/zamazenta.png" },

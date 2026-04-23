@@ -9,7 +9,7 @@ const QuizScreen = ({ title, questions, imageUrl, characterName, description, on
   const currentQuestion = questions[currentIndex];
 
   const allPokemon = [
-    "arceus.png", "eevee.png", "entei.png", "espeon.png", "flareon.png", "gardevoir.png", "glaceon.png", "hisuian_zoroark.png", "hisuian_zorua.png", "jolteon.png", "kirlia.png", "latias.png", "latios.png", "leafeon.png", "lucario.png", "magikarp.png", "meowth.png", "mew.png", "mewtwo.png", "pikachu.png", "raikou.png", "ralts.png", "riolu.png", "suicune.png", "sylveon.png", "umbreon.png", "zacian.png", "zacian1.png", "zamazenta.png", "zamazenta1.png", "zoroark.png", "zorua.png"
+    "arceus.png", "eevee.png", "entei.png", "espeon.png", "flareon.png", "gardevoir.png", "glaceon.png", "hisuian_zoroark.png", "hisuian_zorua_v2.png", "jolteon.png", "kirlia.png", "latias.png", "latios.png", "leafeon.png", "lucario.png", "magikarp.png", "meowth.png", "mew.png", "mewtwo.png", "pikachu.png", "raikou.png", "ralts.png", "riolu.png", "suicune.png", "sylveon.png", "umbreon.png", "zacian.png", "zacian1.png", "zamazenta.png", "zamazenta1.png", "zoroark.png", "zorua.png"
   ];
 
   const [floatingPokemon, setFloatingPokemon] = useState([]);
