@@ -22,17 +22,19 @@ const QuizScreen = ({ title, questions, imageUrl, characterName, description, on
     
     const newFloating = [];
     for(let i = 0; i < count; i++) {
-        // 画面外にはみ出ないよう、コンテナ内側（5% 〜 85%）の範囲にランダム配置
-        const leftPos = 5 + Math.random() * 80;
-        const topPos = 5 + Math.random() * 50; // 下半分は問題とかぶるので上部に配置
+        // 問題文にかぶらないよう、画面の左右の端に配置 (vwとvhを使用)
+        const isLeft = Math.random() > 0.5;
+        // 左なら 2vw 〜 15vw、右なら 75vw 〜 85vw
+        const leftPos = isLeft ? (2 + Math.random() * 13) : (75 + Math.random() * 10);
+        const topPos = 10 + Math.random() * 70; // 高さ 10vh 〜 80vh
         
         newFloating.push({
             img: shuffled[i],
-            left: `${leftPos}%`,
-            top: `${topPos}%`,
-            animDuration: 2.5 + Math.random() * 2,
+            left: `${leftPos}vw`,
+            top: `${topPos}vh`,
+            animDuration: 3 + Math.random() * 2,
             animDelay: Math.random() * 1.5,
-            size: 50 + Math.random() * 30
+            size: 130 + Math.random() * 80 // サイズを大きく（130px〜210px）
         });
     }
     setFloatingPokemon(newFloating);
@@ -74,7 +76,7 @@ const QuizScreen = ({ title, questions, imageUrl, characterName, description, on
           src={`/images/pokemon/${p.img}`} 
           alt="応援ポケモン" 
           style={{
-            position: 'absolute',
+            position: 'fixed', // relativeなコンテナの影響を受けず画面全体で配置する
             top: p.top,
             left: p.left,
             width: `${p.size}px`,
@@ -83,8 +85,8 @@ const QuizScreen = ({ title, questions, imageUrl, characterName, description, on
             filter: 'drop-shadow(0 4px 6px rgba(0,0,0,0.2))',
             animation: `float ${p.animDuration}s ease-in-out infinite`,
             animationDelay: `${p.animDelay}s`,
-            opacity: 0.8,
-            zIndex: 5,
+            opacity: 0.85,
+            zIndex: 0, // ガラスの背面・背景より手前
             pointerEvents: 'none'
           }}
         />

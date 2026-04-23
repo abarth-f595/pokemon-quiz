@@ -119,7 +119,9 @@ const mergeSubject = (baseKey, notebookKey) => {
     const newQs = notebookQuizData[notebookKey].questions.map((q, i) => {
       // 既存の国語のサブカテゴリに対応させるためのダミー処理
       let type = baseKey === 'japanese' ? (i % 2 === 0 ? 'kanji' : 'text') : undefined;
-      return { ...q, type };
+      // notebooksの問題にterm（学期）がない場合、自動的に1〜3学期へ均等に分散させる
+      let term = q.term || ((i % 3) + 1);
+      return { ...q, type, term };
     });
     quizData[baseKey].questions = [
       ...quizData[baseKey].questions,
