@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const QuizScreen = ({ title, questions, imageUrl, characterName, description, onComplete }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -7,6 +7,37 @@ const QuizScreen = ({ title, questions, imageUrl, characterName, description, on
   const [score, setScore] = useState(0);
 
   const currentQuestion = questions[currentIndex];
+
+  const allPokemon = [
+    "arceus.png", "eevee.png", "entei.png", "espeon.png", "flareon.png", "gardevoir.png", "glaceon.png", "hisuian_zoroark.png", "hisuian_zorua.png", "jolteon.png", "kirlia.png", "latias.png", "latios.png", "leafeon.png", "lucario.png", "magikarp.png", "meowth.png", "mew.png", "mewtwo.png", "pikachu.png", "raikou.png", "ralts.png", "riolu.png", "suicune.png", "sylveon.png", "umbreon.png", "zacian.png", "zacian1.png", "zamazenta.png", "zamazenta1.png", "zoroark.png", "zorua.png"
+  ];
+
+  const [floatingPokemon, setFloatingPokemon] = useState([]);
+
+  useEffect(() => {
+    // 問題が変わるたびに2〜3匹をランダムに選ぶ
+    const count = Math.floor(Math.random() * 2) + 2; 
+    // 現在の先生ポケモンを除外してシャッフル
+    const shuffled = [...allPokemon].filter(p => !imageUrl.includes(p)).sort(() => 0.5 - Math.random());
+    
+    const newFloating = [];
+    for(let i = 0; i < count; i++) {
+        // 問題文の中央にかぶらないよう、左右の端や上部に散らす
+        const isLeft = Math.random() > 0.5;
+        const leftPos = isLeft ? (-10 + Math.random() * 20) : (75 + Math.random() * 20);
+        const topPos = -20 + Math.random() * 30; // -20%から10%
+        
+        newFloating.push({
+            img: shuffled[i],
+            left: `${leftPos}%`,
+            top: `${topPos}%`,
+            animDuration: 2.5 + Math.random() * 2,
+            animDelay: Math.random() * 1.5,
+            size: 60 + Math.random() * 30
+        });
+    }
+    setFloatingPokemon(newFloating);
+  }, [currentIndex, imageUrl]);
 
   const handleOptionClick = (index) => {
     if (isAnswered) return;
@@ -30,8 +61,33 @@ const QuizScreen = ({ title, questions, imageUrl, characterName, description, on
   };
 
   return (
-    <div className={`glass-container quiz-screen-container ${currentQuestion.isAdvanced ? 'advanced-mode' : ''}`} style={{ animation: 'fadeIn 0.4s ease-out' }}>
-      <img src={imageUrl} alt={characterName} className="floating-character" />
+    <div className={`glass-container quiz-screen-container ${currentQuestion.isAdvanced ? 'advanced-mode' : ''}`} style={{ animation: 'fadeIn 0.4s ease-out', position: 'relative' }}>
+      
+      {/* ランダムな応援ポケモン */}
+      {floatingPokemon.map((p, i) => (
+        <img 
+          key={i} 
+          src={`/images/pokemon/${p.img}`} 
+          alt="応援ポケモン" 
+          style={{
+            position: 'absolute',
+            top: p.top,
+            left: p.left,
+            width: `${p.size}px`,
+            height: `${p.size}px`,
+            objectFit: 'contain',
+            filter: 'drop-shadow(0 4px 6px rgba(0,0,0,0.2))',
+            animation: `float ${p.animDuration}s ease-in-out infinite`,
+            animationDelay: `${p.animDelay}s`,
+            opacity: 0.8,
+            zIndex: 5,
+            pointerEvents: 'none'
+          }}
+        />
+      ))}
+
+      {/* いつもの先生ポケモン */}
+      <img src={imageUrl} alt={characterName} className="floating-character" style={{zIndex: 10}} />
       
       <div className="character-speech-bubble">
         <strong>{characterName}:</strong>「{description}」
@@ -42,7 +98,7 @@ const QuizScreen = ({ title, questions, imageUrl, characterName, description, on
         <div className="question-counter">
           {currentQuestion.isAdvanced && (
             <span className="advanced-badge">
-              <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/beast-ball.png" alt="ウルトラボール" className="ultra_ball_icon" />
+              <img src="/images/items/ultra_ball.png" alt="ウルトラボール" className="ultra_ball_icon" />
               応用問題
             </span>
           )}
