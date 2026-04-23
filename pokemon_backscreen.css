@@ -1,0 +1,183 @@
+/* =========================================
+   1. スタート画面（冒険の拠点）
+========================================= */
+.start-screen {
+  /* 壮大なポケモンの集合イラストを背景に全画面表示 */
+  background-image: url('kabegami.png'); /* [1] */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-board {
+  /* 背景のイラストを生かしつつ、文字が読みやすい半透明のボード */
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  border: 4px solid #FFCC00; /* ピカチュウイエローのアクセント */
+}
+
+
+/* =========================================
+   2. 各教科の基本画面（集中できるやさしい紙質）
+========================================= */
+.subject-screen {
+  /* 勉強への拒否反応を下げる、さらさらとしたマットな質感の背景 */
+  background-color: #F8F8F6; 
+  color: #333333;
+  font-family: 'Hiragino Rounded Gothic ProN', sans-serif;
+  padding: 20px;
+}
+
+.question-card {
+  /* 圧迫感のない、丸みを帯びたやさしい問題枠 */
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+
+/* =========================================
+   3. 応用問題（とげとげしい・強敵出現の緊張感）
+========================================= */
+.advanced-question-card {
+  /* 基本画面の「やさしさ」から一転、ウルトラボールのような緊張感のある配色 */
+  background-color: #1A1A24; /* 深いダークブルー */
+  color: #FFFFFF;
+  /* 丸みを完全に排除し、鋭利な「とげとげしさ」を表現 */
+  border-radius: 0px; 
+  border: 4px solid #FF0044; /* 危険を知らせる赤色 */
+  box-shadow: 8px 8px 0px #FF0044; /* 鋭い影 */
+  position: relative;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+/* ギザギザ・とげとげのアクセント装飾 */
+.advanced-question-card::before {
+  content: "⚠ おうようもんだい";
+  position: absolute;
+  top: -20px;
+  left: -10px;
+  background-color: #FF0044;
+  color: #FFF;
+  font-weight: bold;
+  padding: 5px 15px;
+  /* CSSで図形を切り抜き、尖ったリボン風にする */
+  clip-path: polygon(0% 0%, 100% 0%, 90% 50%, 100% 100%, 0% 100%);
+}
+
+.advanced-decoration {
+  /* 背景にうっすらとウルトラボールのような幾何学模様を入れる */
+  background-image: url('ultra_ball.png'); /* [2] */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  opacity: 0.1;
+}
+
+
+/* =========================================
+   4-A. 点数結果（良い結果：華やか・お祭り騒ぎ）
+========================================= */
+.result-good {
+  /* ゴールドに輝くグラデーション背景 */
+  background: linear-gradient(135deg, #FFFDE7, #FFD700);
+  text-align: center;
+  padding: 50px;
+  animation: gold-shine 3s infinite alternate;
+}
+
+.result-good-pokemon {
+  /* ピカチュウやアルセウスが光り輝きながら登場 */
+  background-image: url('ピカチュウ.png'); /* [3] */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.9));
+  animation: bounce 1s infinite;
+}
+
+.result-good-item {
+  /* 満点のご褒美としてマスターボールを表示 */
+  background-image: url('master_ball.png'); /* [4] */
+}
+
+@keyframes gold-shine {
+  0% { box-shadow: inset 0 0 20px #FFA500; }
+  100% { box-shadow: inset 0 0 50px #FF8C00; }
+}
+
+
+/* =========================================
+   4-B. 点数結果（悪い結果：どんより暗い感じ）
+========================================= */
+.result-bad {
+  /* モノクロ・紫がかったどんよりした色合いで残念な雰囲気を演出 */
+  background: linear-gradient(to bottom, #4A4A52, #222224);
+  color: #A0A0A5;
+  text-align: center;
+  padding: 50px;
+}
+
+.result-bad-pokemon {
+  /* はねることしかできないコイキングを配置し、さらに色をくすませる */
+  background-image: url('コイキング.png'); /* [5] */
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  /* 彩度を落として、影を真っ黒にして重苦しくする */
+  filter: grayscale(80%) drop-shadow(0 0 10px #000);
+  opacity: 0.7; 
+}
+
+
+/* =========================================
+   5. スタート画面に戻る画面（ナビゲーション）
+========================================= */
+.return-home-container {
+  /* 結果発表の後に表示されるエリア */
+  background-color: rgba(255, 255, 255, 0.95);
+  border-top: 5px dashed #CCCCCC;
+  padding: 40px;
+  text-align: center;
+}
+
+.btn-return-home {
+  /* モンスターボールをモチーフにした、思わず押したくなる大きなボタン */
+  display: inline-flex;
+  align-items: center;
+  background-color: #EE1515; /* ボールの上半分の赤 */
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 50px;
+  border-radius: 50px; /* 完全に丸い角 */
+  border: 4px solid #222224; /* ボールの黒いライン */
+  box-shadow: 0 8px 0 #8B0000; /* 立体感を出す厚み */
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.btn-return-home:active {
+  /* 押したときにボタンがグッと沈み込むアニメーション */
+  transform: translateY(8px);
+  box-shadow: none;
+}
+
+.btn-return-home::before {
+  /* ボタンの文字の横にモンスターボールのアイコンを配置 */
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url('monster_ball.png'); /* [6] */
+  background-size: cover;
+  margin-right: 15px;
+}

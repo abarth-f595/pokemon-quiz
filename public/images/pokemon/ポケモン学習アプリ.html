@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ポケ勉マスター！</title>
+    <style>
+        body { background-color: #f0f8ff; font-family: 'Arial', sans-serif; text-align: center; }
+        
+        /* ランク表示エリア */
+        #rank-area { background: white; padding: 10px; border-radius: 20px; border: 4px solid #333; display: inline-block; margin: 20px; }
+        #ball-img { width: 50px; vertical-align: middle; }
+
+        /* 教科選択エリア */
+        .container { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; }
+        
+        /* 教科カード */
+        .subject-card {
+            background: white; border: 3px solid #ccc; border-radius: 15px;
+            width: 180px; padding: 15px; cursor: pointer; transition: transform 0.2s;
+        }
+        .subject-card:hover { transform: scale(1.1); border-color: #ffcc00; background: #fffde7; }
+        .subject-card img { width: 120px; height: 120px; object-fit: contain; }
+        .subject-name { font-weight: bold; font-size: 1.2em; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <div id="rank-area">
+        <img id="ball-img" src="monster_ball.png" alt="ball">
+        <span id="rank-text">ランク：モンスターボール級</span>
+    </div>
+
+    <h1>どの教科をぼうけんする？</h1>
+
+    <div class="container">
+        <div class="subject-card" onclick="startLesson('国語')">
+            <img src="ヒスイゾロア.png" alt="国語">
+            <div class="subject-name">国語</div>
+        </div>
+
+        <div class="subject-card" onclick="startLesson('算数')">
+            <img src="アルセウス.png" alt="算数">
+            <div class="subject-name">算数</div>
+        </div>
+
+        <div class="subject-card" onclick="startLesson('理科')">
+            <img src="スイクン.png" alt="理科">
+            <div class="subject-name">理科</div>
+        </div>
+
+        <div class="subject-card" onclick="startLesson('社会')">
+            <img src="ザマゼンタ1.png" alt="社会">
+            <div class="subject-name">社会</div>
+        </div>
+
+        <div class="subject-card" onclick="startLesson('外国語')">
+            <img src="イーブイ.png" alt="外国語">
+            <div class="subject-name">外国語</div>
+        </div>
+    </div>
+
+    <script>
+        function startLesson(subject) {
+            alert(subject + "のぼうけんをはじめるよ！");
+            // ここにNotebookLMへの連携や問題画面への移動を書く
+        }
+    </script>
+</body>
+</html>
