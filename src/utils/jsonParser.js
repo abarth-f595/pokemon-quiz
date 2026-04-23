@@ -13,11 +13,11 @@ export function parseNotebookLMJsonToQuizData(jsonText) {
   }
 
   const subjectConfig = {
-    "国語": { key: "japanese", title: "国語 (アップロード)", color: "#ff7675", characterName: "ヒスイゾロア" },
-    "算数": { key: "math", title: "算数 (アップロード)", color: "#74b9ff", characterName: "アルセウス" },
-    "理科": { key: "science", title: "理科 (アップロード)", color: "#55efc4", characterName: "スイクン" },
-    "社会": { key: "society", title: "社会 (アップロード)", color: "#fdcb6e", characterName: "ザマゼンタ" },
-    "英語": { key: "english", title: "英語 (アップロード)", color: "#a29bfe", characterName: "イーブイ" }
+    "国語": { key: "japanese", title: "国語 (アップロード)", color: "#ff7675", characterName: "ヒスイゾロア", img: "/images/pokemon/hisuian_zorua.png" },
+    "算数": { key: "math", title: "算数 (アップロード)", color: "#74b9ff", characterName: "アルセウス", img: "/images/pokemon/arceus.png" },
+    "理科": { key: "science", title: "理科 (アップロード)", color: "#55efc4", characterName: "スイクン", img: "/images/pokemon/suicune.png" },
+    "社会": { key: "society", title: "社会 (アップロード)", color: "#fdcb6e", characterName: "ザマゼンタ", img: "/images/pokemon/zamazenta.png" },
+    "英語": { key: "english", title: "英語 (アップロード)", color: "#a29bfe", characterName: "イーブイ", img: "/images/pokemon/eevee.png" }
   };
 
   const answerPools = {};
@@ -37,7 +37,8 @@ export function parseNotebookLMJsonToQuizData(jsonText) {
         key: "custom", 
         title: item.科目 + " (追加)", 
         color: "#e17055", 
-        characterName: "ポリゴン" 
+        characterName: "ポリゴン",
+        img: "/images/pokemon/pikachu.png"
     };
 
     const subjectKey = "custom_json_" + config.key;
@@ -48,7 +49,7 @@ export function parseNotebookLMJsonToQuizData(jsonText) {
         color: config.color,
         characterName: config.characterName,
         description: "アップロードされたJSONデータです。",
-        imageUrl: "/images/pokemon/pikachu.png",
+        imageUrl: config.img,
         hasSubCategories: false,
         questions: []
       };
