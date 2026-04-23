@@ -140,7 +140,7 @@ const QuizScreen = ({ title, questions, imageUrl, characterName, description, on
       {isAnswered && (
         <div className="feedback-box">
           {selectedOption === currentQuestion.correctOptionIndex ? (
-            <h3 className="correct-text">せいかい！ 🎉</h3>
+            <h3 className="correct-text">大正解！ 🎉</h3>
           ) : (
             <h3 className="incorrect-text">ざんねん... 💦</h3>
           )}
