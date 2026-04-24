@@ -1,4 +1,5 @@
 import { notebookQuizData } from './notebookQuizData';
+import { anzanQuizData } from './anzanQuizData';
 
 export const baseQuizData = {
   japanese: {
@@ -135,4 +136,17 @@ mergeSubject('math', 'notebook_math');
 mergeSubject('science', 'notebook_science');
 mergeSubject('society', 'notebook_society');
 mergeSubject('english', 'notebook_english');
+
+// 掛け算暗算ジム（独立した科目として追加）
+if (anzanQuizData.anzan_math && anzanQuizData.anzan_math.questions) {
+  quizData.anzan = {
+    title: "掛け算暗算ジム",
+    color: "#fd79a8",
+    characterName: "メタモン",
+    description: "変身の達人！a×b×c の3つのかけ算 🔥 を頭の中でマスターしよう。",
+    imageUrl: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
+    hasSubCategories: false,
+    questions: [...anzanQuizData.anzan_math.questions],
+  };
+}
 

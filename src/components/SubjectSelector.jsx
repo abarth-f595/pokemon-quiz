@@ -51,6 +51,33 @@ const SubjectSelector = ({ quizData, onSelectSubject, onAddCustomSubject }) => {
               <strong>{data.characterName}</strong>
               <p>{data.description.split('。')[0]}。</p>
             </div>
+            {/* 応用問題への直接ショートカットボタン */}
+            <button
+              className="advanced-shortcut-btn"
+              onClick={(e) => {
+                e.stopPropagation(); // カード全体のクリックを防ぐ
+                onSelectSubject(key, 'advanced');
+              }}
+              style={{
+                marginTop: '10px',
+                width: '100%',
+                padding: '7px 0',
+                borderRadius: '8px',
+                border: 'none',
+                background: 'rgba(0,0,0,0.25)',
+                color: '#fff',
+                fontWeight: 'bold',
+                fontSize: '0.85rem',
+                cursor: 'pointer',
+                letterSpacing: '0.03em',
+                backdropFilter: 'blur(4px)',
+                transition: 'background 0.2s',
+              }}
+              onMouseEnter={e => e.currentTarget.style.background = 'rgba(0,0,0,0.45)'}
+              onMouseLeave={e => e.currentTarget.style.background = 'rgba(0,0,0,0.25)'}
+            >
+              ⚡ 応用問題にちょうせん
+            </button>
           </div>
         ))}
       </div>

@@ -21,9 +21,21 @@ function App() {
   const [currentNormalQuestions, setCurrentNormalQuestions] = useState([]);
   const [currentAdvancedQuestions, setCurrentAdvancedQuestions] = useState([]);
 
-  const handleSelectSubject = (subjectKey) => {
+  const handleSelectSubject = (subjectKey, mode) => {
     setSelectedSubject(subjectKey);
     const subject = quizData[subjectKey];
+
+    if (mode === 'advanced') {
+      // ホーム画面から直接「応用問題」を起動する
+      setSelectedTerm('advanced');
+      const advPool = subject.questions.filter(q => q.isAdvanced);
+      const shuffled = [...advPool].sort(() => 0.5 - Math.random());
+      setCurrentAdvancedQuestions(shuffled.slice(0, 10)); // 最大10問
+      setCurrentNormalQuestions([]);
+      setCurrentScreen('advanced_quiz');
+      return;
+    }
+
     if (subject.hasSubCategories) {
       setCurrentScreen('sub_category_selector');
     } else {
@@ -165,7 +177,7 @@ function App() {
     let subjectNumStr = '04'; // デフォルトは04（ホーム等汎用）
     if (sub.includes('japanese')) subjectNumStr = '06';
     else if (sub.includes('society')) subjectNumStr = '09';
-    else if (sub.includes('math')) subjectNumStr = '12';
+    else if (sub.includes('math') || sub.includes('anzan')) subjectNumStr = '12';
     else if (sub.includes('science')) subjectNumStr = '10';
     else if (sub.includes('english')) subjectNumStr = '01';
 
