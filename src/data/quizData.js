@@ -153,7 +153,7 @@ if (anzanQuizData.anzan_math && anzanQuizData.anzan_math.questions) {
 // 計算ドリル（自動生成問題・タイムアタック）
 quizData.calcDrill = {
   title: "計算ドリル",
-  color: "#6c5ce7",
+  color: "#b39ddb",        // 明るいラベンダー（テキストが読みやすい背景色）
   characterName: "ケーシィ",
   description: "自動生成の計算問題 ⚡ 問題タイムを計測してスピードを磨こう！",
   imageUrl: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
