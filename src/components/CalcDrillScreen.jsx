@@ -26,14 +26,14 @@ const ResultSummary = ({ results, totalTime, config, onRetry, onGoHome }) => {
 
       <div className="card-character" style={{ height: '80px', marginBottom: '8px' }}>
         <img
-          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png"
-          alt="フーディン"
-          style={{ maxHeight: '100%', objectFit: 'contain' }}
+          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png"
+          alt="ケーシィ"
+          style={{ maxHeight: '100%', objectFit: 'contain', filter: 'drop-shadow(0 4px 8px rgba(0,0,0,0.5))' }}
         />
       </div>
 
-      <h2 style={{ textAlign: 'center', fontSize: '1.8rem', marginBottom: '4px' }}>⚡ ドリル完了！</h2>
-      <p style={{ textAlign: 'center', opacity: 0.8, marginBottom: '20px', fontSize: '0.9rem' }}>
+      <h2 style={{ textAlign: 'center', fontSize: '1.8rem', marginBottom: '4px', textShadow: '0 2px 6px rgba(0,0,0,0.6)' }}>⚡ ドリル完了！</h2>
+      <p style={{ textAlign: 'center', opacity: 0.9, marginBottom: '20px', fontSize: '0.9rem', textShadow: '0 1px 3px rgba(0,0,0,0.5)' }}>
         {OPERATION_LABELS[config.operation]} / {DIFFICULTY_LABELS[config.difficulty]} / {config.count}問
       </p>
 
