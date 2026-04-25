@@ -7,6 +7,7 @@ import ResultScreen from './components/ResultScreen';
 import FinalResultScreen from './components/FinalResultScreen';
 import { quizData as initialQuizData } from './data/quizData';
 import { getStats, getTermAccuracy, recordResult } from './utils/storage';
+import { startBGM, stopBGM } from './utils/gymBGM';
 
 function App() {
   const [quizData, setQuizData] = useState(initialQuizData);
@@ -211,6 +212,15 @@ function App() {
       document.body.style.backgroundImage = ''; // デフォルトのグラデーションに戻す
     }
   }, [currentScreen, selectedSubject, advancedScore, currentAdvancedQuestions.length]);
+
+  // BGM制御: クイズ画面中は再生、それ以外はフェードアウト停止
+  useEffect(() => {
+    if (currentScreen === 'normal_quiz' || currentScreen === 'advanced_quiz') {
+      startBGM();
+    } else {
+      stopBGM();
+    }
+  }, [currentScreen]);
 
   return (
     <>
