@@ -76,7 +76,7 @@ const SubjectSelector = ({ quizData, onSelectSubject, onAddCustomSubject }) => {
               onMouseEnter={e => e.currentTarget.style.background = 'rgba(0,0,0,0.45)'}
               onMouseLeave={e => e.currentTarget.style.background = 'rgba(0,0,0,0.25)'}
             >
-              ⚡ 応用問題にちょうせん
+              ⚡ 応用問題に挑戦！
             </button>
           </div>
         ))}
