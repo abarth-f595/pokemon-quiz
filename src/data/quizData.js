@@ -150,3 +150,16 @@ if (anzanQuizData.anzan_math && anzanQuizData.anzan_math.questions) {
   };
 }
 
+// 計算ドリル（自動生成問題・タイムアタック）
+quizData.calcDrill = {
+  title: "計算ドリル",
+  color: "#6c5ce7",
+  characterName: "フーディン",
+  description: "自動生成の計算問題 ⚡ 問題タイムを計測してスピードを磨こう！",
+  imageUrl: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
+  hasSubCategories: false,
+  isCalcDrill: true, // App.jsx で特別ルーティングに使うフラグ
+  questions: [],     // 動的生成なので空
+};
+
+

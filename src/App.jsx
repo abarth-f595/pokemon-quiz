@@ -5,18 +5,21 @@ import TermSelector from './components/TermSelector';
 import QuizScreen from './components/QuizScreen';
 import ResultScreen from './components/ResultScreen';
 import FinalResultScreen from './components/FinalResultScreen';
+import CalcDrillSelector from './components/CalcDrillSelector';
+import CalcDrillScreen from './components/CalcDrillScreen';
 import { quizData as initialQuizData } from './data/quizData';
 import { getStats, getTermAccuracy, recordResult } from './utils/storage';
 import { startBGM, stopBGM } from './utils/gymBGM';
 
 function App() {
   const [quizData, setQuizData] = useState(initialQuizData);
-  const [currentScreen, setCurrentScreen] = useState('home'); // 'home', 'sub_category_selector', 'term_selector', 'normal_quiz', 'normal_result', 'advanced_quiz', 'final_result'
+  const [currentScreen, setCurrentScreen] = useState('home'); // 'home', 'sub_category_selector', 'term_selector', 'normal_quiz', 'normal_result', 'advanced_quiz', 'final_result', 'calc_drill_selector', 'calc_drill_playing'
   const [selectedSubject, setSelectedSubject] = useState(null);
   const [selectedSubCategory, setSelectedSubCategory] = useState(null);
   const [selectedTerm, setSelectedTerm] = useState(null);
   const [normalScore, setNormalScore] = useState(0);
   const [advancedScore, setAdvancedScore] = useState(0);
+  const [calcDrillConfig, setCalcDrillConfig] = useState(null); // 計算ドリルの設定
 
   // ランダムに選ばれた固定の問題プール
   const [currentNormalQuestions, setCurrentNormalQuestions] = useState([]);
@@ -25,6 +28,12 @@ function App() {
   const handleSelectSubject = (subjectKey, mode) => {
     setSelectedSubject(subjectKey);
     const subject = quizData[subjectKey];
+
+    // 計算ドリルは専用の選択画面へ
+    if (subject.isCalcDrill) {
+      setCurrentScreen('calc_drill_selector');
+      return;
+    }
 
     if (mode === 'advanced') {
       // ホーム画面から直接「応用問題」を起動する
@@ -213,9 +222,13 @@ function App() {
     }
   }, [currentScreen, selectedSubject, advancedScore, currentAdvancedQuestions.length]);
 
-  // BGM制御: クイズ画面中は再生、それ以外はフェードアウト停止
+  // BGM制御: クイズ・ドリル画面中は再生、それ以外はフェードアウト停止
   useEffect(() => {
-    if (currentScreen === 'normal_quiz' || currentScreen === 'advanced_quiz') {
+    if (
+      currentScreen === 'normal_quiz' ||
+      currentScreen === 'advanced_quiz' ||
+      currentScreen === 'calc_drill_playing'
+    ) {
       startBGM();
     } else {
       stopBGM();
@@ -288,6 +301,33 @@ function App() {
           score={advancedScore}
           total={currentAdvancedQuestions.length}
           onGoHome={handleGoHome}
+        />
+      )}
+
+      {/* ── 計算ドリル ── */}
+      {currentScreen === 'calc_drill_selector' && (
+        <CalcDrillSelector
+          onStart={(config) => {
+            setCalcDrillConfig(config);
+            setCurrentScreen('calc_drill_playing');
+          }}
+          onBack={() => {
+            setSelectedSubject(null);
+            setCurrentScreen('home');
+          }}
+        />
+      )}
+
+      {currentScreen === 'calc_drill_playing' && calcDrillConfig && (
+        <CalcDrillScreen
+          operation={calcDrillConfig.operation}
+          difficulty={calcDrillConfig.difficulty}
+          questionCount={calcDrillConfig.count}
+          onGoHome={() => {
+            setCurrentScreen('home');
+            setSelectedSubject(null);
+            setCalcDrillConfig(null);
+          }}
         />
       )}
     </>
