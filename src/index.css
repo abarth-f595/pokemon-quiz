@@ -76,8 +76,8 @@ p.subtitle {
 /* Subject Selector */
 .subject-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
 }
 
 .subject-card {
@@ -107,11 +107,16 @@ p.subtitle {
 }
 
 .subject-card h2 {
-  font-size: 1.5rem;
+  /* カードの幅に合わせてフォントサイズが自動調整されるようにclampを使用 */
+  font-size: clamp(0.9rem, 1.8vw, 1.15rem);
   font-weight: 800;
   margin: 0;
   position: relative;
   z-index: 2;
+  /* 単語の途中で折り返さない（日本語括弧内で改行しにくくする） */
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  line-height: 1.4;
 }
 
 /* Quiz Screen */
