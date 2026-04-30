@@ -9,7 +9,7 @@ import CalcDrillSelector from './components/CalcDrillSelector';
 import CalcDrillScreen from './components/CalcDrillScreen';
 import { quizData as initialQuizData } from './data/quizData';
 import { getStats, getTermAccuracy, recordResult } from './utils/storage';
-import { startBGM, stopBGM } from './utils/gymBGM';
+import { startBGM, stopBGM, setVolume, setMuted, getVolume, getMuted } from './utils/gymBGM';
 
 function App() {
   const [quizData, setQuizData] = useState(initialQuizData);
@@ -20,6 +20,41 @@ function App() {
   const [normalScore, setNormalScore] = useState(0);
   const [advancedScore, setAdvancedScore] = useState(0);
   const [calcDrillConfig, setCalcDrillConfig] = useState(null); // 計算ドリルの設定
+
+  // 音量設定（localStorage で永続化）
+  const [volume, setVolumeState] = useState(() => {
+    const saved = localStorage.getItem('bgm_volume');
+    return saved !== null ? parseFloat(saved) : 1.0;
+  });
+  const [muted, setMutedState] = useState(() => {
+    return localStorage.getItem('bgm_muted') === 'true';
+  });
+  const [showVolumeSlider, setShowVolumeSlider] = useState(false);
+
+  const handleVolumeChange = (e) => {
+    const v = parseFloat(e.target.value);
+    setVolumeState(v);
+    setVolume(v);
+    localStorage.setItem('bgm_volume', v);
+    if (v > 0 && muted) {
+      setMutedState(false);
+      setMuted(false);
+      localStorage.setItem('bgm_muted', 'false');
+    }
+  };
+
+  const handleToggleMute = () => {
+    const next = !muted;
+    setMutedState(next);
+    setMuted(next);
+    localStorage.setItem('bgm_muted', next);
+  };
+
+  // 初期値をBGMモジュールに反映
+  useEffect(() => {
+    setVolume(volume);
+    setMuted(muted);
+  }, []);
 
   // ランダムに選ばれた固定の問題プール
   const [currentNormalQuestions, setCurrentNormalQuestions] = useState([]);
@@ -235,8 +270,88 @@ function App() {
     }
   }, [currentScreen]);
 
+  // アイコンの選択
+  const volumeIcon = muted || volume === 0 ? '🔇' : volume < 0.5 ? '🔉' : '🔊';
+
   return (
     <>
+      {/* フローティング音量コントロール */}
+      <div
+        style={{
+          position: 'fixed',
+          bottom: '16px',
+          right: '16px',
+          zIndex: 9999,
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'flex-end',
+          gap: '6px',
+        }}
+      >
+        {showVolumeSlider && (
+          <div
+            style={{
+              background: 'rgba(30,30,60,0.88)',
+              borderRadius: '12px',
+              padding: '10px 14px',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              gap: '8px',
+              boxShadow: '0 4px 16px rgba(0,0,0,0.5)',
+              backdropFilter: 'blur(6px)',
+            }}
+          >
+            <span style={{ color: '#fff', fontSize: '11px', fontWeight: 'bold', letterSpacing: '0.05em' }}>
+              音量
+            </span>
+            <input
+              type="range"
+              min="0"
+              max="1"
+              step="0.05"
+              value={muted ? 0 : volume}
+              onChange={handleVolumeChange}
+              style={{
+                writingMode: 'vertical-lr',
+                direction: 'rtl',
+                width: '6px',
+                height: '80px',
+                cursor: 'pointer',
+                accentColor: '#ffd700',
+              }}
+            />
+            <span style={{ color: '#ffd700', fontSize: '11px' }}>
+              {muted ? '0' : Math.round(volume * 100)}
+            </span>
+          </div>
+        )}
+        <button
+          onClick={() => setShowVolumeSlider(v => !v)}
+          onDoubleClick={handleToggleMute}
+          title={`音量: ${Math.round(volume * 100)}%\nシングルクリック: スライダー表示\nダブルクリック: ミュート切替`}
+          style={{
+            width: '44px',
+            height: '44px',
+            borderRadius: '50%',
+            border: '2px solid rgba(255,215,0,0.7)',
+            background: 'rgba(30,30,60,0.85)',
+            fontSize: '22px',
+            cursor: 'pointer',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            boxShadow: '0 2px 10px rgba(0,0,0,0.5)',
+            backdropFilter: 'blur(6px)',
+            transition: 'transform 0.15s',
+          }}
+          onMouseDown={e => e.currentTarget.style.transform = 'scale(0.92)'}
+          onMouseUp={e => e.currentTarget.style.transform = 'scale(1)'}
+        >
+          {volumeIcon}
+        </button>
+      </div>
+
       {currentScreen === 'home' && (
         <SubjectSelector 
           quizData={quizData} 

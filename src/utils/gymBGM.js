@@ -180,6 +180,13 @@ let masterGain = null;
 let isPlaying  = false;
 let loopTimer  = null;
 let loopStart  = 0;
+let userVolume = 1.0;  // ユーザー設定の音量 (0〜1)
+let userMuted  = false; // ミュート状態
+
+/** 現在の実効ゲイン値を計算 */
+function effectiveGain() {
+  return userMuted ? 0 : MASTER * userVolume;
+}
 
 /** AudioContextを遅延初期化する（ユーザー操作後に呼ぶ必要がある） */
 function ensureCtx() {
@@ -195,7 +202,7 @@ function ensureCtx() {
   comp.release.value   = 0.25;
 
   masterGain = ctx.createGain();
-  masterGain.gain.value = MASTER;
+  masterGain.gain.value = effectiveGain();
 
   masterGain.connect(comp);
   comp.connect(ctx.destination);
@@ -343,7 +350,7 @@ export function startBGM() {
 
   // マスターゲインを確実にONにする
   masterGain.gain.cancelScheduledValues(ctx.currentTime);
-  masterGain.gain.setValueAtTime(MASTER, ctx.currentTime);
+  masterGain.gain.setValueAtTime(effectiveGain(), ctx.currentTime);
 
   isPlaying = true;
   loopStart = ctx.currentTime + 0.05; // わずかに遅らせて開始
@@ -380,7 +387,7 @@ export function stopBGM(fadeOut = 0.6) {
     // フェードアウト後にマスター音量をリセット（次回再生用）
     setTimeout(() => {
       if (!isPlaying && masterGain) {
-        masterGain.gain.value = MASTER;
+        masterGain.gain.value = effectiveGain();
       }
     }, (fadeOut + 0.1) * 1000);
   }
@@ -389,4 +396,35 @@ export function stopBGM(fadeOut = 0.6) {
 /** 現在BGMが再生中かどうかを返す */
 export function isBGMPlaying() {
   return isPlaying;
+}
+
+/**
+ * ユーザー音量を設定する (0〜1)
+ * BGM再生中でもリアルタイムに反映される
+ */
+export function setVolume(value) {
+  userVolume = Math.max(0, Math.min(1, value));
+  if (masterGain && ctx && isPlaying) {
+    masterGain.gain.cancelScheduledValues(ctx.currentTime);
+    masterGain.gain.setValueAtTime(effectiveGain(), ctx.currentTime);
+  }
+}
+
+/** ミュート状態を設定する */
+export function setMuted(muted) {
+  userMuted = muted;
+  if (masterGain && ctx && isPlaying) {
+    masterGain.gain.cancelScheduledValues(ctx.currentTime);
+    masterGain.gain.setValueAtTime(effectiveGain(), ctx.currentTime);
+  }
+}
+
+/** 現在のユーザー音量を返す (0〜1) */
+export function getVolume() {
+  return userVolume;
+}
+
+/** 現在のミュート状態を返す */
+export function getMuted() {
+  return userMuted;
 }
