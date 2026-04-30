@@ -73,6 +73,49 @@ export const recordResult = (subjectId, term, questionId, isCorrect) => {
 };
 
 /**
+ * アダプティブな10問セットを構築する
+ * - weakGuaranteed 問は苦手問題（2回以上回答して正答率60%未満）を確実に含める
+ * - 残りはランダムに選択してシャッフル
+ * @param {string} subjectId
+ * @param {Array} questions - isAdvanced でない問題の配列
+ * @param {number} count - 合計問題数（デフォルト10）
+ * @param {number} weakGuaranteed - 苦手問題の最低数（デフォルト2）
+ */
+export const buildAdaptiveQuiz = (subjectId, questions, count = 10, weakGuaranteed = 2) => {
+  const stats = getStats();
+  const subjectStats = stats[subjectId] || { questions: {} };
+
+  // 各問題に正答率情報を付与
+  const scored = questions.map(q => {
+    const qStats = subjectStats.questions[q.id] || { totalAnswered: 0, totalCorrect: 0 };
+    const accuracy = qStats.totalAnswered === 0
+      ? null
+      : qStats.totalCorrect / qStats.totalAnswered;
+    return { ...q, _accuracy: accuracy, _answered: qStats.totalAnswered };
+  });
+
+  // 苦手問題: 2回以上回答済みで正答率60%未満 → 正答率が低い順にソート
+  const weak = scored
+    .filter(q => q._answered >= 2 && q._accuracy < 0.6)
+    .sort((a, b) => a._accuracy - b._accuracy);
+
+  const weakIds = new Set(weak.map(q => q.id));
+  const others = scored.filter(q => !weakIds.has(q.id));
+
+  // 苦手問題から最低 weakGuaranteed 問を確保
+  const weakTake = Math.min(weakGuaranteed, weak.length);
+  const selected = weak.slice(0, weakTake);
+
+  // 残り枠をランダムに埋める
+  const pool = [...weak.slice(weakTake), ...others].sort(() => 0.5 - Math.random());
+  const fillCount = Math.min(count - weakTake, pool.length);
+  selected.push(...pool.slice(0, fillCount));
+
+  // 問題順をシャッフル
+  return selected.sort(() => 0.5 - Math.random());
+};
+
+/**
  * 指定した教科内の特定カテゴリの正答率（0.0 ~ 1.0）を取得します。
  * 問題数が少なすぎる場合は 0.5 (標準) を返します。
  */

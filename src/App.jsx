@@ -8,7 +8,7 @@ import FinalResultScreen from './components/FinalResultScreen';
 import CalcDrillSelector from './components/CalcDrillSelector';
 import CalcDrillScreen from './components/CalcDrillScreen';
 import { quizData as initialQuizData } from './data/quizData';
-import { getStats, getTermAccuracy, recordResult } from './utils/storage';
+import { getStats, getTermAccuracy, recordResult, buildAdaptiveQuiz } from './utils/storage';
 import { startBGM, stopBGM, setVolume, setMuted, getVolume, getMuted } from './utils/gymBGM';
 
 function App() {
@@ -75,17 +75,23 @@ function App() {
       setSelectedTerm('advanced');
       const advPool = subject.questions.filter(q => q.isAdvanced);
       const shuffled = [...advPool].sort(() => 0.5 - Math.random());
-      setCurrentAdvancedQuestions(shuffled.slice(0, 10)); // 最大10問
+      setCurrentAdvancedQuestions(shuffled.slice(0, 10));
       setCurrentNormalQuestions([]);
       setCurrentScreen('advanced_quiz');
       return;
     }
 
-    if (subject.hasSubCategories) {
-      setCurrentScreen('sub_category_selector');
-    } else {
-      setCurrentScreen('term_selector');
-    }
+    // 通常モード: 全学期・全カテゴリからアダプティブに10問選択（学期選択をスキップ）
+    setSelectedTerm('mix');
+    const normalPool = subject.questions.filter(q => !q.isAdvanced && q.term !== 'advanced');
+    const selected = buildAdaptiveQuiz(subjectKey, normalPool, 10, 2);
+    setCurrentNormalQuestions(selected);
+
+    const advPool = subject.questions.filter(q => q.isAdvanced);
+    const shuffledAdv = [...advPool].sort(() => 0.5 - Math.random());
+    setCurrentAdvancedQuestions(shuffledAdv.slice(0, 1)); // 応用は最後に1問
+
+    setCurrentScreen('normal_quiz');
   };
 
   const handleSelectSubCategory = (subCatId) => {
