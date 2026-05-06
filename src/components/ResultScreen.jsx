@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useMemo } from 'react';
 import { getStats } from '../utils/storage';
 
 const ResultScreen = ({ score, total, onGoHome, onStartAdvanced, hasAdvancedData, subjectId }) => {
@@ -28,10 +28,8 @@ const ResultScreen = ({ score, total, onGoHome, onStartAdvanced, hasAdvancedData
 
   const isMidTierOrHigher = percentage >= 60;
 
-  const [aiMessage, setAiMessage] = useState("");
-
-  useEffect(() => {
-    if (!subjectId) return;
+  const aiMessage = useMemo(() => {
+    if (!subjectId) return "";
     const stats = getStats();
     if (stats[subjectId] && stats[subjectId].totalAnswered > 0) {
         const { totalAnswered, totalCorrect, terms } = stats[subjectId];
@@ -57,8 +55,9 @@ const ResultScreen = ({ score, total, onGoHome, onStartAdvanced, hasAdvancedData
         } else if (strongestTerm && highestAcc >= 0.8) {
            msg += ` \n🌟 ${strongestTerm}学期（または範囲）はカンペキだね！スゴイ！`;
         }
-        setAiMessage(msg);
+        return msg;
     }
+    return "";
   }, [subjectId]);
 
   return (

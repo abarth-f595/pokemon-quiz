@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 const QuizScreen = ({ title, questions, imageUrl, characterName, description, onAnswer, onComplete }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -12,9 +12,7 @@ const QuizScreen = ({ title, questions, imageUrl, characterName, description, on
     "arceus.png", "eevee.png", "entei.png", "espeon.png", "flareon.png", "gardevoir.png", "glaceon.png", "hisuian_zoroark.png", "hisuian_zorua_v2.png", "jolteon.png", "kirlia.png", "latias.png", "latios.png", "leafeon.png", "lucario.png", "magikarp.png", "meowth.png", "mew.png", "mewtwo.png", "pikachu.png", "raikou.png", "ralts.png", "riolu.png", "suicune.png", "sylveon.png", "umbreon.png", "zacian.png", "zacian1.png", "zamazenta.png", "zamazenta1.png", "zoroark.png", "zorua.png"
   ];
 
-  const [floatingPokemon, setFloatingPokemon] = useState([]);
-
-  useEffect(() => {
+  const floatingPokemon = React.useMemo(() => {
     // 問題が変わるたびに2〜3匹をランダムに選ぶ
     const count = Math.floor(Math.random() * 2) + 2; 
     // 現在の先生ポケモンを除外してシャッフル
@@ -22,11 +20,9 @@ const QuizScreen = ({ title, questions, imageUrl, characterName, description, on
     
     const newFloating = [];
     for(let i = 0; i < count; i++) {
-        // 問題文にかぶらないよう、画面の左右の端に配置 (vwとvhを使用)
         const isLeft = Math.random() > 0.5;
-        // 左なら 2vw 〜 15vw、右なら 75vw 〜 85vw
         const leftPos = isLeft ? (2 + Math.random() * 13) : (75 + Math.random() * 10);
-        const topPos = 10 + Math.random() * 70; // 高さ 10vh 〜 80vh
+        const topPos = 10 + Math.random() * 70;
         
         newFloating.push({
             img: shuffled[i],
@@ -34,10 +30,11 @@ const QuizScreen = ({ title, questions, imageUrl, characterName, description, on
             top: `${topPos}vh`,
             animDuration: 3 + Math.random() * 2,
             animDelay: Math.random() * 1.5,
-            size: 130 + Math.random() * 80 // サイズを大きく（130px〜210px）
+            size: 130 + Math.random() * 80
         });
     }
-    setFloatingPokemon(newFloating);
+    return newFloating;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentIndex, imageUrl]);
 
   const handleOptionClick = (index) => {

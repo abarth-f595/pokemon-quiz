@@ -9,7 +9,19 @@ import CalcDrillSelector from './components/CalcDrillSelector';
 import CalcDrillScreen from './components/CalcDrillScreen';
 import { quizData as initialQuizData } from './data/quizData';
 import { getStats, getTermAccuracy, recordResult, buildAdaptiveQuiz } from './utils/storage';
-import { startBGM, stopBGM, setVolume, setMuted, getVolume, getMuted } from './utils/gymBGM';
+import { startBGM, stopBGM, setVolume, setMuted } from './utils/gymBGM';
+
+// 選択肢をシャッフルするヘルパー関数
+const shuffleQuestion = (q) => {
+  if (q.type === 'descriptive' || !q.options || q.options.length === 0) return q;
+  const optionsWithFlag = q.options.map((opt, i) => ({ text: opt, isCorrect: i === q.correctOptionIndex }));
+  optionsWithFlag.sort(() => Math.random() - 0.5);
+  return {
+    ...q,
+    options: optionsWithFlag.map(o => o.text),
+    correctOptionIndex: optionsWithFlag.findIndex(o => o.isCorrect)
+  };
+};
 
 function App() {
   const [quizData, setQuizData] = useState(initialQuizData);
@@ -54,6 +66,7 @@ function App() {
   useEffect(() => {
     setVolume(volume);
     setMuted(muted);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // ランダムに選ばれた固定の問題プール
@@ -75,7 +88,7 @@ function App() {
       setSelectedTerm('advanced');
       const advPool = subject.questions.filter(q => q.isAdvanced);
       const shuffled = [...advPool].sort(() => 0.5 - Math.random());
-      setCurrentAdvancedQuestions(shuffled.slice(0, 10));
+      setCurrentAdvancedQuestions(shuffled.slice(0, 10).map(shuffleQuestion));
       setCurrentNormalQuestions([]);
       setCurrentScreen('advanced_quiz');
       return;
@@ -135,11 +148,11 @@ function App() {
 
       scoredMix.sort((a, b) => b.randomScore - a.randomScore); // スコアが高い（苦手＆乱数大）ものを上へ
       
-      setCurrentNormalQuestions(scoredMix.slice(0, 10));
+      setCurrentNormalQuestions(scoredMix.slice(0, 10).map(shuffleQuestion));
 
       const advPool = subject.questions.filter(q => q.isAdvanced);
       const shuffledAdv = [...advPool].sort(() => 0.5 - Math.random());
-      setCurrentAdvancedQuestions(shuffledAdv.slice(0, 1));
+      setCurrentAdvancedQuestions(shuffledAdv.slice(0, 1).map(shuffleQuestion));
       
       setCurrentScreen('normal_quiz');
     } else {
@@ -158,10 +171,10 @@ function App() {
       });
       
       scoredNormal.sort((a, b) => b.randomScore - a.randomScore);
-      setCurrentNormalQuestions(scoredNormal.slice(0, 10)); // 最大10問
+      setCurrentNormalQuestions(scoredNormal.slice(0, 10).map(shuffleQuestion)); // 最大10問
       
       const shuffledAdv = [...advPool].sort(() => 0.5 - Math.random());
-      setCurrentAdvancedQuestions(shuffledAdv.slice(0, 1)); // 応用は最後に1問
+      setCurrentAdvancedQuestions(shuffledAdv.slice(0, 1).map(shuffleQuestion)); // 応用は最後に1問
       
       setCurrentScreen('normal_quiz');
     }

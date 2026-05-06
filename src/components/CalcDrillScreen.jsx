@@ -126,17 +126,19 @@ const CalcDrillScreen = ({ operation, difficulty, questionCount, onGoHome }) => 
   const [currentIdx, setCurrentIdx] = useState(0);
   const [selected,   setSelected]   = useState(null);
   const [isAnswered, setIsAnswered]  = useState(false);
-  const resultsRef   = useRef([]);
+  const [results, setResults]        = useState([]);
 
   // タイマー (re-render を最小化するため ref で管理)
   const [totalElapsed, setTotalElapsed]    = useState(0);
   const [questionElapsed, setQElapsed]     = useState(0);
-  const drillStartRef    = useRef(Date.now());
-  const questionStartRef = useRef(Date.now());
+  const drillStartRef    = useRef(null);
+  const questionStartRef = useRef(null);
   const intervalRef      = useRef(null);
 
   // ドリル開始時にタイマーをスタート
   useEffect(() => {
+    drillStartRef.current = Date.now();
+    questionStartRef.current = Date.now();
     intervalRef.current = setInterval(() => {
       const now = Date.now();
       setTotalElapsed((now - drillStartRef.current) / 1000);
@@ -148,6 +150,7 @@ const CalcDrillScreen = ({ operation, difficulty, questionCount, onGoHome }) => 
   // 問題が変わったとき問題タイマーをリセット
   useEffect(() => {
     questionStartRef.current = Date.now();
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setQElapsed(0);
   }, [currentIdx]);
 
@@ -161,7 +164,7 @@ const CalcDrillScreen = ({ operation, difficulty, questionCount, onGoHome }) => 
     setSelected(optionIndex);
     setIsAnswered(true);
 
-    resultsRef.current.push({ problem: problems[currentIdx], selectedIndex: optionIndex, isCorrect, elapsed });
+    setResults(prev => [...prev, { problem: problems[currentIdx], selectedIndex: optionIndex, isCorrect, elapsed }]);
 
     // 正解・不正解のフラッシュを少し見せてから次へ
     setTimeout(() => {
@@ -185,12 +188,12 @@ const CalcDrillScreen = ({ operation, difficulty, questionCount, onGoHome }) => 
   if (phase === 'result') {
     return (
       <ResultSummary
-        results={resultsRef.current}
+        results={results}
         totalTime={totalElapsed}
         config={{ operation, difficulty, count: questionCount }}
         onRetry={() => {
           // 同じ設定でリトライ（リロードと同じ効果を出すためページ再レンダリング）
-          resultsRef.current = [];
+          setResults([]);
           drillStartRef.current = Date.now();
           questionStartRef.current = Date.now();
           setPhase('playing');
