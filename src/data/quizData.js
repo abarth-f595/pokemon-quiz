@@ -1,5 +1,6 @@
 import { notebookQuizData } from './notebookQuizData';
 import { anzanQuizData } from './anzanQuizData';
+import { generatedSubjects } from './generatedQuizData';
 
 export const baseQuizData = {
   japanese: {
@@ -51,7 +52,7 @@ export const baseQuizData = {
     ]
   },
   science: {
-    title: "理科 (大日本図書 小5)",
+    title: "理科 (東京書籍 小5)",
     color: "#55efc4",
     characterName: "スイクン",
     description: "好奇心旺盛な研究員。自然のふしぎ 🧪 を共に調査する。",
@@ -71,7 +72,7 @@ export const baseQuizData = {
     ]
   },
   society: {
-    title: "社会 (東京書籍 小5)",
+    title: "社会 (教育出版 小5)",
     color: "#fdcb6e",
     characterName: "ザマゼンタ",
     description: "熱血な探検家。日本のひみつ 🗺️ を探す旅へ連れ出す。",
@@ -91,7 +92,7 @@ export const baseQuizData = {
     ]
   },
   english: {
-    title: "外国語 (光村図書 小5)",
+    title: "外国語 (東京書籍 小5)",
     color: "#a29bfe",
     characterName: "イーブイ",
     description: "元気な通訳。世界中のポケモンと友達 🤝 になるための英語を教える。",
@@ -112,18 +113,40 @@ export const baseQuizData = {
   }
 };
 
-// ベースのデータに対してNotebookデータをマージする
+// ベースのデータに対してNotebookデータ + generatedQuizDataをマージする
 export const quizData = { ...baseQuizData };
 
+// generatedQuizDataの問題をマージ（IDの重複を排除）
+const mergeGenerated = (baseKey, genId) => {
+  const genSubject = generatedSubjects.find(s => s.id === genId);
+  if (genSubject && genSubject.questions) {
+    const existingIds = new Set(quizData[baseKey].questions.map(q => q.id));
+    const newQs = genSubject.questions.filter(q => !existingIds.has(q.id));
+    quizData[baseKey].questions = [
+      ...quizData[baseKey].questions,
+      ...newQs
+    ];
+  }
+};
+
+// 社会のIDマッピング（baseは'society'、generatedは'social'）
+mergeGenerated('japanese', 'japanese');
+mergeGenerated('math', 'math');
+mergeGenerated('science', 'science');
+mergeGenerated('society', 'social');
+mergeGenerated('english', 'english');
+
+// Notebookデータをマージ
 const mergeSubject = (baseKey, notebookKey) => {
   if (notebookQuizData[notebookKey] && notebookQuizData[notebookKey].questions) {
-    const newQs = notebookQuizData[notebookKey].questions.map((q, i) => {
-      // 既存の国語のサブカテゴリに対応させるためのダミー処理
-      let type = baseKey === 'japanese' ? (i % 2 === 0 ? 'kanji' : 'text') : undefined;
-      // notebooksの問題にterm（学期）がない場合、自動的に1〜3学期へ均等に分散させる
-      let term = q.term || ((i % 3) + 1);
-      return { ...q, type, term };
-    });
+    const existingIds = new Set(quizData[baseKey].questions.map(q => q.id));
+    const newQs = notebookQuizData[notebookKey].questions
+      .filter(q => !existingIds.has(q.id))
+      .map((q, i) => {
+        let type = baseKey === 'japanese' ? (q.type || (i % 2 === 0 ? 'kanji' : 'text')) : (q.type || undefined);
+        let term = q.term || ((i % 3) + 1);
+        return { ...q, type, term };
+      });
     quizData[baseKey].questions = [
       ...quizData[baseKey].questions,
       ...newQs
