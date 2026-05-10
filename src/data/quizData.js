@@ -160,6 +160,8 @@ mergeSubject('science', 'notebook_science');
 mergeSubject('society', 'notebook_society');
 mergeSubject('english', 'notebook_english');
 
+import { warizanSubject } from './warizanQuizData';
+
 // 掛け算暗算ジム（独立した科目として追加）
 if (anzanQuizData.anzan_math && anzanQuizData.anzan_math.questions) {
   quizData.anzan = {
@@ -171,6 +173,11 @@ if (anzanQuizData.anzan_math && anzanQuizData.anzan_math.questions) {
     hasSubCategories: false,
     questions: [...anzanQuizData.anzan_math.questions],
   };
+}
+
+// 割り算の筆算
+if (warizanSubject) {
+  quizData.warizan = warizanSubject;
 }
 
 // 計算ドリル（自動生成問題・タイムアタック）

@@ -1,6 +1,4 @@
 // 自動生成: gen_quiz_data.py
-// 小学5年生 全教科 各学期300問に増強
-
 export const generatedSubjects = [
   {
     "id": "japanese",
@@ -13509,6 +13507,4506 @@ export const generatedSubjects = [
         "correctOptionIndex": 3,
         "explanation": "誰でも知っていること＝じょうしき",
         "isAdvanced": false
+      },
+      {
+        "id": "gen_j_001_adv_0",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「圧力」の読み方は？",
+        "options": [
+          "おつりょく",
+          "あつりょく",
+          "あつりき",
+          "おうりょく"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "気体・液体が押す力＝あつりょく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_002_adv_1",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「移動」の読み方は？",
+        "options": [
+          "いどく",
+          "うごく",
+          "いてん",
+          "いどう"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "場所を変える＝いどう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_003_adv_2",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「原因」の読み方は？",
+        "options": [
+          "げんいき",
+          "げんいん",
+          "げんおん",
+          "もといん"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "物事が起こるもと＝げんいん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_004_adv_3",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「営業」の読み方は？",
+        "options": [
+          "えいぎょ",
+          "えいぎょう",
+          "えいこう",
+          "いぎょう"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "商売をする＝えいぎょう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_005_adv_4",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「永遠」の読み方は？",
+        "options": [
+          "えいえん",
+          "ながえん",
+          "えいおん",
+          "えいえい"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "いつまでも続く＝えいえん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_006_adv_5",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「防衛」の読み方は？",
+        "options": [
+          "まもり",
+          "ふせぎ",
+          "ぼうへい",
+          "ぼうえい"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "攻撃を防ぐ＝ぼうえい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_007_adv_6",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「容易」の読み方は？",
+        "options": [
+          "ようじ",
+          "ようき",
+          "ようい",
+          "かんたん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "たやすい＝ようい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_008_adv_7",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「利益」の読み方は？",
+        "options": [
+          "りえき",
+          "もうけ",
+          "りやく",
+          "りえい"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "得になること＝りえき",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_009_adv_8",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「液体」の読み方は？",
+        "options": [
+          "えきたい",
+          "えきたる",
+          "みず",
+          "りゅうたい"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "水のように流れる物質＝えきたい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_010_adv_9",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「演奏」の読み方は？",
+        "options": [
+          "がくそう",
+          "えんぷ",
+          "えんかつ",
+          "えんそう"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "楽器を弾く＝えんそう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_011_adv_10",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「対応」の読み方は？",
+        "options": [
+          "たいおう",
+          "たいこう",
+          "たいとう",
+          "こたえ"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "状況に合わせて行動＝たいおう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_012_adv_11",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「往復」の読み方は？",
+        "options": [
+          "おうふく",
+          "ゆきかえり",
+          "おうへん",
+          "こうふく"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "行って帰る＝おうふく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_013_adv_12",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「恩人」の読み方は？",
+        "options": [
+          "めぐみびと",
+          "おんじん",
+          "おんにん",
+          "おんびと"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "恩をかけてくれた人＝おんじん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_014_adv_13",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「可能」の読み方は？",
+        "options": [
+          "かのく",
+          "できる",
+          "かかん",
+          "かのう"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "できること＝かのう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_015_adv_14",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「仮定」の読み方は？",
+        "options": [
+          "よそく",
+          "かそく",
+          "かてい",
+          "かじょう"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "仮にこうだとする＝かてい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_016_adv_15",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「価格」の読み方は？",
+        "options": [
+          "かかく",
+          "かこう",
+          "かきゃく",
+          "ねだん"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "物の値段＝かかく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_017_adv_16",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「河川」の読み方は？",
+        "options": [
+          "かせん",
+          "かすい",
+          "かわせん",
+          "すいろ"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "川のこと＝かせん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_018_adv_17",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「経過」の読み方は？",
+        "options": [
+          "すぎる",
+          "けいき",
+          "けいか",
+          "けいこう"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "時間が過ぎる＝けいか",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_019_adv_18",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「快速」の読み方は？",
+        "options": [
+          "かいりょく",
+          "かいはや",
+          "はやさ",
+          "かいそく"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "速いこと＝かいそく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_020_adv_19",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「理解」の読み方は？",
+        "options": [
+          "わかる",
+          "りかい",
+          "かいとく",
+          "りげ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "内容をわかる＝りかい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_021_adv_20",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「規格」の読み方は？",
+        "options": [
+          "きかく",
+          "きかん",
+          "きもの",
+          "きこう"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "製品の基準＝きかく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_022_adv_21",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「確認」の読み方は？",
+        "options": [
+          "かくいん",
+          "たしかめ",
+          "かくにん",
+          "かくじん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "はっきり確かめる＝かくにん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_023_adv_22",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「金額」の読み方は？",
+        "options": [
+          "きんりょう",
+          "きんかく",
+          "きんがく",
+          "おかね"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "お金の量＝きんがく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_024_adv_23",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「眼科」の読み方は？",
+        "options": [
+          "めか",
+          "がんか",
+          "がんこ",
+          "めのびょういん"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "目の病院＝がんか",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_025_adv_24",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「基本」の読み方は？",
+        "options": [
+          "きもと",
+          "もとい",
+          "きほん",
+          "きぼん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "物事のもと＝きほん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_026_adv_25",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「寄付」の読み方は？",
+        "options": [
+          "きたく",
+          "きふ",
+          "おくりもの",
+          "きつけ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "お金・物を贈る＝きふ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_027_adv_26",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「境界」の読み方は？",
+        "options": [
+          "きょうかい",
+          "さかいめ",
+          "きょうがい",
+          "けいかい"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "区切りの線＝きょうかい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_028_adv_27",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「均等」の読み方は？",
+        "options": [
+          "きんどう",
+          "きんよう",
+          "ひとしい",
+          "きんとう"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "等しく分ける＝きんとう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_029_adv_28",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「禁止」の読み方は？",
+        "options": [
+          "きんぜ",
+          "とめる",
+          "きんじ",
+          "きんし"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "してはいけない＝きんし",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_030_adv_29",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「句読点」の読み方は？",
+        "options": [
+          "くどくてん",
+          "くとうてん",
+          "くどうてん",
+          "くとてん"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "「。」「、」のこと＝くとうてん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_091_adv_30",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「頭が下がる」の意味は？",
+        "options": [
+          "頭が痛い",
+          "勉強になる",
+          "おじぎする",
+          "尊敬の気持ちになる"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "すばらしくて尊敬する気持ち＝頭が下がる",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_092_adv_31",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「足が棒になる」の意味は？",
+        "options": [
+          "歩き疲れて足がひどく疲れた",
+          "転んで怪我した",
+          "とても速く走った",
+          "足が冷えた"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "歩きすぎて足が疲れた＝足が棒になる",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_093_adv_32",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「胸を張る」の意味は？",
+        "options": [
+          "自信を持って堂々とする",
+          "深呼吸する",
+          "怒る",
+          "恥ずかしい"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "自信があるようす＝胸を張る",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_094_adv_33",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「手を貸す」の意味は？",
+        "options": [
+          "手を洗う",
+          "邪魔する",
+          "手伝う",
+          "物を借りる"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "手伝うこと＝手を貸す",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_095_adv_34",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「口が軽い」の意味は？",
+        "options": [
+          "うそをつく",
+          "秘密をすぐしゃべる",
+          "話が上手い",
+          "食べる量が少ない"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "秘密をすぐ話す＝口が軽い",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_096_adv_35",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「目が高い」の意味は？",
+        "options": [
+          "良いものを見分ける力がある",
+          "上を向いている",
+          "目が大きい",
+          "よく見える"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "良いものを見分ける＝目が高い",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_097_adv_36",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「歯が立たない」の意味は？",
+        "options": [
+          "まったく太刀打ちできない",
+          "食べられない",
+          "勝てる",
+          "歯が痛い"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "かなわない＝歯が立たない",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_098_adv_37",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「耳が痛い」の意味は？",
+        "options": [
+          "耳が聞こえない",
+          "図星を指摘されて聞くのがつらい",
+          "耳が大きい",
+          "うるさい"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "自分の弱点を言われてつらい＝耳が痛い",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_099_adv_38",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「鼻にかける」の意味は？",
+        "options": [
+          "鼻をさわる",
+          "自慢する",
+          "においを感じる",
+          "鼻水が出る"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "自慢する＝鼻にかける",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_100_adv_39",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「腹を割って」の意味は？",
+        "options": [
+          "本音で話す",
+          "けんかする",
+          "料理する",
+          "お腹を見せる"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "本音で話す＝腹を割って話す",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_121_adv_40",
+        "term": "advanced",
+        "type": "grammar",
+        "question": "【応用】「走る」の品詞は？",
+        "options": [
+          "形容詞",
+          "名詞",
+          "副詞",
+          "動詞"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "動きを表す言葉＝動詞",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_122_adv_41",
+        "term": "advanced",
+        "type": "grammar",
+        "question": "【応用】「美しい」の品詞は？",
+        "options": [
+          "形容詞",
+          "接続詞",
+          "名詞",
+          "動詞"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "様子を表す＝形容詞",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_123_adv_42",
+        "term": "advanced",
+        "type": "grammar",
+        "question": "【応用】「とても」の品詞は？",
+        "options": [
+          "名詞",
+          "動詞",
+          "形容詞",
+          "副詞"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "程度を表す＝副詞",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_124_adv_43",
+        "term": "advanced",
+        "type": "grammar",
+        "question": "【応用】「しかし」の品詞は？",
+        "options": [
+          "副詞",
+          "接続詞",
+          "動詞",
+          "助詞"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "文をつなぐ＝接続詞",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_125_adv_44",
+        "term": "advanced",
+        "type": "grammar",
+        "question": "【応用】「が・を・に・で」のような言葉の品詞は？",
+        "options": [
+          "接続詞",
+          "副詞",
+          "助詞",
+          "動詞"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "語と語をつなぐ＝助詞",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_136_adv_45",
+        "term": "advanced",
+        "type": "text",
+        "question": "【応用】物語「大造じいさんとガン」の作者は？",
+        "options": [
+          "新美南吉",
+          "椋鳩十",
+          "宮沢賢治",
+          "芥川龍之介"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "「大造じいさんとガン」の作者は椋鳩十",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_137_adv_46",
+        "term": "advanced",
+        "type": "text",
+        "question": "【応用】「大造じいさんとガン」の主なテーマは？",
+        "options": [
+          "戦争の悲しさ",
+          "お金の大切さ",
+          "学校生活",
+          "命の大切さと動物への敬意"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "自然と命の尊さが主なテーマ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_138_adv_47",
+        "term": "advanced",
+        "type": "text",
+        "question": "【応用】物語「注文の多い料理店」の作者は？",
+        "options": [
+          "宮沢賢治",
+          "夏目漱石",
+          "太宰治",
+          "椋鳩十"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "「注文の多い料理店」は宮沢賢治の作品",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_146_adv_48",
+        "term": "advanced",
+        "type": "text",
+        "question": "【応用】「走れメロス」の作者は？",
+        "options": [
+          "夏目漱石",
+          "宮沢賢治",
+          "太宰治",
+          "芥川龍之介"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "「走れメロス」は太宰治の作品",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_149_adv_49",
+        "term": "advanced",
+        "type": "text",
+        "question": "【応用】手紙の書き方で最初に書く「あいさつ」を何という？",
+        "options": [
+          "時候の挨拶",
+          "結語",
+          "敬具",
+          "頭語"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "手紙の最初のあいさつ言葉＝頭語",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_152_adv_50",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「はくしゅ」の漢字は？",
+        "options": [
+          "泊手",
+          "拍手",
+          "伯手",
+          "博手"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "手をたたく＝拍手",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_153_adv_51",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「ひりょう」の漢字は？",
+        "options": [
+          "被料",
+          "比料",
+          "肥料",
+          "費料"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "植物を育てる＝肥料",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_158_adv_52",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「ふきゅう」（広く行き渡ること）の漢字は？",
+        "options": [
+          "布給",
+          "復旧",
+          "普及",
+          "不急"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "広まること＝普及",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_161_adv_53",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「しょうぎょう」の漢字は？",
+        "options": [
+          "称業",
+          "商業",
+          "消業",
+          "商行"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "物を売り買いする仕事＝商業",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_162_adv_54",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「破壊」の読み方は？",
+        "options": [
+          "ははかい",
+          "はわい",
+          "はかいき",
+          "はかい"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "壊すこと＝はかい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_163_adv_55",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「犯罪」の読み方は？",
+        "options": [
+          "はんさい",
+          "はんざい",
+          "はんちょう",
+          "はんかい"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "法律を犯す行為＝はんざい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_164_adv_56",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「判断」の読み方は？",
+        "options": [
+          "はんせん",
+          "はんだ",
+          "はんとう",
+          "はんだん"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "考えて決める＝はんだん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_172_adv_57",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「貧困」の読み方は？",
+        "options": [
+          "びんこん",
+          "ひんく",
+          "ひんこん",
+          "まずしい"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "生活が苦しい＝ひんこん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_173_adv_58",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「布地」の読み方は？",
+        "options": [
+          "ぬのじ",
+          "ぬのめ",
+          "ふち",
+          "ぬのい"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "布の素材＝ぬのじ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_179_adv_59",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「仏像」の読み方は？",
+        "options": [
+          "ぶつがた",
+          "ぶつそう",
+          "ぶつぞう",
+          "ほとけぞう"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "仏の形をした像＝ぶつぞう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_180_adv_60",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「編集」の読み方は？",
+        "options": [
+          "へんしょう",
+          "まとめる",
+          "へんしゅう",
+          "へんしゅ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "まとめて作る＝へんしゅう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_187_adv_61",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「貿易」の読み方は？",
+        "options": [
+          "ぼうえっき",
+          "ぼうえき",
+          "ぼうえ",
+          "こくさいしょうばい"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "国と国の売買＝ぼうえき",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_188_adv_62",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「暴力」の読み方は？",
+        "options": [
+          "らんぼう",
+          "ぼうりょく",
+          "ぼうりゅう",
+          "ぼうりき"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "乱暴な力＝ぼうりょく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_195_adv_63",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「余裕」の読み方は？",
+        "options": [
+          "よゆ",
+          "ゆとり",
+          "よゆう",
+          "よゆく"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "ゆとりがある＝よゆう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_196_adv_64",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「容積」の読み方は？",
+        "options": [
+          "いれもの",
+          "ようしゃく",
+          "ようせ",
+          "ようせき"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "入れ物の大きさ＝ようせき",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_201_adv_65",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「複雑」の読み方は？",
+        "options": [
+          "ふくへん",
+          "ふくかつ",
+          "いりくんだ",
+          "ふくざつ"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "入り組んでいること＝ふくざつ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_204_adv_66",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「展示」の読み方は？",
+        "options": [
+          "てんしめす",
+          "てんに",
+          "てんじ",
+          "てんず"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "見せること＝てんじ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_207_adv_67",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「記念」の読み方は？",
+        "options": [
+          "きめん",
+          "きねん",
+          "おもいで",
+          "きかん"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "思い出として残すこと＝きねん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_210_adv_68",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「工夫」の読み方は？",
+        "options": [
+          "こうく",
+          "こうふ",
+          "くふう",
+          "こうふう"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "よく考えること＝くふう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_212_adv_69",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「応用」の読み方は？",
+        "options": [
+          "あいうえお",
+          "おうよう",
+          "かきくけこ",
+          "さしすせそ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "応用の読み方はおうよう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_215_adv_70",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「刊物」の読み方は？",
+        "options": [
+          "あいうえお",
+          "たちつてと",
+          "なにぬねの",
+          "かんもの"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "刊物の読み方はかんもの",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_218_adv_71",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「旧式」の読み方は？",
+        "options": [
+          "かきくけこ",
+          "たちつてと",
+          "きゅうしき",
+          "さしすせそ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "旧式の読み方はきゅうしき",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_221_adv_72",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「境地」の読み方は？",
+        "options": [
+          "あいうえお",
+          "きょうち",
+          "かきくけこ",
+          "なにぬねの"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "境地の読み方はきょうち",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_224_adv_73",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「句集」の読み方は？",
+        "options": [
+          "たちつてと",
+          "さしすせそ",
+          "なにぬねの",
+          "くしゅう"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "句集の読み方はくしゅう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_227_adv_74",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「潔白」の読み方は？",
+        "options": [
+          "けっぱく",
+          "あいうえお",
+          "かきくけこ",
+          "さしすせそ"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "潔白の読み方はけっぱく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_230_adv_75",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「検定」の読み方は？",
+        "options": [
+          "なにぬねの",
+          "けんてい",
+          "あいうえお",
+          "たちつてと"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "検定の読み方はけんてい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_233_adv_76",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「減量」の読み方は？",
+        "options": [
+          "たちつてと",
+          "げんりょう",
+          "さしすせそ",
+          "かきくけこ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "減量の読み方はげんりょう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_236_adv_77",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「厚板」の読み方は？",
+        "options": [
+          "あついた",
+          "かきくけこ",
+          "なにぬねの",
+          "あいうえお"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "厚板の読み方はあついた",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_239_adv_78",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「構造」の読み方は？",
+        "options": [
+          "さしすせそ",
+          "たちつてと",
+          "なにぬねの",
+          "こうぞう"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "構造の読み方はこうぞう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_242_adv_79",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「混入」の読み方は？",
+        "options": [
+          "さしすせそ",
+          "あいうえお",
+          "こんにゅう",
+          "かきくけこ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "混入の読み方はこんにゅう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_245_adv_80",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「災難」の読み方は？",
+        "options": [
+          "さいなん",
+          "なにぬねの",
+          "あいうえお",
+          "たちつてと"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "災難の読み方はさいなん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_248_adv_81",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「際立つ」の読み方は？",
+        "options": [
+          "きわだつ",
+          "かきくけこ",
+          "さしすせそ",
+          "たちつてと"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "際立つの読み方はきわだつ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_251_adv_82",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「罪状」の読み方は？",
+        "options": [
+          "ざいじょう",
+          "なにぬねの",
+          "あいうえお",
+          "かきくけこ"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "罪状の読み方はざいじょう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_254_adv_83",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「酸化」の読み方は？",
+        "options": [
+          "さんか",
+          "さしすせそ",
+          "なにぬねの",
+          "たちつてと"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "酸化の読み方はさんか",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_257_adv_84",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「志向」の読み方は？",
+        "options": [
+          "さしすせそ",
+          "しこう",
+          "あいうえお",
+          "かきくけこ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "志向の読み方はしこう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_260_adv_85",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「似顔」の読み方は？",
+        "options": [
+          "なにぬねの",
+          "あいうえお",
+          "にがお",
+          "たちつてと"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "似顔の読み方はにがお",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_262_adv_86",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「質問」を漢字で書くと？",
+        "options": [
+          "質問",
+          "七問",
+          "叱問",
+          "失問"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "質問＝しつもん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_265_adv_87",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「石の上にも三年」の意味は？",
+        "options": [
+          "辛抱強く続ければ成功する",
+          "3年待つ",
+          "石を運ぶ",
+          "石が好き"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "辛抱強く続ければ成果が出る",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_267_adv_88",
+        "term": "advanced",
+        "type": "text",
+        "question": "【応用】物語の「登場人物」とは？",
+        "options": [
+          "タイトル",
+          "作者の名前",
+          "物語に出てくる人や動物",
+          "場所の名前"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "お話の中に出てくる人・動物などのこと",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_270_adv_89",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「反省」の読み方は？",
+        "options": [
+          "はんじょ",
+          "はんせい",
+          "はんき",
+          "はんしょう"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "自分の行いを振り返ること＝はんせい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_273_adv_90",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「成長」の読み方は？",
+        "options": [
+          "せいちょ",
+          "せいちょう",
+          "せいたい",
+          "せいそ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "大きく育つ＝せいちょう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_276_adv_91",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「発表」の読み方は？",
+        "options": [
+          "はつひょう",
+          "はっぽう",
+          "はっぴょう",
+          "はっぴ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "人前で発表すること＝はっぴょう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_279_adv_92",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「文章」の読み方は？",
+        "options": [
+          "ぶんしょ",
+          "ぶんしょう",
+          "もんしょう",
+          "もじ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "言葉で書いたもの＝ぶんしょう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_282_adv_93",
+        "term": "advanced",
+        "type": "text",
+        "question": "【応用】「はじめ・中・終わり」は文章の何を表す？",
+        "options": [
+          "作者の気持ち",
+          "文字の種類",
+          "言葉の意味",
+          "文章の構成（組み立て）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "文章は「はじめ・中・終わり」で構成される",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_285_adv_94",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「想像」の読み方は？",
+        "options": [
+          "そうぞう",
+          "そうそう",
+          "そうぞ",
+          "さいぞう"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "頭の中でイメージすること＝そうぞう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_288_adv_95",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「比較」の読み方は？",
+        "options": [
+          "ひかく",
+          "ひかっ",
+          "ひきゃく",
+          "ひこう"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "くらべること＝ひかく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_291_adv_96",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「共感」の読み方は？",
+        "options": [
+          "きょかん",
+          "きょうかん",
+          "ごうかん",
+          "きょうがん"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "同じように感じること＝きょうかん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_294_adv_97",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「本論」の読み方は？",
+        "options": [
+          "ほんろ",
+          "ほろん",
+          "ほんろん",
+          "もとろん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "話の本題部分＝ほんろん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_297_adv_98",
+        "term": "advanced",
+        "type": "grammar",
+        "question": "【応用】「〜ましょう」は何を表す？",
+        "options": [
+          "勧誘・一緒にしようという意味",
+          "命令",
+          "過去",
+          "禁止"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "〜ましょう＝一緒にしよう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_300_adv_99",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「以心伝心」の意味は？",
+        "options": [
+          "言葉で伝える",
+          "言葉なしに気持ちが通じ合う",
+          "心が病む",
+          "会話が得意"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "言葉を使わずに気持ちが通じる",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_001_inflated_100_adv_100",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「圧力」の読み方は？ (類似問題1)",
+        "options": [
+          "おつりょく",
+          "あつりょく",
+          "あつりき",
+          "おうりょく"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "気体・液体が押す力＝あつりょく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_002_inflated_101_adv_101",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「移動」の読み方は？ (類似問題1)",
+        "options": [
+          "いどく",
+          "うごく",
+          "いてん",
+          "いどう"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "場所を変える＝いどう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_003_inflated_102_adv_102",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「原因」の読み方は？ (類似問題1)",
+        "options": [
+          "げんいき",
+          "げんいん",
+          "げんおん",
+          "もといん"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "物事が起こるもと＝げんいん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_004_inflated_103_adv_103",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「営業」の読み方は？ (類似問題1)",
+        "options": [
+          "えいぎょ",
+          "えいぎょう",
+          "えいこう",
+          "いぎょう"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "商売をする＝えいぎょう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_005_inflated_104_adv_104",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「永遠」の読み方は？ (類似問題1)",
+        "options": [
+          "えいえん",
+          "ながえん",
+          "えいおん",
+          "えいえい"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "いつまでも続く＝えいえん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_006_inflated_105_adv_105",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「防衛」の読み方は？ (類似問題1)",
+        "options": [
+          "まもり",
+          "ふせぎ",
+          "ぼうへい",
+          "ぼうえい"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "攻撃を防ぐ＝ぼうえい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_007_inflated_106_adv_106",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「容易」の読み方は？ (類似問題1)",
+        "options": [
+          "ようじ",
+          "ようき",
+          "ようい",
+          "かんたん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "たやすい＝ようい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_008_inflated_107_adv_107",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「利益」の読み方は？ (類似問題1)",
+        "options": [
+          "りえき",
+          "もうけ",
+          "りやく",
+          "りえい"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "得になること＝りえき",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_009_inflated_108_adv_108",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「液体」の読み方は？ (類似問題1)",
+        "options": [
+          "えきたい",
+          "えきたる",
+          "みず",
+          "りゅうたい"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "水のように流れる物質＝えきたい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_010_inflated_109_adv_109",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「演奏」の読み方は？ (類似問題1)",
+        "options": [
+          "がくそう",
+          "えんぷ",
+          "えんかつ",
+          "えんそう"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "楽器を弾く＝えんそう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_011_inflated_110_adv_110",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「対応」の読み方は？ (類似問題1)",
+        "options": [
+          "たいおう",
+          "たいこう",
+          "たいとう",
+          "こたえ"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "状況に合わせて行動＝たいおう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_012_inflated_111_adv_111",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「往復」の読み方は？ (類似問題1)",
+        "options": [
+          "おうふく",
+          "ゆきかえり",
+          "おうへん",
+          "こうふく"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "行って帰る＝おうふく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_013_inflated_112_adv_112",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「恩人」の読み方は？ (類似問題1)",
+        "options": [
+          "めぐみびと",
+          "おんじん",
+          "おんにん",
+          "おんびと"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "恩をかけてくれた人＝おんじん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_014_inflated_113_adv_113",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「可能」の読み方は？ (類似問題1)",
+        "options": [
+          "かのく",
+          "できる",
+          "かかん",
+          "かのう"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "できること＝かのう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_015_inflated_114_adv_114",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「仮定」の読み方は？ (類似問題1)",
+        "options": [
+          "よそく",
+          "かそく",
+          "かてい",
+          "かじょう"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "仮にこうだとする＝かてい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_016_inflated_115_adv_115",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「価格」の読み方は？ (類似問題1)",
+        "options": [
+          "かかく",
+          "かこう",
+          "かきゃく",
+          "ねだん"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "物の値段＝かかく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_017_inflated_116_adv_116",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「河川」の読み方は？ (類似問題1)",
+        "options": [
+          "かせん",
+          "かすい",
+          "かわせん",
+          "すいろ"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "川のこと＝かせん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_018_inflated_117_adv_117",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「経過」の読み方は？ (類似問題1)",
+        "options": [
+          "すぎる",
+          "けいき",
+          "けいか",
+          "けいこう"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "時間が過ぎる＝けいか",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_019_inflated_118_adv_118",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「快速」の読み方は？ (類似問題1)",
+        "options": [
+          "かいりょく",
+          "かいはや",
+          "はやさ",
+          "かいそく"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "速いこと＝かいそく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_020_inflated_119_adv_119",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「理解」の読み方は？ (類似問題1)",
+        "options": [
+          "わかる",
+          "りかい",
+          "かいとく",
+          "りげ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "内容をわかる＝りかい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_021_inflated_120_adv_120",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「規格」の読み方は？ (類似問題1)",
+        "options": [
+          "きかく",
+          "きかん",
+          "きもの",
+          "きこう"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "製品の基準＝きかく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_022_inflated_121_adv_121",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「確認」の読み方は？ (類似問題1)",
+        "options": [
+          "かくいん",
+          "たしかめ",
+          "かくにん",
+          "かくじん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "はっきり確かめる＝かくにん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_023_inflated_122_adv_122",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「金額」の読み方は？ (類似問題1)",
+        "options": [
+          "きんりょう",
+          "きんかく",
+          "きんがく",
+          "おかね"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "お金の量＝きんがく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_024_inflated_123_adv_123",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「眼科」の読み方は？ (類似問題1)",
+        "options": [
+          "めか",
+          "がんか",
+          "がんこ",
+          "めのびょういん"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "目の病院＝がんか",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_025_inflated_124_adv_124",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「基本」の読み方は？ (類似問題1)",
+        "options": [
+          "きもと",
+          "もとい",
+          "きほん",
+          "きぼん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "物事のもと＝きほん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_026_inflated_125_adv_125",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「寄付」の読み方は？ (類似問題1)",
+        "options": [
+          "きたく",
+          "きふ",
+          "おくりもの",
+          "きつけ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "お金・物を贈る＝きふ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_027_inflated_126_adv_126",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「境界」の読み方は？ (類似問題1)",
+        "options": [
+          "きょうかい",
+          "さかいめ",
+          "きょうがい",
+          "けいかい"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "区切りの線＝きょうかい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_028_inflated_127_adv_127",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「均等」の読み方は？ (類似問題1)",
+        "options": [
+          "きんどう",
+          "きんよう",
+          "ひとしい",
+          "きんとう"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "等しく分ける＝きんとう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_029_inflated_128_adv_128",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「禁止」の読み方は？ (類似問題1)",
+        "options": [
+          "きんぜ",
+          "とめる",
+          "きんじ",
+          "きんし"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "してはいけない＝きんし",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_030_inflated_129_adv_129",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「句読点」の読み方は？ (類似問題1)",
+        "options": [
+          "くどくてん",
+          "くとうてん",
+          "くどうてん",
+          "くとてん"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "「。」「、」のこと＝くとうてん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_091_inflated_130_adv_130",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「頭が下がる」の意味は？ (類似問題1)",
+        "options": [
+          "頭が痛い",
+          "勉強になる",
+          "おじぎする",
+          "尊敬の気持ちになる"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "すばらしくて尊敬する気持ち＝頭が下がる",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_092_inflated_131_adv_131",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「足が棒になる」の意味は？ (類似問題1)",
+        "options": [
+          "歩き疲れて足がひどく疲れた",
+          "転んで怪我した",
+          "とても速く走った",
+          "足が冷えた"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "歩きすぎて足が疲れた＝足が棒になる",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_093_inflated_132_adv_132",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「胸を張る」の意味は？ (類似問題1)",
+        "options": [
+          "自信を持って堂々とする",
+          "深呼吸する",
+          "怒る",
+          "恥ずかしい"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "自信があるようす＝胸を張る",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_094_inflated_133_adv_133",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「手を貸す」の意味は？ (類似問題1)",
+        "options": [
+          "手を洗う",
+          "邪魔する",
+          "手伝う",
+          "物を借りる"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "手伝うこと＝手を貸す",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_095_inflated_134_adv_134",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「口が軽い」の意味は？ (類似問題1)",
+        "options": [
+          "うそをつく",
+          "秘密をすぐしゃべる",
+          "話が上手い",
+          "食べる量が少ない"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "秘密をすぐ話す＝口が軽い",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_096_inflated_135_adv_135",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「目が高い」の意味は？ (類似問題1)",
+        "options": [
+          "良いものを見分ける力がある",
+          "上を向いている",
+          "目が大きい",
+          "よく見える"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "良いものを見分ける＝目が高い",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_097_inflated_136_adv_136",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「歯が立たない」の意味は？ (類似問題1)",
+        "options": [
+          "まったく太刀打ちできない",
+          "食べられない",
+          "勝てる",
+          "歯が痛い"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "かなわない＝歯が立たない",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_098_inflated_137_adv_137",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「耳が痛い」の意味は？ (類似問題1)",
+        "options": [
+          "耳が聞こえない",
+          "図星を指摘されて聞くのがつらい",
+          "耳が大きい",
+          "うるさい"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "自分の弱点を言われてつらい＝耳が痛い",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_099_inflated_138_adv_138",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「鼻にかける」の意味は？ (類似問題1)",
+        "options": [
+          "鼻をさわる",
+          "自慢する",
+          "においを感じる",
+          "鼻水が出る"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "自慢する＝鼻にかける",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_100_inflated_139_adv_139",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「腹を割って」の意味は？ (類似問題1)",
+        "options": [
+          "本音で話す",
+          "けんかする",
+          "料理する",
+          "お腹を見せる"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "本音で話す＝腹を割って話す",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_121_inflated_140_adv_140",
+        "term": "advanced",
+        "type": "grammar",
+        "question": "【応用】「走る」の品詞は？ (類似問題1)",
+        "options": [
+          "形容詞",
+          "名詞",
+          "副詞",
+          "動詞"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "動きを表す言葉＝動詞",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_122_inflated_141_adv_141",
+        "term": "advanced",
+        "type": "grammar",
+        "question": "【応用】「美しい」の品詞は？ (類似問題1)",
+        "options": [
+          "形容詞",
+          "接続詞",
+          "名詞",
+          "動詞"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "様子を表す＝形容詞",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_123_inflated_142_adv_142",
+        "term": "advanced",
+        "type": "grammar",
+        "question": "【応用】「とても」の品詞は？ (類似問題1)",
+        "options": [
+          "名詞",
+          "動詞",
+          "形容詞",
+          "副詞"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "程度を表す＝副詞",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_124_inflated_143_adv_143",
+        "term": "advanced",
+        "type": "grammar",
+        "question": "【応用】「しかし」の品詞は？ (類似問題1)",
+        "options": [
+          "副詞",
+          "接続詞",
+          "動詞",
+          "助詞"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "文をつなぐ＝接続詞",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_125_inflated_144_adv_144",
+        "term": "advanced",
+        "type": "grammar",
+        "question": "【応用】「が・を・に・で」のような言葉の品詞は？ (類似問題1)",
+        "options": [
+          "接続詞",
+          "副詞",
+          "助詞",
+          "動詞"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "語と語をつなぐ＝助詞",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_136_inflated_145_adv_145",
+        "term": "advanced",
+        "type": "text",
+        "question": "【応用】物語「大造じいさんとガン」の作者は？ (類似問題1)",
+        "options": [
+          "新美南吉",
+          "椋鳩十",
+          "宮沢賢治",
+          "芥川龍之介"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "「大造じいさんとガン」の作者は椋鳩十",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_137_inflated_146_adv_146",
+        "term": "advanced",
+        "type": "text",
+        "question": "【応用】「大造じいさんとガン」の主なテーマは？ (類似問題1)",
+        "options": [
+          "戦争の悲しさ",
+          "お金の大切さ",
+          "学校生活",
+          "命の大切さと動物への敬意"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "自然と命の尊さが主なテーマ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_138_inflated_147_adv_147",
+        "term": "advanced",
+        "type": "text",
+        "question": "【応用】物語「注文の多い料理店」の作者は？ (類似問題1)",
+        "options": [
+          "宮沢賢治",
+          "夏目漱石",
+          "太宰治",
+          "椋鳩十"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "「注文の多い料理店」は宮沢賢治の作品",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_146_inflated_148_adv_148",
+        "term": "advanced",
+        "type": "text",
+        "question": "【応用】「走れメロス」の作者は？ (類似問題1)",
+        "options": [
+          "夏目漱石",
+          "宮沢賢治",
+          "太宰治",
+          "芥川龍之介"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "「走れメロス」は太宰治の作品",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_149_inflated_149_adv_149",
+        "term": "advanced",
+        "type": "text",
+        "question": "【応用】手紙の書き方で最初に書く「あいさつ」を何という？ (類似問題1)",
+        "options": [
+          "時候の挨拶",
+          "結語",
+          "敬具",
+          "頭語"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "手紙の最初のあいさつ言葉＝頭語",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_152_inflated_150_adv_150",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「はくしゅ」の漢字は？ (類似問題1)",
+        "options": [
+          "泊手",
+          "拍手",
+          "伯手",
+          "博手"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "手をたたく＝拍手",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_153_inflated_151_adv_151",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「ひりょう」の漢字は？ (類似問題1)",
+        "options": [
+          "被料",
+          "比料",
+          "肥料",
+          "費料"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "植物を育てる＝肥料",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_158_inflated_152_adv_152",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「ふきゅう」（広く行き渡ること）の漢字は？ (類似問題1)",
+        "options": [
+          "布給",
+          "復旧",
+          "普及",
+          "不急"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "広まること＝普及",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_161_inflated_153_adv_153",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「しょうぎょう」の漢字は？ (類似問題1)",
+        "options": [
+          "称業",
+          "商業",
+          "消業",
+          "商行"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "物を売り買いする仕事＝商業",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_162_inflated_154_adv_154",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「破壊」の読み方は？ (類似問題1)",
+        "options": [
+          "ははかい",
+          "はわい",
+          "はかいき",
+          "はかい"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "壊すこと＝はかい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_163_inflated_155_adv_155",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「犯罪」の読み方は？ (類似問題1)",
+        "options": [
+          "はんさい",
+          "はんざい",
+          "はんちょう",
+          "はんかい"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "法律を犯す行為＝はんざい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_164_inflated_156_adv_156",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「判断」の読み方は？ (類似問題1)",
+        "options": [
+          "はんせん",
+          "はんだ",
+          "はんとう",
+          "はんだん"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "考えて決める＝はんだん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_172_inflated_157_adv_157",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「貧困」の読み方は？ (類似問題1)",
+        "options": [
+          "びんこん",
+          "ひんく",
+          "ひんこん",
+          "まずしい"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "生活が苦しい＝ひんこん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_173_inflated_158_adv_158",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「布地」の読み方は？ (類似問題1)",
+        "options": [
+          "ぬのじ",
+          "ぬのめ",
+          "ふち",
+          "ぬのい"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "布の素材＝ぬのじ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_179_inflated_159_adv_159",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「仏像」の読み方は？ (類似問題1)",
+        "options": [
+          "ぶつがた",
+          "ぶつそう",
+          "ぶつぞう",
+          "ほとけぞう"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "仏の形をした像＝ぶつぞう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_180_inflated_160_adv_160",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「編集」の読み方は？ (類似問題1)",
+        "options": [
+          "へんしょう",
+          "まとめる",
+          "へんしゅう",
+          "へんしゅ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "まとめて作る＝へんしゅう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_187_inflated_161_adv_161",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「貿易」の読み方は？ (類似問題1)",
+        "options": [
+          "ぼうえっき",
+          "ぼうえき",
+          "ぼうえ",
+          "こくさいしょうばい"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "国と国の売買＝ぼうえき",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_188_inflated_162_adv_162",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「暴力」の読み方は？ (類似問題1)",
+        "options": [
+          "らんぼう",
+          "ぼうりょく",
+          "ぼうりゅう",
+          "ぼうりき"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "乱暴な力＝ぼうりょく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_195_inflated_163_adv_163",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「余裕」の読み方は？ (類似問題1)",
+        "options": [
+          "よゆ",
+          "ゆとり",
+          "よゆう",
+          "よゆく"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "ゆとりがある＝よゆう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_196_inflated_164_adv_164",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「容積」の読み方は？ (類似問題1)",
+        "options": [
+          "いれもの",
+          "ようしゃく",
+          "ようせ",
+          "ようせき"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "入れ物の大きさ＝ようせき",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_201_inflated_165_adv_165",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「複雑」の読み方は？ (類似問題1)",
+        "options": [
+          "ふくへん",
+          "ふくかつ",
+          "いりくんだ",
+          "ふくざつ"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "入り組んでいること＝ふくざつ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_204_inflated_166_adv_166",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「展示」の読み方は？ (類似問題1)",
+        "options": [
+          "てんしめす",
+          "てんに",
+          "てんじ",
+          "てんず"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "見せること＝てんじ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_207_inflated_167_adv_167",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「記念」の読み方は？ (類似問題1)",
+        "options": [
+          "きめん",
+          "きねん",
+          "おもいで",
+          "きかん"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "思い出として残すこと＝きねん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_210_inflated_168_adv_168",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「工夫」の読み方は？ (類似問題1)",
+        "options": [
+          "こうく",
+          "こうふ",
+          "くふう",
+          "こうふう"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "よく考えること＝くふう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_212_inflated_169_adv_169",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「応用」の読み方は？ (類似問題1)",
+        "options": [
+          "あいうえお",
+          "おうよう",
+          "かきくけこ",
+          "さしすせそ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "応用の読み方はおうよう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_215_inflated_170_adv_170",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「刊物」の読み方は？ (類似問題1)",
+        "options": [
+          "あいうえお",
+          "たちつてと",
+          "なにぬねの",
+          "かんもの"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "刊物の読み方はかんもの",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_218_inflated_171_adv_171",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「旧式」の読み方は？ (類似問題1)",
+        "options": [
+          "かきくけこ",
+          "たちつてと",
+          "きゅうしき",
+          "さしすせそ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "旧式の読み方はきゅうしき",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_221_inflated_172_adv_172",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「境地」の読み方は？ (類似問題1)",
+        "options": [
+          "あいうえお",
+          "きょうち",
+          "かきくけこ",
+          "なにぬねの"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "境地の読み方はきょうち",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_224_inflated_173_adv_173",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「句集」の読み方は？ (類似問題1)",
+        "options": [
+          "たちつてと",
+          "さしすせそ",
+          "なにぬねの",
+          "くしゅう"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "句集の読み方はくしゅう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_227_inflated_174_adv_174",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「潔白」の読み方は？ (類似問題1)",
+        "options": [
+          "けっぱく",
+          "あいうえお",
+          "かきくけこ",
+          "さしすせそ"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "潔白の読み方はけっぱく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_230_inflated_175_adv_175",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「検定」の読み方は？ (類似問題1)",
+        "options": [
+          "なにぬねの",
+          "けんてい",
+          "あいうえお",
+          "たちつてと"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "検定の読み方はけんてい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_233_inflated_176_adv_176",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「減量」の読み方は？ (類似問題1)",
+        "options": [
+          "たちつてと",
+          "げんりょう",
+          "さしすせそ",
+          "かきくけこ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "減量の読み方はげんりょう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_236_inflated_177_adv_177",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「厚板」の読み方は？ (類似問題1)",
+        "options": [
+          "あついた",
+          "かきくけこ",
+          "なにぬねの",
+          "あいうえお"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "厚板の読み方はあついた",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_239_inflated_178_adv_178",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「構造」の読み方は？ (類似問題1)",
+        "options": [
+          "さしすせそ",
+          "たちつてと",
+          "なにぬねの",
+          "こうぞう"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "構造の読み方はこうぞう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_242_inflated_179_adv_179",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「混入」の読み方は？ (類似問題1)",
+        "options": [
+          "さしすせそ",
+          "あいうえお",
+          "こんにゅう",
+          "かきくけこ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "混入の読み方はこんにゅう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_245_inflated_180_adv_180",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「災難」の読み方は？ (類似問題1)",
+        "options": [
+          "さいなん",
+          "なにぬねの",
+          "あいうえお",
+          "たちつてと"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "災難の読み方はさいなん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_248_inflated_181_adv_181",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「際立つ」の読み方は？ (類似問題1)",
+        "options": [
+          "きわだつ",
+          "かきくけこ",
+          "さしすせそ",
+          "たちつてと"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "際立つの読み方はきわだつ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_251_inflated_182_adv_182",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「罪状」の読み方は？ (類似問題1)",
+        "options": [
+          "ざいじょう",
+          "なにぬねの",
+          "あいうえお",
+          "かきくけこ"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "罪状の読み方はざいじょう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_254_inflated_183_adv_183",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「酸化」の読み方は？ (類似問題1)",
+        "options": [
+          "さんか",
+          "さしすせそ",
+          "なにぬねの",
+          "たちつてと"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "酸化の読み方はさんか",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_257_inflated_184_adv_184",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「志向」の読み方は？ (類似問題1)",
+        "options": [
+          "さしすせそ",
+          "しこう",
+          "あいうえお",
+          "かきくけこ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "志向の読み方はしこう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_260_inflated_185_adv_185",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「似顔」の読み方は？ (類似問題1)",
+        "options": [
+          "なにぬねの",
+          "あいうえお",
+          "にがお",
+          "たちつてと"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "似顔の読み方はにがお",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_262_inflated_186_adv_186",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「質問」を漢字で書くと？ (類似問題1)",
+        "options": [
+          "質問",
+          "七問",
+          "叱問",
+          "失問"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "質問＝しつもん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_265_inflated_187_adv_187",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「石の上にも三年」の意味は？ (類似問題1)",
+        "options": [
+          "辛抱強く続ければ成功する",
+          "3年待つ",
+          "石を運ぶ",
+          "石が好き"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "辛抱強く続ければ成果が出る",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_267_inflated_188_adv_188",
+        "term": "advanced",
+        "type": "text",
+        "question": "【応用】物語の「登場人物」とは？ (類似問題1)",
+        "options": [
+          "タイトル",
+          "作者の名前",
+          "物語に出てくる人や動物",
+          "場所の名前"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "お話の中に出てくる人・動物などのこと",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_270_inflated_189_adv_189",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「反省」の読み方は？ (類似問題1)",
+        "options": [
+          "はんじょ",
+          "はんせい",
+          "はんき",
+          "はんしょう"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "自分の行いを振り返ること＝はんせい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_273_inflated_190_adv_190",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「成長」の読み方は？ (類似問題1)",
+        "options": [
+          "せいちょ",
+          "せいちょう",
+          "せいたい",
+          "せいそ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "大きく育つ＝せいちょう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_276_inflated_191_adv_191",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「発表」の読み方は？ (類似問題1)",
+        "options": [
+          "はつひょう",
+          "はっぽう",
+          "はっぴょう",
+          "はっぴ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "人前で発表すること＝はっぴょう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_279_inflated_192_adv_192",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「文章」の読み方は？ (類似問題1)",
+        "options": [
+          "ぶんしょ",
+          "ぶんしょう",
+          "もんしょう",
+          "もじ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "言葉で書いたもの＝ぶんしょう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_282_inflated_193_adv_193",
+        "term": "advanced",
+        "type": "text",
+        "question": "【応用】「はじめ・中・終わり」は文章の何を表す？ (類似問題1)",
+        "options": [
+          "作者の気持ち",
+          "文字の種類",
+          "言葉の意味",
+          "文章の構成（組み立て）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "文章は「はじめ・中・終わり」で構成される",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_285_inflated_194_adv_194",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「想像」の読み方は？ (類似問題1)",
+        "options": [
+          "そうぞう",
+          "そうそう",
+          "そうぞ",
+          "さいぞう"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "頭の中でイメージすること＝そうぞう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_288_inflated_195_adv_195",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「比較」の読み方は？ (類似問題1)",
+        "options": [
+          "ひかく",
+          "ひかっ",
+          "ひきゃく",
+          "ひこう"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "くらべること＝ひかく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_291_inflated_196_adv_196",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「共感」の読み方は？ (類似問題1)",
+        "options": [
+          "きょかん",
+          "きょうかん",
+          "ごうかん",
+          "きょうがん"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "同じように感じること＝きょうかん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_294_inflated_197_adv_197",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「本論」の読み方は？ (類似問題1)",
+        "options": [
+          "ほんろ",
+          "ほろん",
+          "ほんろん",
+          "もとろん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "話の本題部分＝ほんろん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_297_inflated_198_adv_198",
+        "term": "advanced",
+        "type": "grammar",
+        "question": "【応用】「〜ましょう」は何を表す？ (類似問題1)",
+        "options": [
+          "勧誘・一緒にしようという意味",
+          "命令",
+          "過去",
+          "禁止"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "〜ましょう＝一緒にしよう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_300_inflated_199_adv_199",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「以心伝心」の意味は？ (類似問題1)",
+        "options": [
+          "言葉で伝える",
+          "言葉なしに気持ちが通じ合う",
+          "心が病む",
+          "会話が得意"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "言葉を使わずに気持ちが通じる",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_001_inflated_200_adv_200",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「圧力」の読み方は？ (類似問題2)",
+        "options": [
+          "おつりょく",
+          "あつりょく",
+          "あつりき",
+          "おうりょく"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "気体・液体が押す力＝あつりょく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_002_inflated_201_adv_201",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「移動」の読み方は？ (類似問題2)",
+        "options": [
+          "いどく",
+          "うごく",
+          "いてん",
+          "いどう"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "場所を変える＝いどう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_003_inflated_202_adv_202",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「原因」の読み方は？ (類似問題2)",
+        "options": [
+          "げんいき",
+          "げんいん",
+          "げんおん",
+          "もといん"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "物事が起こるもと＝げんいん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_004_inflated_203_adv_203",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「営業」の読み方は？ (類似問題2)",
+        "options": [
+          "えいぎょ",
+          "えいぎょう",
+          "えいこう",
+          "いぎょう"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "商売をする＝えいぎょう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_005_inflated_204_adv_204",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「永遠」の読み方は？ (類似問題2)",
+        "options": [
+          "えいえん",
+          "ながえん",
+          "えいおん",
+          "えいえい"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "いつまでも続く＝えいえん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_006_inflated_205_adv_205",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「防衛」の読み方は？ (類似問題2)",
+        "options": [
+          "まもり",
+          "ふせぎ",
+          "ぼうへい",
+          "ぼうえい"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "攻撃を防ぐ＝ぼうえい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_007_inflated_206_adv_206",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「容易」の読み方は？ (類似問題2)",
+        "options": [
+          "ようじ",
+          "ようき",
+          "ようい",
+          "かんたん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "たやすい＝ようい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_008_inflated_207_adv_207",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「利益」の読み方は？ (類似問題2)",
+        "options": [
+          "りえき",
+          "もうけ",
+          "りやく",
+          "りえい"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "得になること＝りえき",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_009_inflated_208_adv_208",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「液体」の読み方は？ (類似問題2)",
+        "options": [
+          "えきたい",
+          "えきたる",
+          "みず",
+          "りゅうたい"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "水のように流れる物質＝えきたい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_010_inflated_209_adv_209",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「演奏」の読み方は？ (類似問題2)",
+        "options": [
+          "がくそう",
+          "えんぷ",
+          "えんかつ",
+          "えんそう"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "楽器を弾く＝えんそう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_011_inflated_210_adv_210",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「対応」の読み方は？ (類似問題2)",
+        "options": [
+          "たいおう",
+          "たいこう",
+          "たいとう",
+          "こたえ"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "状況に合わせて行動＝たいおう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_012_inflated_211_adv_211",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「往復」の読み方は？ (類似問題2)",
+        "options": [
+          "おうふく",
+          "ゆきかえり",
+          "おうへん",
+          "こうふく"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "行って帰る＝おうふく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_013_inflated_212_adv_212",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「恩人」の読み方は？ (類似問題2)",
+        "options": [
+          "めぐみびと",
+          "おんじん",
+          "おんにん",
+          "おんびと"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "恩をかけてくれた人＝おんじん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_014_inflated_213_adv_213",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「可能」の読み方は？ (類似問題2)",
+        "options": [
+          "かのく",
+          "できる",
+          "かかん",
+          "かのう"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "できること＝かのう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_015_inflated_214_adv_214",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「仮定」の読み方は？ (類似問題2)",
+        "options": [
+          "よそく",
+          "かそく",
+          "かてい",
+          "かじょう"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "仮にこうだとする＝かてい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_016_inflated_215_adv_215",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「価格」の読み方は？ (類似問題2)",
+        "options": [
+          "かかく",
+          "かこう",
+          "かきゃく",
+          "ねだん"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "物の値段＝かかく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_017_inflated_216_adv_216",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「河川」の読み方は？ (類似問題2)",
+        "options": [
+          "かせん",
+          "かすい",
+          "かわせん",
+          "すいろ"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "川のこと＝かせん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_018_inflated_217_adv_217",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「経過」の読み方は？ (類似問題2)",
+        "options": [
+          "すぎる",
+          "けいき",
+          "けいか",
+          "けいこう"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "時間が過ぎる＝けいか",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_019_inflated_218_adv_218",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「快速」の読み方は？ (類似問題2)",
+        "options": [
+          "かいりょく",
+          "かいはや",
+          "はやさ",
+          "かいそく"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "速いこと＝かいそく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_020_inflated_219_adv_219",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「理解」の読み方は？ (類似問題2)",
+        "options": [
+          "わかる",
+          "りかい",
+          "かいとく",
+          "りげ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "内容をわかる＝りかい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_021_inflated_220_adv_220",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「規格」の読み方は？ (類似問題2)",
+        "options": [
+          "きかく",
+          "きかん",
+          "きもの",
+          "きこう"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "製品の基準＝きかく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_022_inflated_221_adv_221",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「確認」の読み方は？ (類似問題2)",
+        "options": [
+          "かくいん",
+          "たしかめ",
+          "かくにん",
+          "かくじん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "はっきり確かめる＝かくにん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_023_inflated_222_adv_222",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「金額」の読み方は？ (類似問題2)",
+        "options": [
+          "きんりょう",
+          "きんかく",
+          "きんがく",
+          "おかね"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "お金の量＝きんがく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_024_inflated_223_adv_223",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「眼科」の読み方は？ (類似問題2)",
+        "options": [
+          "めか",
+          "がんか",
+          "がんこ",
+          "めのびょういん"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "目の病院＝がんか",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_025_inflated_224_adv_224",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「基本」の読み方は？ (類似問題2)",
+        "options": [
+          "きもと",
+          "もとい",
+          "きほん",
+          "きぼん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "物事のもと＝きほん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_026_inflated_225_adv_225",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「寄付」の読み方は？ (類似問題2)",
+        "options": [
+          "きたく",
+          "きふ",
+          "おくりもの",
+          "きつけ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "お金・物を贈る＝きふ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_027_inflated_226_adv_226",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「境界」の読み方は？ (類似問題2)",
+        "options": [
+          "きょうかい",
+          "さかいめ",
+          "きょうがい",
+          "けいかい"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "区切りの線＝きょうかい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_028_inflated_227_adv_227",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「均等」の読み方は？ (類似問題2)",
+        "options": [
+          "きんどう",
+          "きんよう",
+          "ひとしい",
+          "きんとう"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "等しく分ける＝きんとう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_029_inflated_228_adv_228",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「禁止」の読み方は？ (類似問題2)",
+        "options": [
+          "きんぜ",
+          "とめる",
+          "きんじ",
+          "きんし"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "してはいけない＝きんし",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_030_inflated_229_adv_229",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「句読点」の読み方は？ (類似問題2)",
+        "options": [
+          "くどくてん",
+          "くとうてん",
+          "くどうてん",
+          "くとてん"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "「。」「、」のこと＝くとうてん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_091_inflated_230_adv_230",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「頭が下がる」の意味は？ (類似問題2)",
+        "options": [
+          "頭が痛い",
+          "勉強になる",
+          "おじぎする",
+          "尊敬の気持ちになる"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "すばらしくて尊敬する気持ち＝頭が下がる",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_092_inflated_231_adv_231",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「足が棒になる」の意味は？ (類似問題2)",
+        "options": [
+          "歩き疲れて足がひどく疲れた",
+          "転んで怪我した",
+          "とても速く走った",
+          "足が冷えた"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "歩きすぎて足が疲れた＝足が棒になる",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_093_inflated_232_adv_232",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「胸を張る」の意味は？ (類似問題2)",
+        "options": [
+          "自信を持って堂々とする",
+          "深呼吸する",
+          "怒る",
+          "恥ずかしい"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "自信があるようす＝胸を張る",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_094_inflated_233_adv_233",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「手を貸す」の意味は？ (類似問題2)",
+        "options": [
+          "手を洗う",
+          "邪魔する",
+          "手伝う",
+          "物を借りる"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "手伝うこと＝手を貸す",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_095_inflated_234_adv_234",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「口が軽い」の意味は？ (類似問題2)",
+        "options": [
+          "うそをつく",
+          "秘密をすぐしゃべる",
+          "話が上手い",
+          "食べる量が少ない"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "秘密をすぐ話す＝口が軽い",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_096_inflated_235_adv_235",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「目が高い」の意味は？ (類似問題2)",
+        "options": [
+          "良いものを見分ける力がある",
+          "上を向いている",
+          "目が大きい",
+          "よく見える"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "良いものを見分ける＝目が高い",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_097_inflated_236_adv_236",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「歯が立たない」の意味は？ (類似問題2)",
+        "options": [
+          "まったく太刀打ちできない",
+          "食べられない",
+          "勝てる",
+          "歯が痛い"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "かなわない＝歯が立たない",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_098_inflated_237_adv_237",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「耳が痛い」の意味は？ (類似問題2)",
+        "options": [
+          "耳が聞こえない",
+          "図星を指摘されて聞くのがつらい",
+          "耳が大きい",
+          "うるさい"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "自分の弱点を言われてつらい＝耳が痛い",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_099_inflated_238_adv_238",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「鼻にかける」の意味は？ (類似問題2)",
+        "options": [
+          "鼻をさわる",
+          "自慢する",
+          "においを感じる",
+          "鼻水が出る"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "自慢する＝鼻にかける",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_100_inflated_239_adv_239",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「腹を割って」の意味は？ (類似問題2)",
+        "options": [
+          "本音で話す",
+          "けんかする",
+          "料理する",
+          "お腹を見せる"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "本音で話す＝腹を割って話す",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_121_inflated_240_adv_240",
+        "term": "advanced",
+        "type": "grammar",
+        "question": "【応用】「走る」の品詞は？ (類似問題2)",
+        "options": [
+          "形容詞",
+          "名詞",
+          "副詞",
+          "動詞"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "動きを表す言葉＝動詞",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_122_inflated_241_adv_241",
+        "term": "advanced",
+        "type": "grammar",
+        "question": "【応用】「美しい」の品詞は？ (類似問題2)",
+        "options": [
+          "形容詞",
+          "接続詞",
+          "名詞",
+          "動詞"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "様子を表す＝形容詞",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_123_inflated_242_adv_242",
+        "term": "advanced",
+        "type": "grammar",
+        "question": "【応用】「とても」の品詞は？ (類似問題2)",
+        "options": [
+          "名詞",
+          "動詞",
+          "形容詞",
+          "副詞"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "程度を表す＝副詞",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_124_inflated_243_adv_243",
+        "term": "advanced",
+        "type": "grammar",
+        "question": "【応用】「しかし」の品詞は？ (類似問題2)",
+        "options": [
+          "副詞",
+          "接続詞",
+          "動詞",
+          "助詞"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "文をつなぐ＝接続詞",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_125_inflated_244_adv_244",
+        "term": "advanced",
+        "type": "grammar",
+        "question": "【応用】「が・を・に・で」のような言葉の品詞は？ (類似問題2)",
+        "options": [
+          "接続詞",
+          "副詞",
+          "助詞",
+          "動詞"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "語と語をつなぐ＝助詞",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_136_inflated_245_adv_245",
+        "term": "advanced",
+        "type": "text",
+        "question": "【応用】物語「大造じいさんとガン」の作者は？ (類似問題2)",
+        "options": [
+          "新美南吉",
+          "椋鳩十",
+          "宮沢賢治",
+          "芥川龍之介"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "「大造じいさんとガン」の作者は椋鳩十",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_137_inflated_246_adv_246",
+        "term": "advanced",
+        "type": "text",
+        "question": "【応用】「大造じいさんとガン」の主なテーマは？ (類似問題2)",
+        "options": [
+          "戦争の悲しさ",
+          "お金の大切さ",
+          "学校生活",
+          "命の大切さと動物への敬意"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "自然と命の尊さが主なテーマ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_138_inflated_247_adv_247",
+        "term": "advanced",
+        "type": "text",
+        "question": "【応用】物語「注文の多い料理店」の作者は？ (類似問題2)",
+        "options": [
+          "宮沢賢治",
+          "夏目漱石",
+          "太宰治",
+          "椋鳩十"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "「注文の多い料理店」は宮沢賢治の作品",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_146_inflated_248_adv_248",
+        "term": "advanced",
+        "type": "text",
+        "question": "【応用】「走れメロス」の作者は？ (類似問題2)",
+        "options": [
+          "夏目漱石",
+          "宮沢賢治",
+          "太宰治",
+          "芥川龍之介"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "「走れメロス」は太宰治の作品",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_149_inflated_249_adv_249",
+        "term": "advanced",
+        "type": "text",
+        "question": "【応用】手紙の書き方で最初に書く「あいさつ」を何という？ (類似問題2)",
+        "options": [
+          "時候の挨拶",
+          "結語",
+          "敬具",
+          "頭語"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "手紙の最初のあいさつ言葉＝頭語",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_152_inflated_250_adv_250",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「はくしゅ」の漢字は？ (類似問題2)",
+        "options": [
+          "泊手",
+          "拍手",
+          "伯手",
+          "博手"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "手をたたく＝拍手",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_153_inflated_251_adv_251",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「ひりょう」の漢字は？ (類似問題2)",
+        "options": [
+          "被料",
+          "比料",
+          "肥料",
+          "費料"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "植物を育てる＝肥料",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_158_inflated_252_adv_252",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「ふきゅう」（広く行き渡ること）の漢字は？ (類似問題2)",
+        "options": [
+          "布給",
+          "復旧",
+          "普及",
+          "不急"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "広まること＝普及",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_161_inflated_253_adv_253",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「しょうぎょう」の漢字は？ (類似問題2)",
+        "options": [
+          "称業",
+          "商業",
+          "消業",
+          "商行"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "物を売り買いする仕事＝商業",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_162_inflated_254_adv_254",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「破壊」の読み方は？ (類似問題2)",
+        "options": [
+          "ははかい",
+          "はわい",
+          "はかいき",
+          "はかい"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "壊すこと＝はかい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_163_inflated_255_adv_255",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「犯罪」の読み方は？ (類似問題2)",
+        "options": [
+          "はんさい",
+          "はんざい",
+          "はんちょう",
+          "はんかい"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "法律を犯す行為＝はんざい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_164_inflated_256_adv_256",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「判断」の読み方は？ (類似問題2)",
+        "options": [
+          "はんせん",
+          "はんだ",
+          "はんとう",
+          "はんだん"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "考えて決める＝はんだん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_172_inflated_257_adv_257",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「貧困」の読み方は？ (類似問題2)",
+        "options": [
+          "びんこん",
+          "ひんく",
+          "ひんこん",
+          "まずしい"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "生活が苦しい＝ひんこん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_173_inflated_258_adv_258",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「布地」の読み方は？ (類似問題2)",
+        "options": [
+          "ぬのじ",
+          "ぬのめ",
+          "ふち",
+          "ぬのい"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "布の素材＝ぬのじ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_179_inflated_259_adv_259",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「仏像」の読み方は？ (類似問題2)",
+        "options": [
+          "ぶつがた",
+          "ぶつそう",
+          "ぶつぞう",
+          "ほとけぞう"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "仏の形をした像＝ぶつぞう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_180_inflated_260_adv_260",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「編集」の読み方は？ (類似問題2)",
+        "options": [
+          "へんしょう",
+          "まとめる",
+          "へんしゅう",
+          "へんしゅ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "まとめて作る＝へんしゅう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_187_inflated_261_adv_261",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「貿易」の読み方は？ (類似問題2)",
+        "options": [
+          "ぼうえっき",
+          "ぼうえき",
+          "ぼうえ",
+          "こくさいしょうばい"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "国と国の売買＝ぼうえき",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_188_inflated_262_adv_262",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「暴力」の読み方は？ (類似問題2)",
+        "options": [
+          "らんぼう",
+          "ぼうりょく",
+          "ぼうりゅう",
+          "ぼうりき"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "乱暴な力＝ぼうりょく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_195_inflated_263_adv_263",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「余裕」の読み方は？ (類似問題2)",
+        "options": [
+          "よゆ",
+          "ゆとり",
+          "よゆう",
+          "よゆく"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "ゆとりがある＝よゆう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_196_inflated_264_adv_264",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「容積」の読み方は？ (類似問題2)",
+        "options": [
+          "いれもの",
+          "ようしゃく",
+          "ようせ",
+          "ようせき"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "入れ物の大きさ＝ようせき",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_201_inflated_265_adv_265",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「複雑」の読み方は？ (類似問題2)",
+        "options": [
+          "ふくへん",
+          "ふくかつ",
+          "いりくんだ",
+          "ふくざつ"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "入り組んでいること＝ふくざつ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_204_inflated_266_adv_266",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「展示」の読み方は？ (類似問題2)",
+        "options": [
+          "てんしめす",
+          "てんに",
+          "てんじ",
+          "てんず"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "見せること＝てんじ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_207_inflated_267_adv_267",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「記念」の読み方は？ (類似問題2)",
+        "options": [
+          "きめん",
+          "きねん",
+          "おもいで",
+          "きかん"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "思い出として残すこと＝きねん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_210_inflated_268_adv_268",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「工夫」の読み方は？ (類似問題2)",
+        "options": [
+          "こうく",
+          "こうふ",
+          "くふう",
+          "こうふう"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "よく考えること＝くふう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_212_inflated_269_adv_269",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「応用」の読み方は？ (類似問題2)",
+        "options": [
+          "あいうえお",
+          "おうよう",
+          "かきくけこ",
+          "さしすせそ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "応用の読み方はおうよう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_215_inflated_270_adv_270",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「刊物」の読み方は？ (類似問題2)",
+        "options": [
+          "あいうえお",
+          "たちつてと",
+          "なにぬねの",
+          "かんもの"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "刊物の読み方はかんもの",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_218_inflated_271_adv_271",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「旧式」の読み方は？ (類似問題2)",
+        "options": [
+          "かきくけこ",
+          "たちつてと",
+          "きゅうしき",
+          "さしすせそ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "旧式の読み方はきゅうしき",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_221_inflated_272_adv_272",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「境地」の読み方は？ (類似問題2)",
+        "options": [
+          "あいうえお",
+          "きょうち",
+          "かきくけこ",
+          "なにぬねの"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "境地の読み方はきょうち",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_224_inflated_273_adv_273",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「句集」の読み方は？ (類似問題2)",
+        "options": [
+          "たちつてと",
+          "さしすせそ",
+          "なにぬねの",
+          "くしゅう"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "句集の読み方はくしゅう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_227_inflated_274_adv_274",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「潔白」の読み方は？ (類似問題2)",
+        "options": [
+          "けっぱく",
+          "あいうえお",
+          "かきくけこ",
+          "さしすせそ"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "潔白の読み方はけっぱく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_230_inflated_275_adv_275",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「検定」の読み方は？ (類似問題2)",
+        "options": [
+          "なにぬねの",
+          "けんてい",
+          "あいうえお",
+          "たちつてと"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "検定の読み方はけんてい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_233_inflated_276_adv_276",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「減量」の読み方は？ (類似問題2)",
+        "options": [
+          "たちつてと",
+          "げんりょう",
+          "さしすせそ",
+          "かきくけこ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "減量の読み方はげんりょう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_236_inflated_277_adv_277",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「厚板」の読み方は？ (類似問題2)",
+        "options": [
+          "あついた",
+          "かきくけこ",
+          "なにぬねの",
+          "あいうえお"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "厚板の読み方はあついた",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_239_inflated_278_adv_278",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「構造」の読み方は？ (類似問題2)",
+        "options": [
+          "さしすせそ",
+          "たちつてと",
+          "なにぬねの",
+          "こうぞう"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "構造の読み方はこうぞう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_242_inflated_279_adv_279",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「混入」の読み方は？ (類似問題2)",
+        "options": [
+          "さしすせそ",
+          "あいうえお",
+          "こんにゅう",
+          "かきくけこ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "混入の読み方はこんにゅう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_245_inflated_280_adv_280",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「災難」の読み方は？ (類似問題2)",
+        "options": [
+          "さいなん",
+          "なにぬねの",
+          "あいうえお",
+          "たちつてと"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "災難の読み方はさいなん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_248_inflated_281_adv_281",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「際立つ」の読み方は？ (類似問題2)",
+        "options": [
+          "きわだつ",
+          "かきくけこ",
+          "さしすせそ",
+          "たちつてと"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "際立つの読み方はきわだつ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_251_inflated_282_adv_282",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「罪状」の読み方は？ (類似問題2)",
+        "options": [
+          "ざいじょう",
+          "なにぬねの",
+          "あいうえお",
+          "かきくけこ"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "罪状の読み方はざいじょう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_254_inflated_283_adv_283",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「酸化」の読み方は？ (類似問題2)",
+        "options": [
+          "さんか",
+          "さしすせそ",
+          "なにぬねの",
+          "たちつてと"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "酸化の読み方はさんか",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_257_inflated_284_adv_284",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「志向」の読み方は？ (類似問題2)",
+        "options": [
+          "さしすせそ",
+          "しこう",
+          "あいうえお",
+          "かきくけこ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "志向の読み方はしこう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_260_inflated_285_adv_285",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「似顔」の読み方は？ (類似問題2)",
+        "options": [
+          "なにぬねの",
+          "あいうえお",
+          "にがお",
+          "たちつてと"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "似顔の読み方はにがお",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_262_inflated_286_adv_286",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「質問」を漢字で書くと？ (類似問題2)",
+        "options": [
+          "質問",
+          "七問",
+          "叱問",
+          "失問"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "質問＝しつもん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_265_inflated_287_adv_287",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「石の上にも三年」の意味は？ (類似問題2)",
+        "options": [
+          "辛抱強く続ければ成功する",
+          "3年待つ",
+          "石を運ぶ",
+          "石が好き"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "辛抱強く続ければ成果が出る",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_267_inflated_288_adv_288",
+        "term": "advanced",
+        "type": "text",
+        "question": "【応用】物語の「登場人物」とは？ (類似問題2)",
+        "options": [
+          "タイトル",
+          "作者の名前",
+          "物語に出てくる人や動物",
+          "場所の名前"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "お話の中に出てくる人・動物などのこと",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_270_inflated_289_adv_289",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「反省」の読み方は？ (類似問題2)",
+        "options": [
+          "はんじょ",
+          "はんせい",
+          "はんき",
+          "はんしょう"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "自分の行いを振り返ること＝はんせい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_273_inflated_290_adv_290",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「成長」の読み方は？ (類似問題2)",
+        "options": [
+          "せいちょ",
+          "せいちょう",
+          "せいたい",
+          "せいそ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "大きく育つ＝せいちょう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_276_inflated_291_adv_291",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「発表」の読み方は？ (類似問題2)",
+        "options": [
+          "はつひょう",
+          "はっぽう",
+          "はっぴょう",
+          "はっぴ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "人前で発表すること＝はっぴょう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_279_inflated_292_adv_292",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「文章」の読み方は？ (類似問題2)",
+        "options": [
+          "ぶんしょ",
+          "ぶんしょう",
+          "もんしょう",
+          "もじ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "言葉で書いたもの＝ぶんしょう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_282_inflated_293_adv_293",
+        "term": "advanced",
+        "type": "text",
+        "question": "【応用】「はじめ・中・終わり」は文章の何を表す？ (類似問題2)",
+        "options": [
+          "作者の気持ち",
+          "文字の種類",
+          "言葉の意味",
+          "文章の構成（組み立て）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "文章は「はじめ・中・終わり」で構成される",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_285_inflated_294_adv_294",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「想像」の読み方は？ (類似問題2)",
+        "options": [
+          "そうぞう",
+          "そうそう",
+          "そうぞ",
+          "さいぞう"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "頭の中でイメージすること＝そうぞう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_288_inflated_295_adv_295",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「比較」の読み方は？ (類似問題2)",
+        "options": [
+          "ひかく",
+          "ひかっ",
+          "ひきゃく",
+          "ひこう"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "くらべること＝ひかく",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_291_inflated_296_adv_296",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「共感」の読み方は？ (類似問題2)",
+        "options": [
+          "きょかん",
+          "きょうかん",
+          "ごうかん",
+          "きょうがん"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "同じように感じること＝きょうかん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_294_inflated_297_adv_297",
+        "term": "advanced",
+        "type": "kanji",
+        "question": "【応用】「本論」の読み方は？ (類似問題2)",
+        "options": [
+          "ほんろ",
+          "ほろん",
+          "ほんろん",
+          "もとろん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "話の本題部分＝ほんろん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_297_inflated_298_adv_298",
+        "term": "advanced",
+        "type": "grammar",
+        "question": "【応用】「〜ましょう」は何を表す？ (類似問題2)",
+        "options": [
+          "勧誘・一緒にしようという意味",
+          "命令",
+          "過去",
+          "禁止"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "〜ましょう＝一緒にしよう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_j_300_inflated_299_adv_299",
+        "term": "advanced",
+        "type": "vocab",
+        "question": "【応用】「以心伝心」の意味は？ (類似問題2)",
+        "options": [
+          "言葉で伝える",
+          "言葉なしに気持ちが通じ合う",
+          "心が病む",
+          "会話が得意"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "言葉を使わずに気持ちが通じる",
+        "isAdvanced": true
       }
     ]
   },
@@ -26999,6 +31497,4486 @@ export const generatedSubjects = [
         "correctOptionIndex": 3,
         "explanation": "200×0.12＝24L",
         "isAdvanced": false
+      },
+      {
+        "id": "gen_m_001_adv_0",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2と3の最大公約数は？",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "1"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "2と3の最大公約数は1",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_002_adv_1",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2と3の最小公倍数は？",
+        "options": [
+          "8",
+          "9",
+          "6",
+          "12"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2と3の最小公倍数は6",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_003_adv_2",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2と4の最大公約数は？",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "2と4の最大公約数は2",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_004_adv_3",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2と4の最小公倍数は？",
+        "options": [
+          "6",
+          "4",
+          "8"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "2と4の最小公倍数は4",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_005_adv_4",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3と4の最大公約数は？",
+        "options": [
+          "1",
+          "3",
+          "2",
+          "4"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "3と4の最大公約数は1",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_006_adv_5",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3と4の最小公倍数は？",
+        "options": [
+          "16",
+          "15",
+          "12",
+          "24"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "3と4の最小公倍数は12",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_007_adv_6",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4と6の最大公約数は？",
+        "options": [
+          "3",
+          "5",
+          "4",
+          "2"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "4と6の最大公約数は2",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_008_adv_7",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4と6の最小公倍数は？",
+        "options": [
+          "24",
+          "12",
+          "16",
+          "18"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "4と6の最小公倍数は12",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_009_adv_8",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6と9の最大公約数は？",
+        "options": [
+          "4",
+          "5",
+          "3",
+          "9"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "6と9の最大公約数は3",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_010_adv_9",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6と9の最小公倍数は？",
+        "options": [
+          "36",
+          "18",
+          "27",
+          "24"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "6と9の最小公倍数は18",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_011_adv_10",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5と10の最大公約数は？",
+        "options": [
+          "6",
+          "5",
+          "8",
+          "10"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "5と10の最大公約数は5",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_012_adv_11",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5と10の最小公倍数は？",
+        "options": [
+          "15",
+          "10",
+          "20"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "5と10の最小公倍数は10",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_013_adv_12",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3と6の最大公約数は？",
+        "options": [
+          "5",
+          "3",
+          "4",
+          "6"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "3と6の最大公約数は3",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_014_adv_13",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3と6の最小公倍数は？",
+        "options": [
+          "9",
+          "6",
+          "12"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "3と6の最小公倍数は6",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_015_adv_14",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4と8の最大公約数は？",
+        "options": [
+          "6",
+          "5",
+          "8",
+          "4"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "4と8の最大公約数は4",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_016_adv_15",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4と8の最小公倍数は？",
+        "options": [
+          "8",
+          "12",
+          "16"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "4と8の最小公倍数は8",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_017_adv_16",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6と8の最大公約数は？",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "6と8の最大公約数は2",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_018_adv_17",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6と8の最小公倍数は？",
+        "options": [
+          "24",
+          "32",
+          "48",
+          "30"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "6と8の最小公倍数は24",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_019_adv_18",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2と6の最大公約数は？",
+        "options": [
+          "4",
+          "5",
+          "3",
+          "2"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "2と6の最大公約数は2",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_020_adv_19",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2と6の最小公倍数は？",
+        "options": [
+          "8",
+          "12",
+          "6"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2と6の最小公倍数は6",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_021_adv_20",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3と9の最大公約数は？",
+        "options": [
+          "5",
+          "3",
+          "4",
+          "9"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "3と9の最大公約数は3",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_022_adv_21",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3と9の最小公倍数は？",
+        "options": [
+          "12",
+          "18",
+          "9"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "3と9の最小公倍数は9",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_023_adv_22",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5と15の最大公約数は？",
+        "options": [
+          "5",
+          "8",
+          "15",
+          "6"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "5と15の最大公約数は5",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_024_adv_23",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5と15の最小公倍数は？",
+        "options": [
+          "30",
+          "20",
+          "15"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "5と15の最小公倍数は15",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_025_adv_24",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4と12の最大公約数は？",
+        "options": [
+          "6",
+          "5",
+          "4",
+          "12"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "4と12の最大公約数は4",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_026_adv_25",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4と12の最小公倍数は？",
+        "options": [
+          "24",
+          "16",
+          "12"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "4と12の最小公倍数は12",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_027_adv_26",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6と12の最大公約数は？",
+        "options": [
+          "8",
+          "9",
+          "12",
+          "6"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "6と12の最大公約数は6",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_028_adv_27",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6と12の最小公倍数は？",
+        "options": [
+          "12",
+          "18",
+          "24"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "6と12の最小公倍数は12",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_029_adv_28",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】8と12の最大公約数は？",
+        "options": [
+          "5",
+          "4",
+          "7",
+          "6"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "8と12の最大公約数は4",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_030_adv_29",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】8と12の最小公倍数は？",
+        "options": [
+          "48",
+          "36",
+          "32",
+          "24"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "8と12の最小公倍数は24",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_031_adv_30",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】10と15の最大公約数は？",
+        "options": [
+          "7",
+          "6",
+          "8",
+          "5"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "10と15の最大公約数は5",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_032_adv_31",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】10と15の最小公倍数は？",
+        "options": [
+          "30",
+          "40",
+          "60",
+          "45"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "10と15の最小公倍数は30",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_033_adv_32",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】9と12の最大公約数は？",
+        "options": [
+          "3",
+          "6",
+          "5",
+          "4"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "9と12の最大公約数は3",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_034_adv_33",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】9と12の最小公倍数は？",
+        "options": [
+          "48",
+          "45",
+          "72",
+          "36"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "9と12の最小公倍数は36",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_035_adv_34",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6と10の最大公約数は？",
+        "options": [
+          "4",
+          "3",
+          "2",
+          "5"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "6と10の最大公約数は2",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_036_adv_35",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6と10の最小公倍数は？",
+        "options": [
+          "40",
+          "30",
+          "36",
+          "60"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "6と10の最小公倍数は30",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_037_adv_36",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4と10の最大公約数は？",
+        "options": [
+          "4",
+          "3",
+          "10",
+          "2"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "4と10の最大公約数は2",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_038_adv_37",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4と10の最小公倍数は？",
+        "options": [
+          "40",
+          "24",
+          "30",
+          "20"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "4と10の最小公倍数は20",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_039_adv_38",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3と15の最大公約数は？",
+        "options": [
+          "6",
+          "5",
+          "3",
+          "4"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "3と15の最大公約数は3",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_040_adv_39",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3と15の最小公倍数は？",
+        "options": [
+          "30",
+          "15",
+          "18"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "3と15の最小公倍数は15",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_041_adv_40",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】1/2 + 1/3 = ?",
+        "options": [
+          "1/6",
+          "1",
+          "5/6",
+          "1/6"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "1/2+1/3=5/6",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_042_adv_41",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】1/3 + 1/4 = ?",
+        "options": [
+          "1/12",
+          "1/12",
+          "7/12",
+          "3/4"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "1/3+1/4=7/12",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_043_adv_42",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2/3 + 1/6 = ?",
+        "options": [
+          "5/6",
+          "1/9",
+          "1",
+          "1/2"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "2/3+1/6=5/6",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_044_adv_43",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3/4 + 1/8 = ?",
+        "options": [
+          "7/8",
+          "5/8",
+          "3/32",
+          "25/24"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "3/4+1/8=7/8",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_045_adv_44",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】1/2 + 2/5 = ?",
+        "options": [
+          "1/5",
+          "16/15",
+          "1/10",
+          "9/10"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "1/2+2/5=9/10",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_046_adv_45",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3/5 + 1/10 = ?",
+        "options": [
+          "7/10",
+          "13/15",
+          "1/2",
+          "3/50"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "3/5+1/10=7/10",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_047_adv_46",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5/6 + 1/3 = ?",
+        "options": [
+          "5/18",
+          "1/2",
+          "4/3",
+          "7/6"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "5/6+1/3=7/6",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_048_adv_47",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2/7 + 3/7 = ?",
+        "options": [
+          "6/49",
+          "5/7",
+          "37/42",
+          "1/7"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "2/7+3/7=5/7",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_049_adv_48",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】1/4 + 3/8 = ?",
+        "options": [
+          "19/24",
+          "1/8",
+          "5/8",
+          "3/32"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "1/4+3/8=5/8",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_050_adv_49",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4/9 + 1/3 = ?",
+        "options": [
+          "7/9",
+          "17/18",
+          "4/27",
+          "1/9"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "4/9+1/3=7/9",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_051_adv_50",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】1/6 + 1/4 = ?",
+        "options": [
+          "7/12",
+          "1/24",
+          "1/12",
+          "5/12"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "1/6+1/4=5/12",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_052_adv_51",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5/8 + 1/4 = ?",
+        "options": [
+          "5/32",
+          "7/8",
+          "3/8",
+          "25/24"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "5/8+1/4=7/8",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_053_adv_52",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2/5 + 3/10 = ?",
+        "options": [
+          "7/10",
+          "3/25",
+          "13/15",
+          "1/10"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "2/5+3/10=7/10",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_054_adv_53",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】7/12 + 1/6 = ?",
+        "options": [
+          "11/12",
+          "7/72",
+          "5/12",
+          "3/4"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "7/12+1/6=3/4",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_055_adv_54",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】1/3 + 2/9 = ?",
+        "options": [
+          "1/9",
+          "13/18",
+          "2/27",
+          "5/9"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "1/3+2/9=5/9",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_056_adv_55",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5/9 + 2/3 = ?",
+        "options": [
+          "1/9",
+          "25/18",
+          "10/27",
+          "11/9"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "5/9+2/3=11/9",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_147_adv_56",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】素数はどれ？",
+        "options": [
+          "7",
+          "6",
+          "9",
+          "4"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "1と自分だけで割れる＝素数",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_148_adv_57",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】1から10の偶数の和は？",
+        "options": [
+          "35",
+          "30",
+          "25",
+          "20"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "2+4+6+8+10＝30",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_149_adv_58",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】12の約数の個数は？",
+        "options": [
+          "6個",
+          "8個",
+          "5個",
+          "4個"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "1,2,3,4,6,12の6個",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_150_adv_59",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】100以下の3の倍数は何個？",
+        "options": [
+          "25個",
+          "33個",
+          "34個",
+          "30個"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "100÷3=33あまり1→33個",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_151_adv_60",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】18と24の最大公約数は？",
+        "options": [
+          "12",
+          "6",
+          "9",
+          "3"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "18=2×3²,24=2³×3,GCD=6",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_152_adv_61",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4と6と8の最小公倍数は？",
+        "options": [
+          "16",
+          "48",
+          "12",
+          "24"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "LCM(4,6,8)=24",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_153_adv_62",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】0.001を1000倍すると？",
+        "options": [
+          "10",
+          "0.01",
+          "0.1",
+          "1"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "0.001×1000＝1",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_154_adv_63",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3.14×100は？",
+        "options": [
+          "3140",
+          "31.4",
+          "3.14",
+          "314"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "小数点を右に2つ＝314",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_155_adv_64",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】1/4は何%？",
+        "options": [
+          "25%",
+          "50%",
+          "40%",
+          "20%"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "1÷4×100＝25%",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_156_adv_65",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2/5は何%？",
+        "options": [
+          "50%",
+          "20%",
+          "25%",
+          "40%"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "2÷5×100＝40%",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_157_adv_66",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3/4は何%？",
+        "options": [
+          "70%",
+          "75%",
+          "80%",
+          "60%"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "3÷4×100＝75%",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_158_adv_67",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】0.6は何%？",
+        "options": [
+          "6%",
+          "600%",
+          "60%",
+          "0.6%"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "0.6×100＝60%",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_159_adv_68",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】15%は何割何分？",
+        "options": [
+          "1割5分",
+          "0.15割",
+          "1割5厘",
+          "15割"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "10%=1割,5%=5分→1割5分",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_160_adv_69",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2の10乗は？",
+        "options": [
+          "2048",
+          "512",
+          "1024",
+          "256"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2の10乗＝1024",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_161_adv_70",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】(-5)×(-4)は？(正負入門)",
+        "options": [
+          "-20",
+          "20",
+          "-9",
+          "9"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "負×負＝正なので20",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_162_adv_71",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】1.2 + 0.8 = ?",
+        "options": [
+          "0.4",
+          "0.96",
+          "2.0",
+          "2.1"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "1.2+0.8=2.0",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_163_adv_72",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2.5 + 1.7 = ?",
+        "options": [
+          "4.25",
+          "0.8",
+          "4.3",
+          "4.2"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "2.5+1.7=4.2",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_164_adv_73",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】0.4 + 0.6 = ?",
+        "options": [
+          "1.1",
+          "0.24",
+          "1.0",
+          "0.2"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "0.4+0.6=1.0",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_165_adv_74",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3.6 + 1.4 = ?",
+        "options": [
+          "5.0",
+          "5.1",
+          "5.04",
+          "2.2"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "3.6+1.4=5.0",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_166_adv_75",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5.0 + 2.3 = ?",
+        "options": [
+          "7.4",
+          "2.7",
+          "11.5",
+          "7.3"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "5.0+2.3=7.3",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_167_adv_76",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】0.75 + 0.25 = ?",
+        "options": [
+          "0.19",
+          "1.0",
+          "1.1",
+          "0.5"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "0.75+0.25=1.0",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_168_adv_77",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】1.5 + 2.5 = ?",
+        "options": [
+          "1.0",
+          "4.1",
+          "3.75",
+          "4.0"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "1.5+2.5=4.0",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_169_adv_78",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4.2 + 1.8 = ?",
+        "options": [
+          "2.4",
+          "6.1",
+          "7.56",
+          "6.0"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "4.2+1.8=6.0",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_170_adv_79",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】0.9 + 0.1 = ?",
+        "options": [
+          "0.8",
+          "0.09",
+          "1.1",
+          "1.0"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "0.9+0.1=1.0",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_171_adv_80",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6.3 + 2.7 = ?",
+        "options": [
+          "17.01",
+          "9.0",
+          "3.6",
+          "9.1"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "6.3+2.7=9.0",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_172_adv_81",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3.5 - 1.2 = ?",
+        "options": [
+          "2.3",
+          "4.7",
+          "4.2",
+          "2.8"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "3.5-1.2=2.3",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_173_adv_82",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5.0 - 2.3 = ?",
+        "options": [
+          "11.5",
+          "7.3",
+          "2.7",
+          "3.2"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "5.0-2.3=2.7",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_174_adv_83",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4.8 - 1.8 = ?",
+        "options": [
+          "3.0",
+          "8.64",
+          "3.5",
+          "6.6"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "4.8-1.8=3.0",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_175_adv_84",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】7.2 - 3.6 = ?",
+        "options": [
+          "3.6",
+          "10.8",
+          "25.92",
+          "4.1"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "7.2-3.6=3.6",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_176_adv_85",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】9.0 - 4.5 = ?",
+        "options": [
+          "5.0",
+          "40.5",
+          "4.5",
+          "13.5"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "9.0-4.5=4.5",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_177_adv_86",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3 × 3 = ?",
+        "options": [
+          "9",
+          "8",
+          "10",
+          "12"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "3×3＝9",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_178_adv_87",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4 × 4 = ?",
+        "options": [
+          "16",
+          "15",
+          "17",
+          "20"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "4×4＝16",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_179_adv_88",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5 × 5 = ?",
+        "options": [
+          "26",
+          "24",
+          "30",
+          "25"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "5×5＝25",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_180_adv_89",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6 × 6 = ?",
+        "options": [
+          "36",
+          "37",
+          "35",
+          "42"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "6×6＝36",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_181_adv_90",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】7 × 7 = ?",
+        "options": [
+          "56",
+          "50",
+          "49",
+          "48"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "7×7＝49",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_182_adv_91",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】8 × 8 = ?",
+        "options": [
+          "72",
+          "64",
+          "63",
+          "65"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "8×8＝64",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_183_adv_92",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】9 × 2 = ?",
+        "options": [
+          "19",
+          "18",
+          "27",
+          "17"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "9×2＝18",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_184_adv_93",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】10 × 3 = ?",
+        "options": [
+          "29",
+          "30",
+          "40",
+          "31"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "10×3＝30",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_185_adv_94",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2 × 4 = ?",
+        "options": [
+          "9",
+          "10",
+          "8",
+          "7"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2×4＝8",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_186_adv_95",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3 × 5 = ?",
+        "options": [
+          "18",
+          "15",
+          "16",
+          "14"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "3×5＝15",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_187_adv_96",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4 × 6 = ?",
+        "options": [
+          "28",
+          "25",
+          "24",
+          "23"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "4×6＝24",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_188_adv_97",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5 × 7 = ?",
+        "options": [
+          "40",
+          "34",
+          "36",
+          "35"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "5×7＝35",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_189_adv_98",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6 × 8 = ?",
+        "options": [
+          "48",
+          "54",
+          "49",
+          "47"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "6×8＝48",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_190_adv_99",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】7 × 2 = ?",
+        "options": [
+          "15",
+          "14",
+          "13",
+          "21"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "7×2＝14",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_191_adv_100",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】8 × 3 = ?",
+        "options": [
+          "24",
+          "23",
+          "25",
+          "32"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "8×3＝24",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_192_adv_101",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】9 × 4 = ?",
+        "options": [
+          "36",
+          "45",
+          "37",
+          "35"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "9×4＝36",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_193_adv_102",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】10 × 5 = ?",
+        "options": [
+          "50",
+          "51",
+          "60",
+          "49"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "10×5＝50",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_194_adv_103",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2 × 6 = ?",
+        "options": [
+          "13",
+          "12",
+          "14",
+          "11"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "2×6＝12",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_195_adv_104",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3 × 7 = ?",
+        "options": [
+          "21",
+          "24",
+          "22",
+          "20"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "3×7＝21",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_196_adv_105",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4 × 8 = ?",
+        "options": [
+          "32",
+          "31",
+          "36",
+          "33"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "4×8＝32",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_197_adv_106",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5 × 2 = ?",
+        "options": [
+          "10",
+          "15",
+          "9",
+          "11"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "5×2＝10",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_198_adv_107",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6 × 3 = ?",
+        "options": [
+          "18",
+          "19",
+          "24",
+          "17"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "6×3＝18",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_199_adv_108",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】7 × 4 = ?",
+        "options": [
+          "29",
+          "35",
+          "27",
+          "28"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "7×4＝28",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_200_adv_109",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】8 × 5 = ?",
+        "options": [
+          "40",
+          "41",
+          "48",
+          "39"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "8×5＝40",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_201_adv_110",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】9 × 6 = ?",
+        "options": [
+          "53",
+          "63",
+          "54",
+          "55"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "9×6＝54",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_202_adv_111",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】10 × 7 = ?",
+        "options": [
+          "70",
+          "80",
+          "71",
+          "69"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "10×7＝70",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_203_adv_112",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2 × 8 = ?",
+        "options": [
+          "15",
+          "16",
+          "18",
+          "17"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "2×8＝16",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_204_adv_113",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3 × 2 = ?",
+        "options": [
+          "6",
+          "7",
+          "5",
+          "9"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "3×2＝6",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_205_adv_114",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4 × 3 = ?",
+        "options": [
+          "12",
+          "13",
+          "11",
+          "16"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "4×3＝12",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_206_adv_115",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5 × 4 = ?",
+        "options": [
+          "20",
+          "25",
+          "21",
+          "19"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "5×4＝20",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_207_adv_116",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6 × 5 = ?",
+        "options": [
+          "29",
+          "31",
+          "36",
+          "30"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "6×5＝30",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_208_adv_117",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】7 × 6 = ?",
+        "options": [
+          "41",
+          "43",
+          "49",
+          "42"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "7×6＝42",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_209_adv_118",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】8 × 7 = ?",
+        "options": [
+          "64",
+          "55",
+          "57",
+          "56"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "8×7＝56",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_210_adv_119",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】9 × 8 = ?",
+        "options": [
+          "81",
+          "73",
+          "71",
+          "72"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "9×8＝72",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_211_adv_120",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】10 × 2 = ?",
+        "options": [
+          "20",
+          "21",
+          "30",
+          "19"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "10×2＝20",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_212_adv_121",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2 × 3 = ?",
+        "options": [
+          "6",
+          "8",
+          "7",
+          "5"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "2×3＝6",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_213_adv_122",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3 × 4 = ?",
+        "options": [
+          "13",
+          "12",
+          "11",
+          "15"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "3×4＝12",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_214_adv_123",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4 × 5 = ?",
+        "options": [
+          "21",
+          "20",
+          "24",
+          "19"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "4×5＝20",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_215_adv_124",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5 × 6 = ?",
+        "options": [
+          "30",
+          "31",
+          "29",
+          "35"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "5×6＝30",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_216_adv_125",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6 × 7 = ?",
+        "options": [
+          "43",
+          "41",
+          "48",
+          "42"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "6×7＝42",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_217_adv_126",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】7 × 8 = ?",
+        "options": [
+          "57",
+          "63",
+          "55",
+          "56"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "7×8＝56",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_218_adv_127",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】8 × 2 = ?",
+        "options": [
+          "24",
+          "15",
+          "16",
+          "17"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "8×2＝16",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_219_adv_128",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】9 × 3 = ?",
+        "options": [
+          "26",
+          "28",
+          "27",
+          "36"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "9×3＝27",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_220_adv_129",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】10 × 4 = ?",
+        "options": [
+          "40",
+          "41",
+          "50",
+          "39"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "10×4＝40",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_221_adv_130",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2 × 5 = ?",
+        "options": [
+          "12",
+          "9",
+          "11",
+          "10"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "2×5＝10",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_222_adv_131",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3 × 6 = ?",
+        "options": [
+          "17",
+          "18",
+          "19",
+          "21"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "3×6＝18",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_223_adv_132",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4 × 7 = ?",
+        "options": [
+          "28",
+          "29",
+          "27",
+          "32"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "4×7＝28",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_224_adv_133",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5 × 8 = ?",
+        "options": [
+          "39",
+          "41",
+          "45",
+          "40"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "5×8＝40",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_225_adv_134",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6 × 2 = ?",
+        "options": [
+          "12",
+          "13",
+          "11",
+          "18"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "6×2＝12",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_226_adv_135",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】7 × 3 = ?",
+        "options": [
+          "20",
+          "22",
+          "21",
+          "28"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "7×3＝21",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_227_adv_136",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】8 × 4 = ?",
+        "options": [
+          "33",
+          "31",
+          "40",
+          "32"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "8×4＝32",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_228_adv_137",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】9 × 5 = ?",
+        "options": [
+          "44",
+          "54",
+          "46",
+          "45"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "9×5＝45",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_229_adv_138",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】10 × 6 = ?",
+        "options": [
+          "59",
+          "60",
+          "70",
+          "61"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "10×6＝60",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_230_adv_139",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2 × 7 = ?",
+        "options": [
+          "13",
+          "15",
+          "14",
+          "16"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2×7＝14",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_231_adv_140",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3 × 8 = ?",
+        "options": [
+          "24",
+          "25",
+          "23",
+          "27"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "3×8＝24",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_232_adv_141",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4 × 2 = ?",
+        "options": [
+          "8",
+          "12",
+          "7",
+          "9"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "4×2＝8",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_233_adv_142",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5 × 3 = ?",
+        "options": [
+          "15",
+          "20",
+          "16",
+          "14"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "5×3＝15",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_234_adv_143",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6 × 4 = ?",
+        "options": [
+          "25",
+          "23",
+          "24",
+          "30"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "6×4＝24",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_235_adv_144",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】7 × 5 = ?",
+        "options": [
+          "35",
+          "36",
+          "34",
+          "42"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "7×5＝35",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_236_adv_145",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】8 × 6 = ?",
+        "options": [
+          "48",
+          "49",
+          "47",
+          "56"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "8×6＝48",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_237_adv_146",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】9 × 7 = ?",
+        "options": [
+          "63",
+          "62",
+          "72",
+          "64"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "9×7＝63",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_238_adv_147",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】10 × 8 = ?",
+        "options": [
+          "79",
+          "90",
+          "81",
+          "80"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "10×8＝80",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_239_adv_148",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2 × 2 = ?",
+        "options": [
+          "6",
+          "3",
+          "5",
+          "4"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "2×2＝4",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_240_adv_149",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3 × 3 = ?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "12"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "3×3＝9",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_241_adv_150",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4 × 4 = ?",
+        "options": [
+          "15",
+          "17",
+          "16",
+          "20"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "4×4＝16",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_242_adv_151",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5 × 5 = ?",
+        "options": [
+          "30",
+          "26",
+          "24",
+          "25"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "5×5＝25",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_243_adv_152",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6 × 6 = ?",
+        "options": [
+          "37",
+          "36",
+          "42",
+          "35"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "6×6＝36",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_244_adv_153",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】7 × 7 = ?",
+        "options": [
+          "50",
+          "49",
+          "56",
+          "48"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "7×7＝49",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_245_adv_154",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】8 × 8 = ?",
+        "options": [
+          "72",
+          "63",
+          "64",
+          "65"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "8×8＝64",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_246_adv_155",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】9 × 2 = ?",
+        "options": [
+          "27",
+          "17",
+          "18",
+          "19"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "9×2＝18",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_247_adv_156",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】10 × 3 = ?",
+        "options": [
+          "29",
+          "31",
+          "40",
+          "30"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "10×3＝30",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_248_adv_157",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2 × 4 = ?",
+        "options": [
+          "8",
+          "7",
+          "10",
+          "9"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "2×4＝8",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_249_adv_158",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3 × 5 = ?",
+        "options": [
+          "18",
+          "15",
+          "14",
+          "16"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "3×5＝15",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_250_adv_159",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4 × 6 = ?",
+        "options": [
+          "23",
+          "24",
+          "28",
+          "25"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "4×6＝24",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_251_adv_160",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5 × 7 = ?",
+        "options": [
+          "40",
+          "34",
+          "36",
+          "35"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "5×7＝35",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_252_adv_161",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6 × 8 = ?",
+        "options": [
+          "48",
+          "49",
+          "54",
+          "47"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "6×8＝48",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_253_adv_162",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】7 × 2 = ?",
+        "options": [
+          "21",
+          "14",
+          "13",
+          "15"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "7×2＝14",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_254_adv_163",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】8 × 3 = ?",
+        "options": [
+          "23",
+          "25",
+          "24",
+          "32"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "8×3＝24",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_255_adv_164",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】9 × 4 = ?",
+        "options": [
+          "35",
+          "36",
+          "37",
+          "45"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "9×4＝36",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_256_adv_165",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】10 × 5 = ?",
+        "options": [
+          "49",
+          "51",
+          "60",
+          "50"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "10×5＝50",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_257_adv_166",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2 × 6 = ?",
+        "options": [
+          "11",
+          "13",
+          "12",
+          "14"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2×6＝12",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_258_adv_167",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3 × 7 = ?",
+        "options": [
+          "21",
+          "20",
+          "24",
+          "22"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "3×7＝21",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_259_adv_168",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4 × 8 = ?",
+        "options": [
+          "33",
+          "32",
+          "31",
+          "36"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "4×8＝32",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_260_adv_169",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5 × 2 = ?",
+        "options": [
+          "9",
+          "11",
+          "15",
+          "10"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "5×2＝10",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_261_adv_170",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6 × 3 = ?",
+        "options": [
+          "17",
+          "24",
+          "19",
+          "18"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "6×3＝18",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_262_adv_171",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】7 × 4 = ?",
+        "options": [
+          "27",
+          "28",
+          "35",
+          "29"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "7×4＝28",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_263_adv_172",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】8 × 5 = ?",
+        "options": [
+          "39",
+          "48",
+          "40",
+          "41"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "8×5＝40",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_264_adv_173",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】9 × 6 = ?",
+        "options": [
+          "63",
+          "53",
+          "55",
+          "54"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "9×6＝54",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_265_adv_174",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】10 × 7 = ?",
+        "options": [
+          "69",
+          "71",
+          "80",
+          "70"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "10×7＝70",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_266_adv_175",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2 × 8 = ?",
+        "options": [
+          "16",
+          "18",
+          "15",
+          "17"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "2×8＝16",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_267_adv_176",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3 × 2 = ?",
+        "options": [
+          "9",
+          "7",
+          "5",
+          "6"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "3×2＝6",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_268_adv_177",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4 × 3 = ?",
+        "options": [
+          "13",
+          "16",
+          "11",
+          "12"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "4×3＝12",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_269_adv_178",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5 × 4 = ?",
+        "options": [
+          "21",
+          "20",
+          "25",
+          "19"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "5×4＝20",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_270_adv_179",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6 × 5 = ?",
+        "options": [
+          "29",
+          "30",
+          "36",
+          "31"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "6×5＝30",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_271_adv_180",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】7 × 6 = ?",
+        "options": [
+          "43",
+          "49",
+          "42",
+          "41"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "7×6＝42",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_272_adv_181",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】8 × 7 = ?",
+        "options": [
+          "64",
+          "56",
+          "55",
+          "57"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "8×7＝56",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_273_adv_182",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】9 × 8 = ?",
+        "options": [
+          "71",
+          "81",
+          "73",
+          "72"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "9×8＝72",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_274_adv_183",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】10 × 2 = ?",
+        "options": [
+          "30",
+          "21",
+          "19",
+          "20"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "10×2＝20",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_275_adv_184",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2 × 3 = ?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "5"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "2×3＝6",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_276_adv_185",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3 × 4 = ?",
+        "options": [
+          "11",
+          "15",
+          "12",
+          "13"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "3×4＝12",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_277_adv_186",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4 × 5 = ?",
+        "options": [
+          "20",
+          "24",
+          "19",
+          "21"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "4×5＝20",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_278_adv_187",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5 × 6 = ?",
+        "options": [
+          "31",
+          "35",
+          "29",
+          "30"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "5×6＝30",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_279_adv_188",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6 × 7 = ?",
+        "options": [
+          "42",
+          "43",
+          "41",
+          "48"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "6×7＝42",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_280_adv_189",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】7 × 8 = ?",
+        "options": [
+          "56",
+          "63",
+          "57",
+          "55"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "7×8＝56",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_281_adv_190",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】8 × 2 = ?",
+        "options": [
+          "15",
+          "24",
+          "16",
+          "17"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "8×2＝16",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_282_adv_191",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】9 × 3 = ?",
+        "options": [
+          "28",
+          "26",
+          "36",
+          "27"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "9×3＝27",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_283_adv_192",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】10 × 4 = ?",
+        "options": [
+          "50",
+          "41",
+          "40",
+          "39"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "10×4＝40",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_284_adv_193",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2 × 5 = ?",
+        "options": [
+          "10",
+          "11",
+          "9",
+          "12"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "2×5＝10",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_285_adv_194",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3 × 6 = ?",
+        "options": [
+          "18",
+          "19",
+          "21",
+          "17"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "3×6＝18",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_286_adv_195",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4 × 7 = ?",
+        "options": [
+          "29",
+          "32",
+          "28",
+          "27"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "4×7＝28",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_287_adv_196",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5 × 8 = ?",
+        "options": [
+          "41",
+          "39",
+          "40",
+          "45"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "5×8＝40",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_288_adv_197",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6 × 2 = ?",
+        "options": [
+          "18",
+          "11",
+          "13",
+          "12"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "6×2＝12",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_289_adv_198",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】7 × 3 = ?",
+        "options": [
+          "22",
+          "21",
+          "20",
+          "28"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "7×3＝21",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_290_adv_199",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】8 × 4 = ?",
+        "options": [
+          "40",
+          "32",
+          "33",
+          "31"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "8×4＝32",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_291_adv_200",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】9 × 5 = ?",
+        "options": [
+          "46",
+          "45",
+          "44",
+          "54"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "9×5＝45",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_292_adv_201",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】10 × 6 = ?",
+        "options": [
+          "61",
+          "60",
+          "59",
+          "70"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "10×6＝60",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_293_adv_202",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2 × 7 = ?",
+        "options": [
+          "15",
+          "14",
+          "16",
+          "13"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "2×7＝14",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_294_adv_203",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3 × 8 = ?",
+        "options": [
+          "25",
+          "24",
+          "27",
+          "23"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "3×8＝24",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_295_adv_204",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4 × 2 = ?",
+        "options": [
+          "7",
+          "12",
+          "9",
+          "8"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "4×2＝8",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_296_adv_205",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5 × 3 = ?",
+        "options": [
+          "14",
+          "15",
+          "16",
+          "20"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "5×3＝15",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_297_adv_206",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6 × 4 = ?",
+        "options": [
+          "24",
+          "23",
+          "25",
+          "30"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "6×4＝24",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_298_adv_207",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】7 × 5 = ?",
+        "options": [
+          "35",
+          "34",
+          "42",
+          "36"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "7×5＝35",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_299_adv_208",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】8 × 6 = ?",
+        "options": [
+          "56",
+          "48",
+          "49",
+          "47"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "8×6＝48",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_300_adv_209",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】9 × 7 = ?",
+        "options": [
+          "63",
+          "72",
+          "64",
+          "62"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "9×7＝63",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_001_inflated_210_adv_210",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2と3の最大公約数は？ (類似問題1)",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "1"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "2と3の最大公約数は1",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_002_inflated_211_adv_211",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2と3の最小公倍数は？ (類似問題1)",
+        "options": [
+          "8",
+          "9",
+          "6",
+          "12"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2と3の最小公倍数は6",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_003_inflated_212_adv_212",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2と4の最大公約数は？ (類似問題1)",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "2と4の最大公約数は2",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_004_inflated_213_adv_213",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2と4の最小公倍数は？ (類似問題1)",
+        "options": [
+          "6",
+          "4",
+          "8"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "2と4の最小公倍数は4",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_005_inflated_214_adv_214",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3と4の最大公約数は？ (類似問題1)",
+        "options": [
+          "1",
+          "3",
+          "2",
+          "4"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "3と4の最大公約数は1",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_006_inflated_215_adv_215",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3と4の最小公倍数は？ (類似問題1)",
+        "options": [
+          "16",
+          "15",
+          "12",
+          "24"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "3と4の最小公倍数は12",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_007_inflated_216_adv_216",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4と6の最大公約数は？ (類似問題1)",
+        "options": [
+          "3",
+          "5",
+          "4",
+          "2"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "4と6の最大公約数は2",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_008_inflated_217_adv_217",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4と6の最小公倍数は？ (類似問題1)",
+        "options": [
+          "24",
+          "12",
+          "16",
+          "18"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "4と6の最小公倍数は12",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_009_inflated_218_adv_218",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6と9の最大公約数は？ (類似問題1)",
+        "options": [
+          "4",
+          "5",
+          "3",
+          "9"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "6と9の最大公約数は3",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_010_inflated_219_adv_219",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6と9の最小公倍数は？ (類似問題1)",
+        "options": [
+          "36",
+          "18",
+          "27",
+          "24"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "6と9の最小公倍数は18",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_011_inflated_220_adv_220",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5と10の最大公約数は？ (類似問題1)",
+        "options": [
+          "6",
+          "5",
+          "8",
+          "10"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "5と10の最大公約数は5",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_012_inflated_221_adv_221",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5と10の最小公倍数は？ (類似問題1)",
+        "options": [
+          "15",
+          "10",
+          "20"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "5と10の最小公倍数は10",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_013_inflated_222_adv_222",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3と6の最大公約数は？ (類似問題1)",
+        "options": [
+          "5",
+          "3",
+          "4",
+          "6"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "3と6の最大公約数は3",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_014_inflated_223_adv_223",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3と6の最小公倍数は？ (類似問題1)",
+        "options": [
+          "9",
+          "6",
+          "12"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "3と6の最小公倍数は6",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_015_inflated_224_adv_224",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4と8の最大公約数は？ (類似問題1)",
+        "options": [
+          "6",
+          "5",
+          "8",
+          "4"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "4と8の最大公約数は4",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_016_inflated_225_adv_225",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4と8の最小公倍数は？ (類似問題1)",
+        "options": [
+          "8",
+          "12",
+          "16"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "4と8の最小公倍数は8",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_017_inflated_226_adv_226",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6と8の最大公約数は？ (類似問題1)",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "6と8の最大公約数は2",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_018_inflated_227_adv_227",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6と8の最小公倍数は？ (類似問題1)",
+        "options": [
+          "24",
+          "32",
+          "48",
+          "30"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "6と8の最小公倍数は24",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_019_inflated_228_adv_228",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2と6の最大公約数は？ (類似問題1)",
+        "options": [
+          "4",
+          "5",
+          "3",
+          "2"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "2と6の最大公約数は2",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_020_inflated_229_adv_229",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2と6の最小公倍数は？ (類似問題1)",
+        "options": [
+          "8",
+          "12",
+          "6"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2と6の最小公倍数は6",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_021_inflated_230_adv_230",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3と9の最大公約数は？ (類似問題1)",
+        "options": [
+          "5",
+          "3",
+          "4",
+          "9"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "3と9の最大公約数は3",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_022_inflated_231_adv_231",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3と9の最小公倍数は？ (類似問題1)",
+        "options": [
+          "12",
+          "18",
+          "9"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "3と9の最小公倍数は9",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_023_inflated_232_adv_232",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5と15の最大公約数は？ (類似問題1)",
+        "options": [
+          "5",
+          "8",
+          "15",
+          "6"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "5と15の最大公約数は5",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_024_inflated_233_adv_233",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5と15の最小公倍数は？ (類似問題1)",
+        "options": [
+          "30",
+          "20",
+          "15"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "5と15の最小公倍数は15",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_025_inflated_234_adv_234",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4と12の最大公約数は？ (類似問題1)",
+        "options": [
+          "6",
+          "5",
+          "4",
+          "12"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "4と12の最大公約数は4",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_026_inflated_235_adv_235",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4と12の最小公倍数は？ (類似問題1)",
+        "options": [
+          "24",
+          "16",
+          "12"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "4と12の最小公倍数は12",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_027_inflated_236_adv_236",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6と12の最大公約数は？ (類似問題1)",
+        "options": [
+          "8",
+          "9",
+          "12",
+          "6"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "6と12の最大公約数は6",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_028_inflated_237_adv_237",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6と12の最小公倍数は？ (類似問題1)",
+        "options": [
+          "12",
+          "18",
+          "24"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "6と12の最小公倍数は12",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_029_inflated_238_adv_238",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】8と12の最大公約数は？ (類似問題1)",
+        "options": [
+          "5",
+          "4",
+          "7",
+          "6"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "8と12の最大公約数は4",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_030_inflated_239_adv_239",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】8と12の最小公倍数は？ (類似問題1)",
+        "options": [
+          "48",
+          "36",
+          "32",
+          "24"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "8と12の最小公倍数は24",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_031_inflated_240_adv_240",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】10と15の最大公約数は？ (類似問題1)",
+        "options": [
+          "7",
+          "6",
+          "8",
+          "5"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "10と15の最大公約数は5",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_032_inflated_241_adv_241",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】10と15の最小公倍数は？ (類似問題1)",
+        "options": [
+          "30",
+          "40",
+          "60",
+          "45"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "10と15の最小公倍数は30",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_033_inflated_242_adv_242",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】9と12の最大公約数は？ (類似問題1)",
+        "options": [
+          "3",
+          "6",
+          "5",
+          "4"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "9と12の最大公約数は3",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_034_inflated_243_adv_243",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】9と12の最小公倍数は？ (類似問題1)",
+        "options": [
+          "48",
+          "45",
+          "72",
+          "36"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "9と12の最小公倍数は36",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_035_inflated_244_adv_244",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6と10の最大公約数は？ (類似問題1)",
+        "options": [
+          "4",
+          "3",
+          "2",
+          "5"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "6と10の最大公約数は2",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_036_inflated_245_adv_245",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6と10の最小公倍数は？ (類似問題1)",
+        "options": [
+          "40",
+          "30",
+          "36",
+          "60"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "6と10の最小公倍数は30",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_037_inflated_246_adv_246",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4と10の最大公約数は？ (類似問題1)",
+        "options": [
+          "4",
+          "3",
+          "10",
+          "2"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "4と10の最大公約数は2",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_038_inflated_247_adv_247",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4と10の最小公倍数は？ (類似問題1)",
+        "options": [
+          "40",
+          "24",
+          "30",
+          "20"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "4と10の最小公倍数は20",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_039_inflated_248_adv_248",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3と15の最大公約数は？ (類似問題1)",
+        "options": [
+          "6",
+          "5",
+          "3",
+          "4"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "3と15の最大公約数は3",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_040_inflated_249_adv_249",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3と15の最小公倍数は？ (類似問題1)",
+        "options": [
+          "30",
+          "15",
+          "18"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "3と15の最小公倍数は15",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_041_inflated_250_adv_250",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】1/2 + 1/3 = ? (類似問題1)",
+        "options": [
+          "1/6",
+          "1",
+          "5/6",
+          "1/6"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "1/2+1/3=5/6",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_042_inflated_251_adv_251",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】1/3 + 1/4 = ? (類似問題1)",
+        "options": [
+          "1/12",
+          "1/12",
+          "7/12",
+          "3/4"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "1/3+1/4=7/12",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_043_inflated_252_adv_252",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2/3 + 1/6 = ? (類似問題1)",
+        "options": [
+          "5/6",
+          "1/9",
+          "1",
+          "1/2"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "2/3+1/6=5/6",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_044_inflated_253_adv_253",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3/4 + 1/8 = ? (類似問題1)",
+        "options": [
+          "7/8",
+          "5/8",
+          "3/32",
+          "25/24"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "3/4+1/8=7/8",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_045_inflated_254_adv_254",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】1/2 + 2/5 = ? (類似問題1)",
+        "options": [
+          "1/5",
+          "16/15",
+          "1/10",
+          "9/10"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "1/2+2/5=9/10",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_046_inflated_255_adv_255",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3/5 + 1/10 = ? (類似問題1)",
+        "options": [
+          "7/10",
+          "13/15",
+          "1/2",
+          "3/50"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "3/5+1/10=7/10",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_047_inflated_256_adv_256",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5/6 + 1/3 = ? (類似問題1)",
+        "options": [
+          "5/18",
+          "1/2",
+          "4/3",
+          "7/6"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "5/6+1/3=7/6",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_048_inflated_257_adv_257",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2/7 + 3/7 = ? (類似問題1)",
+        "options": [
+          "6/49",
+          "5/7",
+          "37/42",
+          "1/7"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "2/7+3/7=5/7",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_049_inflated_258_adv_258",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】1/4 + 3/8 = ? (類似問題1)",
+        "options": [
+          "19/24",
+          "1/8",
+          "5/8",
+          "3/32"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "1/4+3/8=5/8",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_050_inflated_259_adv_259",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4/9 + 1/3 = ? (類似問題1)",
+        "options": [
+          "7/9",
+          "17/18",
+          "4/27",
+          "1/9"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "4/9+1/3=7/9",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_051_inflated_260_adv_260",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】1/6 + 1/4 = ? (類似問題1)",
+        "options": [
+          "7/12",
+          "1/24",
+          "1/12",
+          "5/12"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "1/6+1/4=5/12",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_052_inflated_261_adv_261",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5/8 + 1/4 = ? (類似問題1)",
+        "options": [
+          "5/32",
+          "7/8",
+          "3/8",
+          "25/24"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "5/8+1/4=7/8",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_053_inflated_262_adv_262",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2/5 + 3/10 = ? (類似問題1)",
+        "options": [
+          "7/10",
+          "3/25",
+          "13/15",
+          "1/10"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "2/5+3/10=7/10",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_054_inflated_263_adv_263",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】7/12 + 1/6 = ? (類似問題1)",
+        "options": [
+          "11/12",
+          "7/72",
+          "5/12",
+          "3/4"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "7/12+1/6=3/4",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_055_inflated_264_adv_264",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】1/3 + 2/9 = ? (類似問題1)",
+        "options": [
+          "1/9",
+          "13/18",
+          "2/27",
+          "5/9"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "1/3+2/9=5/9",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_056_inflated_265_adv_265",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5/9 + 2/3 = ? (類似問題1)",
+        "options": [
+          "1/9",
+          "25/18",
+          "10/27",
+          "11/9"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "5/9+2/3=11/9",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_147_inflated_266_adv_266",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】素数はどれ？ (類似問題1)",
+        "options": [
+          "7",
+          "6",
+          "9",
+          "4"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "1と自分だけで割れる＝素数",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_148_inflated_267_adv_267",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】1から10の偶数の和は？ (類似問題1)",
+        "options": [
+          "35",
+          "30",
+          "25",
+          "20"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "2+4+6+8+10＝30",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_149_inflated_268_adv_268",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】12の約数の個数は？ (類似問題1)",
+        "options": [
+          "6個",
+          "8個",
+          "5個",
+          "4個"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "1,2,3,4,6,12の6個",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_150_inflated_269_adv_269",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】100以下の3の倍数は何個？ (類似問題1)",
+        "options": [
+          "25個",
+          "33個",
+          "34個",
+          "30個"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "100÷3=33あまり1→33個",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_151_inflated_270_adv_270",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】18と24の最大公約数は？ (類似問題1)",
+        "options": [
+          "12",
+          "6",
+          "9",
+          "3"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "18=2×3²,24=2³×3,GCD=6",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_152_inflated_271_adv_271",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4と6と8の最小公倍数は？ (類似問題1)",
+        "options": [
+          "16",
+          "48",
+          "12",
+          "24"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "LCM(4,6,8)=24",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_153_inflated_272_adv_272",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】0.001を1000倍すると？ (類似問題1)",
+        "options": [
+          "10",
+          "0.01",
+          "0.1",
+          "1"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "0.001×1000＝1",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_154_inflated_273_adv_273",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3.14×100は？ (類似問題1)",
+        "options": [
+          "3140",
+          "31.4",
+          "3.14",
+          "314"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "小数点を右に2つ＝314",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_155_inflated_274_adv_274",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】1/4は何%？ (類似問題1)",
+        "options": [
+          "25%",
+          "50%",
+          "40%",
+          "20%"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "1÷4×100＝25%",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_156_inflated_275_adv_275",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2/5は何%？ (類似問題1)",
+        "options": [
+          "50%",
+          "20%",
+          "25%",
+          "40%"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "2÷5×100＝40%",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_157_inflated_276_adv_276",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3/4は何%？ (類似問題1)",
+        "options": [
+          "70%",
+          "75%",
+          "80%",
+          "60%"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "3÷4×100＝75%",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_158_inflated_277_adv_277",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】0.6は何%？ (類似問題1)",
+        "options": [
+          "6%",
+          "600%",
+          "60%",
+          "0.6%"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "0.6×100＝60%",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_159_inflated_278_adv_278",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】15%は何割何分？ (類似問題1)",
+        "options": [
+          "1割5分",
+          "0.15割",
+          "1割5厘",
+          "15割"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "10%=1割,5%=5分→1割5分",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_160_inflated_279_adv_279",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2の10乗は？ (類似問題1)",
+        "options": [
+          "2048",
+          "512",
+          "1024",
+          "256"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2の10乗＝1024",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_161_inflated_280_adv_280",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】(-5)×(-4)は？(正負入門) (類似問題1)",
+        "options": [
+          "-20",
+          "20",
+          "-9",
+          "9"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "負×負＝正なので20",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_162_inflated_281_adv_281",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】1.2 + 0.8 = ? (類似問題1)",
+        "options": [
+          "0.4",
+          "0.96",
+          "2.0",
+          "2.1"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "1.2+0.8=2.0",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_163_inflated_282_adv_282",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】2.5 + 1.7 = ? (類似問題1)",
+        "options": [
+          "4.25",
+          "0.8",
+          "4.3",
+          "4.2"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "2.5+1.7=4.2",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_164_inflated_283_adv_283",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】0.4 + 0.6 = ? (類似問題1)",
+        "options": [
+          "1.1",
+          "0.24",
+          "1.0",
+          "0.2"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "0.4+0.6=1.0",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_165_inflated_284_adv_284",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3.6 + 1.4 = ? (類似問題1)",
+        "options": [
+          "5.0",
+          "5.1",
+          "5.04",
+          "2.2"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "3.6+1.4=5.0",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_166_inflated_285_adv_285",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5.0 + 2.3 = ? (類似問題1)",
+        "options": [
+          "7.4",
+          "2.7",
+          "11.5",
+          "7.3"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "5.0+2.3=7.3",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_167_inflated_286_adv_286",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】0.75 + 0.25 = ? (類似問題1)",
+        "options": [
+          "0.19",
+          "1.0",
+          "1.1",
+          "0.5"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "0.75+0.25=1.0",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_168_inflated_287_adv_287",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】1.5 + 2.5 = ? (類似問題1)",
+        "options": [
+          "1.0",
+          "4.1",
+          "3.75",
+          "4.0"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "1.5+2.5=4.0",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_169_inflated_288_adv_288",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4.2 + 1.8 = ? (類似問題1)",
+        "options": [
+          "2.4",
+          "6.1",
+          "7.56",
+          "6.0"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "4.2+1.8=6.0",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_170_inflated_289_adv_289",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】0.9 + 0.1 = ? (類似問題1)",
+        "options": [
+          "0.8",
+          "0.09",
+          "1.1",
+          "1.0"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "0.9+0.1=1.0",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_171_inflated_290_adv_290",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6.3 + 2.7 = ? (類似問題1)",
+        "options": [
+          "17.01",
+          "9.0",
+          "3.6",
+          "9.1"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "6.3+2.7=9.0",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_172_inflated_291_adv_291",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3.5 - 1.2 = ? (類似問題1)",
+        "options": [
+          "2.3",
+          "4.7",
+          "4.2",
+          "2.8"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "3.5-1.2=2.3",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_173_inflated_292_adv_292",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5.0 - 2.3 = ? (類似問題1)",
+        "options": [
+          "11.5",
+          "7.3",
+          "2.7",
+          "3.2"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "5.0-2.3=2.7",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_174_inflated_293_adv_293",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4.8 - 1.8 = ? (類似問題1)",
+        "options": [
+          "3.0",
+          "8.64",
+          "3.5",
+          "6.6"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "4.8-1.8=3.0",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_175_inflated_294_adv_294",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】7.2 - 3.6 = ? (類似問題1)",
+        "options": [
+          "3.6",
+          "10.8",
+          "25.92",
+          "4.1"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "7.2-3.6=3.6",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_176_inflated_295_adv_295",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】9.0 - 4.5 = ? (類似問題1)",
+        "options": [
+          "5.0",
+          "40.5",
+          "4.5",
+          "13.5"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "9.0-4.5=4.5",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_177_inflated_296_adv_296",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】3 × 3 = ? (類似問題1)",
+        "options": [
+          "9",
+          "8",
+          "10",
+          "12"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "3×3＝9",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_178_inflated_297_adv_297",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】4 × 4 = ? (類似問題1)",
+        "options": [
+          "16",
+          "15",
+          "17",
+          "20"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "4×4＝16",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_179_inflated_298_adv_298",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】5 × 5 = ? (類似問題1)",
+        "options": [
+          "26",
+          "24",
+          "30",
+          "25"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "5×5＝25",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_m_180_inflated_299_adv_299",
+        "term": "advanced",
+        "type": "math",
+        "question": "【応用】6 × 6 = ? (類似問題1)",
+        "options": [
+          "36",
+          "37",
+          "35",
+          "42"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "6×6＝36",
+        "isAdvanced": true
       }
     ]
   },
@@ -40509,6 +49487,4506 @@ export const generatedSubjects = [
         "correctOptionIndex": 3,
         "explanation": "短いふりこ＝周期が短い",
         "isAdvanced": false
+      },
+      {
+        "id": "gen_s_001_adv_0",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】種子が発芽するために必要なものは？（3つ）",
+        "options": [
+          "水・肥料・空気",
+          "光・空気・温度",
+          "水・光・温度",
+          "水・空気・適切な温度"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "発芽に必要なのは水・空気・適切な温度の3つ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_002_adv_1",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】発芽に光は必要か？",
+        "options": [
+          "少しだけ必要",
+          "必要",
+          "あると早く発芽する",
+          "必要ない"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "発芽に光は必要ありません",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_003_adv_2",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】植物の成長に必要なものは何か？",
+        "options": [
+          "水だけ",
+          "温度だけ",
+          "空気だけ",
+          "日光と肥料（と水）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "成長には日光と肥料が特に必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_004_adv_3",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】インゲンマメの種の中にある栄養分は何か？",
+        "options": [
+          "タンパク質",
+          "ビタミン",
+          "脂肪",
+          "デンプン"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "種子の中にはデンプンが蓄えられています",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_005_adv_4",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】種子のデンプンをヨウ素液で調べると何色になる？",
+        "options": [
+          "赤色",
+          "黄色",
+          "青紫色",
+          "緑色"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "デンプン＋ヨウ素液＝青紫色",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_006_adv_5",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】発芽したあと最初に出てくる葉を何という？",
+        "options": [
+          "本葉",
+          "花びら",
+          "子葉",
+          "がく"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "最初に出る葉＝子葉",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_007_adv_6",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】植物が成長するためにとくに重要な肥料の成分は？",
+        "options": [
+          "カルシウム・マグネシウム・ナトリウム",
+          "ちっそ・リン酸・カリ",
+          "炭素・水素・酸素",
+          "鉄・亜鉛・銅"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "植物の三大肥料成分はN・P・K",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_008_adv_7",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】日光が当たる場所で育てた植物と暗い場所で育てた植物を比べると？",
+        "options": [
+          "日光が当たる方がよく育つ",
+          "どちらも同じ速さ",
+          "暗い方がよく育つ",
+          "変わらない"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "光合成のため日光が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_009_adv_8",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】肥料を与えた植物と与えない植物を比べると？",
+        "options": [
+          "変わらない",
+          "肥料を与えた方がよく育つ",
+          "どちらも同じ",
+          "与えない方がよい"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "肥料が成長を助ける",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_010_adv_9",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】発芽の実験で、条件を一つだけ変える理由は？",
+        "options": [
+          "条件の違いによる差を調べるため",
+          "植物を傷めないため",
+          "色の変化を見るため",
+          "時間を節約するため"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "一つの条件の影響を調べるため",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_011_adv_10",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】アサガオの種を水に浸すとどうなる？",
+        "options": [
+          "発芽しなくなる",
+          "種がふくらみやすくなる",
+          "色が変わる",
+          "種が腐る"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "水を吸って発芽の準備が整う",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_012_adv_11",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】トウモロコシの子葉は何枚か？",
+        "options": [
+          "4枚",
+          "3枚",
+          "2枚",
+          "1枚"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "単子葉植物の子葉は1枚",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_013_adv_12",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】インゲンマメの子葉は何枚か？",
+        "options": [
+          "3枚",
+          "1枚",
+          "2枚",
+          "4枚"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "双子葉植物の子葉は2枚",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_014_adv_13",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】種子が発芽するときのエネルギーはどこから来る？",
+        "options": [
+          "種子の中の栄養分（デンプン）",
+          "空気中",
+          "水",
+          "土の中"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "発芽中は種子の栄養分を使う",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_015_adv_14",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】植物が大きく成長するには何が必要か？（発芽後）",
+        "options": [
+          "温度だけ",
+          "空気だけ",
+          "水だけ",
+          "日光・水・肥料"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "成長には日光・水・肥料がすべて必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_016_adv_15",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】メダカの雄と雌の見分け方（背びれ）",
+        "options": [
+          "雄は背びれに切れ込みがある",
+          "雌に切れ込みがある",
+          "どちらも同じ",
+          "色で見分ける"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "背びれの切れ込みで雄を見分ける",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_017_adv_16",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】メダカの雌の腹びれの特徴は？",
+        "options": [
+          "雌の方が大きい",
+          "同じ大きさ",
+          "どちらもない",
+          "雄の方が大きい"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "雌の腹びれは大きく丸い",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_018_adv_17",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】メダカの卵はどこに産まれる？",
+        "options": [
+          "水面上",
+          "石の下",
+          "水草などに産み付ける",
+          "砂の中"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "水草などに産み付けます",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_019_adv_18",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】メダカの卵を育てるとき何を使う？",
+        "options": [
+          "ビーカー",
+          "電子レンジ",
+          "顕微鏡（または虫眼鏡）",
+          "試験管"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "小さな卵を観察するには顕微鏡を使う",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_020_adv_19",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】受精卵の変化として正しいのは？",
+        "options": [
+          "細胞分裂で体が作られる",
+          "消える",
+          "小さくなる",
+          "ずっと変わらない"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "受精後細胞分裂しながら成長する",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_021_adv_20",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】卵の中で心臓の動きが見えるのはいつ？",
+        "options": [
+          "受精後数日以内",
+          "生まれる直前",
+          "生まれた後",
+          "受精直後"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "受精後2〜3日で心臓の拍動が見える",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_022_adv_21",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】メダカが卵からかえることを何という？",
+        "options": [
+          "ふ化",
+          "脱皮",
+          "発芽",
+          "誕生"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "卵から出てくること＝ふ化",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_023_adv_22",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】メダカの食べ物は何か？",
+        "options": [
+          "ミジンコや小さな生物",
+          "草",
+          "土",
+          "石"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "水中の小さな生物を食べる",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_024_adv_23",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】人の赤ちゃんが育つ場所は？",
+        "options": [
+          "腸",
+          "胃",
+          "子宮",
+          "肺"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "母親の子宮の中で育つ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_025_adv_24",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】胎児が母体から栄養を受け取るものは？",
+        "options": [
+          "耳",
+          "鼻",
+          "口",
+          "へそのお（臍帯）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "へそのおで栄養と酸素を受け取る",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_026_adv_25",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】人の赤ちゃんはおよそ何ヶ月で生まれる？",
+        "options": [
+          "約20ヶ月",
+          "約2ヶ月",
+          "約5ヶ月",
+          "約10ヶ月（約38週）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "母親のお腹の中でおよそ38週過ごす",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_027_adv_26",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】胎児を包んでいる液体は何か？",
+        "options": [
+          "消化液",
+          "リンパ液",
+          "血液",
+          "羊水"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "胎児は羊水に包まれて育つ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_028_adv_27",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】メダカの雄が持つ特徴（しりびれ）は？",
+        "options": [
+          "しりびれが小さい",
+          "丸い形",
+          "しりびれが大きく平行四辺形に近い",
+          "しりびれがない"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "雄のしりびれは平行四辺形に近い形",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_029_adv_28",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】受精とはどういうことか？",
+        "options": [
+          "分裂すること",
+          "精子と卵が合体すること",
+          "卵だけで育つこと",
+          "死ぬこと"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "精子と卵が合体＝受精",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_030_adv_29",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】水中に産まれる卵の種類（メダカ・カエル・魚）の受精は？",
+        "options": [
+          "体外受精",
+          "分裂生殖",
+          "体内受精",
+          "無性生殖"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "水中で精子と卵が出会って受精",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_101_adv_30",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】食塩が水に溶けた液を何という？",
+        "options": [
+          "食塩液",
+          "食塩水（水溶液）",
+          "混合物",
+          "塩液"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "食塩が均一に溶けた水＝水溶液",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_102_adv_31",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が水に溶けても全体の重さはどうなる？",
+        "options": [
+          "増える",
+          "変わらない",
+          "消える",
+          "減る"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "溶けても質量は保存される",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_103_adv_32",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】水溶液を蒸発させると？",
+        "options": [
+          "色が変わる",
+          "水だけ残る",
+          "何も残らない",
+          "溶けていた物が出てくる"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "水を蒸発させると溶質が析出する",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_104_adv_33",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】食塩を水に溶かす量を増やすにはどうする？",
+        "options": [
+          "かき混ぜない",
+          "水の量を増やす・温度を上げる",
+          "冷やす",
+          "水を減らす"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "溶解度は温度と水の量に依存する",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_105_adv_34",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ミョウバンを水に溶かし冷やすと？",
+        "options": [
+          "結晶が出てくる",
+          "色が消える",
+          "蒸発する",
+          "溶けたまま"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "再結晶で結晶が析出する",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_106_adv_35",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】水100gに食塩を限界まで溶かした量（約）は？",
+        "options": [
+          "約100g",
+          "約36g",
+          "約10g",
+          "約200g"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "20℃での食塩の溶解度は約36g/100g水",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_107_adv_36",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】温度を上げると溶ける量が大きく増えるのはどちら？",
+        "options": [
+          "食塩",
+          "どちらも増えない",
+          "砂糖と同じ",
+          "ミョウバン"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "ミョウバンは温度で溶解度が大きく変わる",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_108_adv_37",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】水溶液の特徴として正しいのは？",
+        "options": [
+          "二層に分かれる",
+          "白く濁っている",
+          "透明で均一に混ざっている",
+          "底に沈殿がある"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "水溶液は透明・均一",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_109_adv_38",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ろ過で取り出せるものは何か？",
+        "options": [
+          "水に溶けていない粒子",
+          "水に溶けているもの",
+          "水蒸気",
+          "気体"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "ろ過では不溶性の粒子を分離できる",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_110_adv_39",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】水に溶けているものをろ紙で取り出せるか？",
+        "options": [
+          "一部だけ取り出せる",
+          "取り出せる",
+          "温度による",
+          "取り出せない"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "水溶液はろ紙を通り抜けてしまう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_111_adv_40",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】光合成に必要なものは？",
+        "options": [
+          "光・水・二酸化炭素",
+          "土・水・風",
+          "酸素・窒素・光",
+          "水・塩・光"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "光合成:CO₂+H₂O→糖+O₂",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_112_adv_41",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】植物が酸素を出すはたらきは？",
+        "options": [
+          "発芽",
+          "蒸散",
+          "呼吸",
+          "光合成"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "光合成で酸素が放出される",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_113_adv_42",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】植物が葉から水を出すはたらきは？",
+        "options": [
+          "吸収",
+          "光合成",
+          "呼吸",
+          "蒸散"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "葉の気孔から水蒸気が出る＝蒸散",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_119_adv_43",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】種子植物の2つの分類は？",
+        "options": [
+          "草本と木本",
+          "被子植物と裸子植物",
+          "水草と陸草",
+          "単子葉と双子葉のみ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "種子植物：被子植物（子房あり）と裸子植物",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_121_adv_44",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】発芽に温度が関係することを確かめる実験で対照実験はどれ？",
+        "options": [
+          "光だけ変える",
+          "水だけ変える",
+          "同じ条件で温度だけ変えた実験",
+          "全条件を変える"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "温度の影響だけを調べるため他は同条件",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_125_adv_45",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】食塩水を顕微鏡で見るとどう見える？",
+        "options": [
+          "食塩の粒が見える",
+          "透明で何も見えない",
+          "色がついている",
+          "気泡が見える"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "溶けた食塩は粒として見えない",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_129_adv_46",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】二酸化炭素を多く含んでいるのは？",
+        "options": [
+          "はいた息（呼気）",
+          "空気全体",
+          "酸素ボンベ",
+          "吸った息"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "呼気は吸気より二酸化炭素が多い",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_131_adv_47",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気の約80%を占める気体は？",
+        "options": [
+          "窒素",
+          "酸素",
+          "二酸化炭素",
+          "水素"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "空気の約78%は窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_132_adv_48",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気の約21%を占める気体は？",
+        "options": [
+          "窒素",
+          "二酸化炭素",
+          "酸素",
+          "アルゴン"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "空気の約21%は酸素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_136_adv_49",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】植物の根の主なはたらきは？",
+        "options": [
+          "蒸散",
+          "受粉",
+          "水と肥料を吸収・体を支える",
+          "光合成"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "根は水・肥料の吸収と体を固定する",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_139_adv_50",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】水が100℃で沸騰するときの変化は？",
+        "options": [
+          "固体→気体",
+          "液体→気体",
+          "気体→液体",
+          "固体→液体"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "沸騰で液体の水が水蒸気に変わる",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_141_adv_51",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？",
+        "options": [
+          "酸素",
+          "窒素",
+          "二酸化炭素",
+          "水素"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_144_adv_52",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？",
+        "options": [
+          "金・銀",
+          "鉄・ニッケル・コバルト",
+          "銅・アルミ",
+          "プラスチック"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_147_adv_53",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？",
+        "options": [
+          "酸素",
+          "二酸化炭素",
+          "水素",
+          "窒素"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_150_adv_54",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？",
+        "options": [
+          "海（水）",
+          "陸地",
+          "空気",
+          "岩石"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_153_adv_55",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？",
+        "options": [
+          "二酸化炭素",
+          "水",
+          "肥料",
+          "新しい空気（酸素）の供給"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_156_adv_56",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？",
+        "options": [
+          "二酸化炭素",
+          "酸素",
+          "窒素",
+          "水素"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_159_adv_57",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？",
+        "options": [
+          "銅・アルミ",
+          "鉄・ニッケル・コバルト",
+          "プラスチック",
+          "金・銀"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_162_adv_58",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？",
+        "options": [
+          "酸素",
+          "二酸化炭素",
+          "窒素",
+          "水素"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_165_adv_59",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？",
+        "options": [
+          "海（水）",
+          "陸地",
+          "空気",
+          "岩石"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_168_adv_60",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？",
+        "options": [
+          "二酸化炭素",
+          "肥料",
+          "水",
+          "新しい空気（酸素）の供給"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_171_adv_61",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？",
+        "options": [
+          "窒素",
+          "水素",
+          "二酸化炭素",
+          "酸素"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_174_adv_62",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？",
+        "options": [
+          "銅・アルミ",
+          "金・銀",
+          "プラスチック",
+          "鉄・ニッケル・コバルト"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_177_adv_63",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？",
+        "options": [
+          "水素",
+          "二酸化炭素",
+          "窒素",
+          "酸素"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_180_adv_64",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？",
+        "options": [
+          "岩石",
+          "海（水）",
+          "空気",
+          "陸地"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_183_adv_65",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？",
+        "options": [
+          "二酸化炭素",
+          "水",
+          "新しい空気（酸素）の供給",
+          "肥料"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_186_adv_66",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？",
+        "options": [
+          "水素",
+          "酸素",
+          "二酸化炭素",
+          "窒素"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_189_adv_67",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？",
+        "options": [
+          "金・銀",
+          "プラスチック",
+          "銅・アルミ",
+          "鉄・ニッケル・コバルト"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_192_adv_68",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？",
+        "options": [
+          "窒素",
+          "水素",
+          "酸素",
+          "二酸化炭素"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_195_adv_69",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？",
+        "options": [
+          "空気",
+          "岩石",
+          "海（水）",
+          "陸地"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_198_adv_70",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？",
+        "options": [
+          "二酸化炭素",
+          "水",
+          "肥料",
+          "新しい空気（酸素）の供給"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_201_adv_71",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？",
+        "options": [
+          "二酸化炭素",
+          "窒素",
+          "水素",
+          "酸素"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_204_adv_72",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？",
+        "options": [
+          "金・銀",
+          "銅・アルミ",
+          "プラスチック",
+          "鉄・ニッケル・コバルト"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_207_adv_73",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？",
+        "options": [
+          "水素",
+          "酸素",
+          "窒素",
+          "二酸化炭素"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_210_adv_74",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？",
+        "options": [
+          "岩石",
+          "空気",
+          "陸地",
+          "海（水）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_213_adv_75",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？",
+        "options": [
+          "新しい空気（酸素）の供給",
+          "二酸化炭素",
+          "肥料",
+          "水"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_216_adv_76",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？",
+        "options": [
+          "水素",
+          "酸素",
+          "窒素",
+          "二酸化炭素"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_219_adv_77",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？",
+        "options": [
+          "銅・アルミ",
+          "金・銀",
+          "プラスチック",
+          "鉄・ニッケル・コバルト"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_222_adv_78",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？",
+        "options": [
+          "二酸化炭素",
+          "酸素",
+          "水素",
+          "窒素"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_225_adv_79",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？",
+        "options": [
+          "空気",
+          "海（水）",
+          "岩石",
+          "陸地"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_228_adv_80",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？",
+        "options": [
+          "新しい空気（酸素）の供給",
+          "肥料",
+          "二酸化炭素",
+          "水"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_231_adv_81",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？",
+        "options": [
+          "酸素",
+          "二酸化炭素",
+          "水素",
+          "窒素"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_234_adv_82",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？",
+        "options": [
+          "金・銀",
+          "銅・アルミ",
+          "プラスチック",
+          "鉄・ニッケル・コバルト"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_237_adv_83",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？",
+        "options": [
+          "二酸化炭素",
+          "窒素",
+          "水素",
+          "酸素"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_240_adv_84",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？",
+        "options": [
+          "海（水）",
+          "岩石",
+          "陸地",
+          "空気"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_243_adv_85",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？",
+        "options": [
+          "水",
+          "二酸化炭素",
+          "新しい空気（酸素）の供給",
+          "肥料"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_246_adv_86",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？",
+        "options": [
+          "水素",
+          "酸素",
+          "二酸化炭素",
+          "窒素"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_249_adv_87",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？",
+        "options": [
+          "銅・アルミ",
+          "鉄・ニッケル・コバルト",
+          "プラスチック",
+          "金・銀"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_252_adv_88",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？",
+        "options": [
+          "二酸化炭素",
+          "酸素",
+          "水素",
+          "窒素"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_255_adv_89",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？",
+        "options": [
+          "空気",
+          "陸地",
+          "岩石",
+          "海（水）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_258_adv_90",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？",
+        "options": [
+          "肥料",
+          "二酸化炭素",
+          "水",
+          "新しい空気（酸素）の供給"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_261_adv_91",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？",
+        "options": [
+          "酸素",
+          "窒素",
+          "水素",
+          "二酸化炭素"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_264_adv_92",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？",
+        "options": [
+          "銅・アルミ",
+          "プラスチック",
+          "金・銀",
+          "鉄・ニッケル・コバルト"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_267_adv_93",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？",
+        "options": [
+          "酸素",
+          "水素",
+          "二酸化炭素",
+          "窒素"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_270_adv_94",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？",
+        "options": [
+          "海（水）",
+          "陸地",
+          "岩石",
+          "空気"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_273_adv_95",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？",
+        "options": [
+          "二酸化炭素",
+          "肥料",
+          "水",
+          "新しい空気（酸素）の供給"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_276_adv_96",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？",
+        "options": [
+          "酸素",
+          "二酸化炭素",
+          "窒素",
+          "水素"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_279_adv_97",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？",
+        "options": [
+          "鉄・ニッケル・コバルト",
+          "銅・アルミ",
+          "金・銀",
+          "プラスチック"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_282_adv_98",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？",
+        "options": [
+          "二酸化炭素",
+          "水素",
+          "酸素",
+          "窒素"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_285_adv_99",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？",
+        "options": [
+          "岩石",
+          "陸地",
+          "海（水）",
+          "空気"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_288_adv_100",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？",
+        "options": [
+          "二酸化炭素",
+          "肥料",
+          "新しい空気（酸素）の供給",
+          "水"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_291_adv_101",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？",
+        "options": [
+          "二酸化炭素",
+          "酸素",
+          "水素",
+          "窒素"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_294_adv_102",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？",
+        "options": [
+          "鉄・ニッケル・コバルト",
+          "金・銀",
+          "プラスチック",
+          "銅・アルミ"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_297_adv_103",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？",
+        "options": [
+          "窒素",
+          "酸素",
+          "二酸化炭素",
+          "水素"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_300_adv_104",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？",
+        "options": [
+          "海（水）",
+          "空気",
+          "陸地",
+          "岩石"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_001_inflated_105_adv_105",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】種子が発芽するために必要なものは？（3つ） (類似問題1)",
+        "options": [
+          "水・肥料・空気",
+          "光・空気・温度",
+          "水・光・温度",
+          "水・空気・適切な温度"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "発芽に必要なのは水・空気・適切な温度の3つ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_002_inflated_106_adv_106",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】発芽に光は必要か？ (類似問題1)",
+        "options": [
+          "少しだけ必要",
+          "必要",
+          "あると早く発芽する",
+          "必要ない"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "発芽に光は必要ありません",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_003_inflated_107_adv_107",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】植物の成長に必要なものは何か？ (類似問題1)",
+        "options": [
+          "水だけ",
+          "温度だけ",
+          "空気だけ",
+          "日光と肥料（と水）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "成長には日光と肥料が特に必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_004_inflated_108_adv_108",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】インゲンマメの種の中にある栄養分は何か？ (類似問題1)",
+        "options": [
+          "タンパク質",
+          "ビタミン",
+          "脂肪",
+          "デンプン"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "種子の中にはデンプンが蓄えられています",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_005_inflated_109_adv_109",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】種子のデンプンをヨウ素液で調べると何色になる？ (類似問題1)",
+        "options": [
+          "赤色",
+          "黄色",
+          "青紫色",
+          "緑色"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "デンプン＋ヨウ素液＝青紫色",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_006_inflated_110_adv_110",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】発芽したあと最初に出てくる葉を何という？ (類似問題1)",
+        "options": [
+          "本葉",
+          "花びら",
+          "子葉",
+          "がく"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "最初に出る葉＝子葉",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_007_inflated_111_adv_111",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】植物が成長するためにとくに重要な肥料の成分は？ (類似問題1)",
+        "options": [
+          "カルシウム・マグネシウム・ナトリウム",
+          "ちっそ・リン酸・カリ",
+          "炭素・水素・酸素",
+          "鉄・亜鉛・銅"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "植物の三大肥料成分はN・P・K",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_008_inflated_112_adv_112",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】日光が当たる場所で育てた植物と暗い場所で育てた植物を比べると？ (類似問題1)",
+        "options": [
+          "日光が当たる方がよく育つ",
+          "どちらも同じ速さ",
+          "暗い方がよく育つ",
+          "変わらない"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "光合成のため日光が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_009_inflated_113_adv_113",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】肥料を与えた植物と与えない植物を比べると？ (類似問題1)",
+        "options": [
+          "変わらない",
+          "肥料を与えた方がよく育つ",
+          "どちらも同じ",
+          "与えない方がよい"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "肥料が成長を助ける",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_010_inflated_114_adv_114",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】発芽の実験で、条件を一つだけ変える理由は？ (類似問題1)",
+        "options": [
+          "条件の違いによる差を調べるため",
+          "植物を傷めないため",
+          "色の変化を見るため",
+          "時間を節約するため"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "一つの条件の影響を調べるため",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_011_inflated_115_adv_115",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】アサガオの種を水に浸すとどうなる？ (類似問題1)",
+        "options": [
+          "発芽しなくなる",
+          "種がふくらみやすくなる",
+          "色が変わる",
+          "種が腐る"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "水を吸って発芽の準備が整う",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_012_inflated_116_adv_116",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】トウモロコシの子葉は何枚か？ (類似問題1)",
+        "options": [
+          "4枚",
+          "3枚",
+          "2枚",
+          "1枚"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "単子葉植物の子葉は1枚",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_013_inflated_117_adv_117",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】インゲンマメの子葉は何枚か？ (類似問題1)",
+        "options": [
+          "3枚",
+          "1枚",
+          "2枚",
+          "4枚"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "双子葉植物の子葉は2枚",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_014_inflated_118_adv_118",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】種子が発芽するときのエネルギーはどこから来る？ (類似問題1)",
+        "options": [
+          "種子の中の栄養分（デンプン）",
+          "空気中",
+          "水",
+          "土の中"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "発芽中は種子の栄養分を使う",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_015_inflated_119_adv_119",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】植物が大きく成長するには何が必要か？（発芽後） (類似問題1)",
+        "options": [
+          "温度だけ",
+          "空気だけ",
+          "水だけ",
+          "日光・水・肥料"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "成長には日光・水・肥料がすべて必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_016_inflated_120_adv_120",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】メダカの雄と雌の見分け方（背びれ） (類似問題1)",
+        "options": [
+          "雄は背びれに切れ込みがある",
+          "雌に切れ込みがある",
+          "どちらも同じ",
+          "色で見分ける"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "背びれの切れ込みで雄を見分ける",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_017_inflated_121_adv_121",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】メダカの雌の腹びれの特徴は？ (類似問題1)",
+        "options": [
+          "雌の方が大きい",
+          "同じ大きさ",
+          "どちらもない",
+          "雄の方が大きい"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "雌の腹びれは大きく丸い",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_018_inflated_122_adv_122",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】メダカの卵はどこに産まれる？ (類似問題1)",
+        "options": [
+          "水面上",
+          "石の下",
+          "水草などに産み付ける",
+          "砂の中"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "水草などに産み付けます",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_019_inflated_123_adv_123",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】メダカの卵を育てるとき何を使う？ (類似問題1)",
+        "options": [
+          "ビーカー",
+          "電子レンジ",
+          "顕微鏡（または虫眼鏡）",
+          "試験管"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "小さな卵を観察するには顕微鏡を使う",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_020_inflated_124_adv_124",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】受精卵の変化として正しいのは？ (類似問題1)",
+        "options": [
+          "細胞分裂で体が作られる",
+          "消える",
+          "小さくなる",
+          "ずっと変わらない"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "受精後細胞分裂しながら成長する",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_021_inflated_125_adv_125",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】卵の中で心臓の動きが見えるのはいつ？ (類似問題1)",
+        "options": [
+          "受精後数日以内",
+          "生まれる直前",
+          "生まれた後",
+          "受精直後"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "受精後2〜3日で心臓の拍動が見える",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_022_inflated_126_adv_126",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】メダカが卵からかえることを何という？ (類似問題1)",
+        "options": [
+          "ふ化",
+          "脱皮",
+          "発芽",
+          "誕生"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "卵から出てくること＝ふ化",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_023_inflated_127_adv_127",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】メダカの食べ物は何か？ (類似問題1)",
+        "options": [
+          "ミジンコや小さな生物",
+          "草",
+          "土",
+          "石"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "水中の小さな生物を食べる",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_024_inflated_128_adv_128",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】人の赤ちゃんが育つ場所は？ (類似問題1)",
+        "options": [
+          "腸",
+          "胃",
+          "子宮",
+          "肺"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "母親の子宮の中で育つ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_025_inflated_129_adv_129",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】胎児が母体から栄養を受け取るものは？ (類似問題1)",
+        "options": [
+          "耳",
+          "鼻",
+          "口",
+          "へそのお（臍帯）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "へそのおで栄養と酸素を受け取る",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_026_inflated_130_adv_130",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】人の赤ちゃんはおよそ何ヶ月で生まれる？ (類似問題1)",
+        "options": [
+          "約20ヶ月",
+          "約2ヶ月",
+          "約5ヶ月",
+          "約10ヶ月（約38週）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "母親のお腹の中でおよそ38週過ごす",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_027_inflated_131_adv_131",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】胎児を包んでいる液体は何か？ (類似問題1)",
+        "options": [
+          "消化液",
+          "リンパ液",
+          "血液",
+          "羊水"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "胎児は羊水に包まれて育つ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_028_inflated_132_adv_132",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】メダカの雄が持つ特徴（しりびれ）は？ (類似問題1)",
+        "options": [
+          "しりびれが小さい",
+          "丸い形",
+          "しりびれが大きく平行四辺形に近い",
+          "しりびれがない"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "雄のしりびれは平行四辺形に近い形",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_029_inflated_133_adv_133",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】受精とはどういうことか？ (類似問題1)",
+        "options": [
+          "分裂すること",
+          "精子と卵が合体すること",
+          "卵だけで育つこと",
+          "死ぬこと"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "精子と卵が合体＝受精",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_030_inflated_134_adv_134",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】水中に産まれる卵の種類（メダカ・カエル・魚）の受精は？ (類似問題1)",
+        "options": [
+          "体外受精",
+          "分裂生殖",
+          "体内受精",
+          "無性生殖"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "水中で精子と卵が出会って受精",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_101_inflated_135_adv_135",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】食塩が水に溶けた液を何という？ (類似問題1)",
+        "options": [
+          "食塩液",
+          "食塩水（水溶液）",
+          "混合物",
+          "塩液"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "食塩が均一に溶けた水＝水溶液",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_102_inflated_136_adv_136",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が水に溶けても全体の重さはどうなる？ (類似問題1)",
+        "options": [
+          "増える",
+          "変わらない",
+          "消える",
+          "減る"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "溶けても質量は保存される",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_103_inflated_137_adv_137",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】水溶液を蒸発させると？ (類似問題1)",
+        "options": [
+          "色が変わる",
+          "水だけ残る",
+          "何も残らない",
+          "溶けていた物が出てくる"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "水を蒸発させると溶質が析出する",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_104_inflated_138_adv_138",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】食塩を水に溶かす量を増やすにはどうする？ (類似問題1)",
+        "options": [
+          "かき混ぜない",
+          "水の量を増やす・温度を上げる",
+          "冷やす",
+          "水を減らす"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "溶解度は温度と水の量に依存する",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_105_inflated_139_adv_139",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ミョウバンを水に溶かし冷やすと？ (類似問題1)",
+        "options": [
+          "結晶が出てくる",
+          "色が消える",
+          "蒸発する",
+          "溶けたまま"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "再結晶で結晶が析出する",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_106_inflated_140_adv_140",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】水100gに食塩を限界まで溶かした量（約）は？ (類似問題1)",
+        "options": [
+          "約100g",
+          "約36g",
+          "約10g",
+          "約200g"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "20℃での食塩の溶解度は約36g/100g水",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_107_inflated_141_adv_141",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】温度を上げると溶ける量が大きく増えるのはどちら？ (類似問題1)",
+        "options": [
+          "食塩",
+          "どちらも増えない",
+          "砂糖と同じ",
+          "ミョウバン"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "ミョウバンは温度で溶解度が大きく変わる",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_108_inflated_142_adv_142",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】水溶液の特徴として正しいのは？ (類似問題1)",
+        "options": [
+          "二層に分かれる",
+          "白く濁っている",
+          "透明で均一に混ざっている",
+          "底に沈殿がある"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "水溶液は透明・均一",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_109_inflated_143_adv_143",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ろ過で取り出せるものは何か？ (類似問題1)",
+        "options": [
+          "水に溶けていない粒子",
+          "水に溶けているもの",
+          "水蒸気",
+          "気体"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "ろ過では不溶性の粒子を分離できる",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_110_inflated_144_adv_144",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】水に溶けているものをろ紙で取り出せるか？ (類似問題1)",
+        "options": [
+          "一部だけ取り出せる",
+          "取り出せる",
+          "温度による",
+          "取り出せない"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "水溶液はろ紙を通り抜けてしまう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_111_inflated_145_adv_145",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】光合成に必要なものは？ (類似問題1)",
+        "options": [
+          "光・水・二酸化炭素",
+          "土・水・風",
+          "酸素・窒素・光",
+          "水・塩・光"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "光合成:CO₂+H₂O→糖+O₂",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_112_inflated_146_adv_146",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】植物が酸素を出すはたらきは？ (類似問題1)",
+        "options": [
+          "発芽",
+          "蒸散",
+          "呼吸",
+          "光合成"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "光合成で酸素が放出される",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_113_inflated_147_adv_147",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】植物が葉から水を出すはたらきは？ (類似問題1)",
+        "options": [
+          "吸収",
+          "光合成",
+          "呼吸",
+          "蒸散"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "葉の気孔から水蒸気が出る＝蒸散",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_119_inflated_148_adv_148",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】種子植物の2つの分類は？ (類似問題1)",
+        "options": [
+          "草本と木本",
+          "被子植物と裸子植物",
+          "水草と陸草",
+          "単子葉と双子葉のみ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "種子植物：被子植物（子房あり）と裸子植物",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_121_inflated_149_adv_149",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】発芽に温度が関係することを確かめる実験で対照実験はどれ？ (類似問題1)",
+        "options": [
+          "光だけ変える",
+          "水だけ変える",
+          "同じ条件で温度だけ変えた実験",
+          "全条件を変える"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "温度の影響だけを調べるため他は同条件",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_125_inflated_150_adv_150",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】食塩水を顕微鏡で見るとどう見える？ (類似問題1)",
+        "options": [
+          "食塩の粒が見える",
+          "透明で何も見えない",
+          "色がついている",
+          "気泡が見える"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "溶けた食塩は粒として見えない",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_129_inflated_151_adv_151",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】二酸化炭素を多く含んでいるのは？ (類似問題1)",
+        "options": [
+          "はいた息（呼気）",
+          "空気全体",
+          "酸素ボンベ",
+          "吸った息"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "呼気は吸気より二酸化炭素が多い",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_131_inflated_152_adv_152",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気の約80%を占める気体は？ (類似問題1)",
+        "options": [
+          "窒素",
+          "酸素",
+          "二酸化炭素",
+          "水素"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "空気の約78%は窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_132_inflated_153_adv_153",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気の約21%を占める気体は？ (類似問題1)",
+        "options": [
+          "窒素",
+          "二酸化炭素",
+          "酸素",
+          "アルゴン"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "空気の約21%は酸素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_136_inflated_154_adv_154",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】植物の根の主なはたらきは？ (類似問題1)",
+        "options": [
+          "蒸散",
+          "受粉",
+          "水と肥料を吸収・体を支える",
+          "光合成"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "根は水・肥料の吸収と体を固定する",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_139_inflated_155_adv_155",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】水が100℃で沸騰するときの変化は？ (類似問題1)",
+        "options": [
+          "固体→気体",
+          "液体→気体",
+          "気体→液体",
+          "固体→液体"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "沸騰で液体の水が水蒸気に変わる",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_141_inflated_156_adv_156",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？ (類似問題1)",
+        "options": [
+          "酸素",
+          "窒素",
+          "二酸化炭素",
+          "水素"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_144_inflated_157_adv_157",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？ (類似問題1)",
+        "options": [
+          "金・銀",
+          "鉄・ニッケル・コバルト",
+          "銅・アルミ",
+          "プラスチック"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_147_inflated_158_adv_158",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？ (類似問題1)",
+        "options": [
+          "酸素",
+          "二酸化炭素",
+          "水素",
+          "窒素"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_150_inflated_159_adv_159",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？ (類似問題1)",
+        "options": [
+          "海（水）",
+          "陸地",
+          "空気",
+          "岩石"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_153_inflated_160_adv_160",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？ (類似問題1)",
+        "options": [
+          "二酸化炭素",
+          "水",
+          "肥料",
+          "新しい空気（酸素）の供給"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_156_inflated_161_adv_161",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？ (類似問題1)",
+        "options": [
+          "二酸化炭素",
+          "酸素",
+          "窒素",
+          "水素"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_159_inflated_162_adv_162",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？ (類似問題1)",
+        "options": [
+          "銅・アルミ",
+          "鉄・ニッケル・コバルト",
+          "プラスチック",
+          "金・銀"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_162_inflated_163_adv_163",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？ (類似問題1)",
+        "options": [
+          "酸素",
+          "二酸化炭素",
+          "窒素",
+          "水素"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_165_inflated_164_adv_164",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？ (類似問題1)",
+        "options": [
+          "海（水）",
+          "陸地",
+          "空気",
+          "岩石"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_168_inflated_165_adv_165",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？ (類似問題1)",
+        "options": [
+          "二酸化炭素",
+          "肥料",
+          "水",
+          "新しい空気（酸素）の供給"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_171_inflated_166_adv_166",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？ (類似問題1)",
+        "options": [
+          "窒素",
+          "水素",
+          "二酸化炭素",
+          "酸素"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_174_inflated_167_adv_167",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？ (類似問題1)",
+        "options": [
+          "銅・アルミ",
+          "金・銀",
+          "プラスチック",
+          "鉄・ニッケル・コバルト"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_177_inflated_168_adv_168",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？ (類似問題1)",
+        "options": [
+          "水素",
+          "二酸化炭素",
+          "窒素",
+          "酸素"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_180_inflated_169_adv_169",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？ (類似問題1)",
+        "options": [
+          "岩石",
+          "海（水）",
+          "空気",
+          "陸地"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_183_inflated_170_adv_170",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？ (類似問題1)",
+        "options": [
+          "二酸化炭素",
+          "水",
+          "新しい空気（酸素）の供給",
+          "肥料"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_186_inflated_171_adv_171",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？ (類似問題1)",
+        "options": [
+          "水素",
+          "酸素",
+          "二酸化炭素",
+          "窒素"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_189_inflated_172_adv_172",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？ (類似問題1)",
+        "options": [
+          "金・銀",
+          "プラスチック",
+          "銅・アルミ",
+          "鉄・ニッケル・コバルト"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_192_inflated_173_adv_173",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？ (類似問題1)",
+        "options": [
+          "窒素",
+          "水素",
+          "酸素",
+          "二酸化炭素"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_195_inflated_174_adv_174",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？ (類似問題1)",
+        "options": [
+          "空気",
+          "岩石",
+          "海（水）",
+          "陸地"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_198_inflated_175_adv_175",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？ (類似問題1)",
+        "options": [
+          "二酸化炭素",
+          "水",
+          "肥料",
+          "新しい空気（酸素）の供給"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_201_inflated_176_adv_176",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？ (類似問題1)",
+        "options": [
+          "二酸化炭素",
+          "窒素",
+          "水素",
+          "酸素"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_204_inflated_177_adv_177",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？ (類似問題1)",
+        "options": [
+          "金・銀",
+          "銅・アルミ",
+          "プラスチック",
+          "鉄・ニッケル・コバルト"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_207_inflated_178_adv_178",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？ (類似問題1)",
+        "options": [
+          "水素",
+          "酸素",
+          "窒素",
+          "二酸化炭素"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_210_inflated_179_adv_179",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？ (類似問題1)",
+        "options": [
+          "岩石",
+          "空気",
+          "陸地",
+          "海（水）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_213_inflated_180_adv_180",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？ (類似問題1)",
+        "options": [
+          "新しい空気（酸素）の供給",
+          "二酸化炭素",
+          "肥料",
+          "水"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_216_inflated_181_adv_181",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？ (類似問題1)",
+        "options": [
+          "水素",
+          "酸素",
+          "窒素",
+          "二酸化炭素"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_219_inflated_182_adv_182",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？ (類似問題1)",
+        "options": [
+          "銅・アルミ",
+          "金・銀",
+          "プラスチック",
+          "鉄・ニッケル・コバルト"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_222_inflated_183_adv_183",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？ (類似問題1)",
+        "options": [
+          "二酸化炭素",
+          "酸素",
+          "水素",
+          "窒素"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_225_inflated_184_adv_184",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？ (類似問題1)",
+        "options": [
+          "空気",
+          "海（水）",
+          "岩石",
+          "陸地"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_228_inflated_185_adv_185",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？ (類似問題1)",
+        "options": [
+          "新しい空気（酸素）の供給",
+          "肥料",
+          "二酸化炭素",
+          "水"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_231_inflated_186_adv_186",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？ (類似問題1)",
+        "options": [
+          "酸素",
+          "二酸化炭素",
+          "水素",
+          "窒素"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_234_inflated_187_adv_187",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？ (類似問題1)",
+        "options": [
+          "金・銀",
+          "銅・アルミ",
+          "プラスチック",
+          "鉄・ニッケル・コバルト"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_237_inflated_188_adv_188",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？ (類似問題1)",
+        "options": [
+          "二酸化炭素",
+          "窒素",
+          "水素",
+          "酸素"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_240_inflated_189_adv_189",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？ (類似問題1)",
+        "options": [
+          "海（水）",
+          "岩石",
+          "陸地",
+          "空気"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_243_inflated_190_adv_190",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？ (類似問題1)",
+        "options": [
+          "水",
+          "二酸化炭素",
+          "新しい空気（酸素）の供給",
+          "肥料"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_246_inflated_191_adv_191",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？ (類似問題1)",
+        "options": [
+          "水素",
+          "酸素",
+          "二酸化炭素",
+          "窒素"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_249_inflated_192_adv_192",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？ (類似問題1)",
+        "options": [
+          "銅・アルミ",
+          "鉄・ニッケル・コバルト",
+          "プラスチック",
+          "金・銀"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_252_inflated_193_adv_193",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？ (類似問題1)",
+        "options": [
+          "二酸化炭素",
+          "酸素",
+          "水素",
+          "窒素"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_255_inflated_194_adv_194",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？ (類似問題1)",
+        "options": [
+          "空気",
+          "陸地",
+          "岩石",
+          "海（水）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_258_inflated_195_adv_195",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？ (類似問題1)",
+        "options": [
+          "肥料",
+          "二酸化炭素",
+          "水",
+          "新しい空気（酸素）の供給"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_261_inflated_196_adv_196",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？ (類似問題1)",
+        "options": [
+          "酸素",
+          "窒素",
+          "水素",
+          "二酸化炭素"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_264_inflated_197_adv_197",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？ (類似問題1)",
+        "options": [
+          "銅・アルミ",
+          "プラスチック",
+          "金・銀",
+          "鉄・ニッケル・コバルト"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_267_inflated_198_adv_198",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？ (類似問題1)",
+        "options": [
+          "酸素",
+          "水素",
+          "二酸化炭素",
+          "窒素"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_270_inflated_199_adv_199",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？ (類似問題1)",
+        "options": [
+          "海（水）",
+          "陸地",
+          "岩石",
+          "空気"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_273_inflated_200_adv_200",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？ (類似問題1)",
+        "options": [
+          "二酸化炭素",
+          "肥料",
+          "水",
+          "新しい空気（酸素）の供給"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_276_inflated_201_adv_201",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？ (類似問題1)",
+        "options": [
+          "酸素",
+          "二酸化炭素",
+          "窒素",
+          "水素"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_279_inflated_202_adv_202",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？ (類似問題1)",
+        "options": [
+          "鉄・ニッケル・コバルト",
+          "銅・アルミ",
+          "金・銀",
+          "プラスチック"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_282_inflated_203_adv_203",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？ (類似問題1)",
+        "options": [
+          "二酸化炭素",
+          "水素",
+          "酸素",
+          "窒素"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_285_inflated_204_adv_204",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？ (類似問題1)",
+        "options": [
+          "岩石",
+          "陸地",
+          "海（水）",
+          "空気"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_288_inflated_205_adv_205",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？ (類似問題1)",
+        "options": [
+          "二酸化炭素",
+          "肥料",
+          "新しい空気（酸素）の供給",
+          "水"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_291_inflated_206_adv_206",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？ (類似問題1)",
+        "options": [
+          "二酸化炭素",
+          "酸素",
+          "水素",
+          "窒素"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_294_inflated_207_adv_207",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？ (類似問題1)",
+        "options": [
+          "鉄・ニッケル・コバルト",
+          "金・銀",
+          "プラスチック",
+          "銅・アルミ"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_297_inflated_208_adv_208",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？ (類似問題1)",
+        "options": [
+          "窒素",
+          "酸素",
+          "二酸化炭素",
+          "水素"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_300_inflated_209_adv_209",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？ (類似問題1)",
+        "options": [
+          "海（水）",
+          "空気",
+          "陸地",
+          "岩石"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_001_inflated_210_adv_210",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】種子が発芽するために必要なものは？（3つ） (類似問題2)",
+        "options": [
+          "水・肥料・空気",
+          "光・空気・温度",
+          "水・光・温度",
+          "水・空気・適切な温度"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "発芽に必要なのは水・空気・適切な温度の3つ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_002_inflated_211_adv_211",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】発芽に光は必要か？ (類似問題2)",
+        "options": [
+          "少しだけ必要",
+          "必要",
+          "あると早く発芽する",
+          "必要ない"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "発芽に光は必要ありません",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_003_inflated_212_adv_212",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】植物の成長に必要なものは何か？ (類似問題2)",
+        "options": [
+          "水だけ",
+          "温度だけ",
+          "空気だけ",
+          "日光と肥料（と水）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "成長には日光と肥料が特に必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_004_inflated_213_adv_213",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】インゲンマメの種の中にある栄養分は何か？ (類似問題2)",
+        "options": [
+          "タンパク質",
+          "ビタミン",
+          "脂肪",
+          "デンプン"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "種子の中にはデンプンが蓄えられています",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_005_inflated_214_adv_214",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】種子のデンプンをヨウ素液で調べると何色になる？ (類似問題2)",
+        "options": [
+          "赤色",
+          "黄色",
+          "青紫色",
+          "緑色"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "デンプン＋ヨウ素液＝青紫色",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_006_inflated_215_adv_215",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】発芽したあと最初に出てくる葉を何という？ (類似問題2)",
+        "options": [
+          "本葉",
+          "花びら",
+          "子葉",
+          "がく"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "最初に出る葉＝子葉",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_007_inflated_216_adv_216",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】植物が成長するためにとくに重要な肥料の成分は？ (類似問題2)",
+        "options": [
+          "カルシウム・マグネシウム・ナトリウム",
+          "ちっそ・リン酸・カリ",
+          "炭素・水素・酸素",
+          "鉄・亜鉛・銅"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "植物の三大肥料成分はN・P・K",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_008_inflated_217_adv_217",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】日光が当たる場所で育てた植物と暗い場所で育てた植物を比べると？ (類似問題2)",
+        "options": [
+          "日光が当たる方がよく育つ",
+          "どちらも同じ速さ",
+          "暗い方がよく育つ",
+          "変わらない"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "光合成のため日光が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_009_inflated_218_adv_218",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】肥料を与えた植物と与えない植物を比べると？ (類似問題2)",
+        "options": [
+          "変わらない",
+          "肥料を与えた方がよく育つ",
+          "どちらも同じ",
+          "与えない方がよい"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "肥料が成長を助ける",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_010_inflated_219_adv_219",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】発芽の実験で、条件を一つだけ変える理由は？ (類似問題2)",
+        "options": [
+          "条件の違いによる差を調べるため",
+          "植物を傷めないため",
+          "色の変化を見るため",
+          "時間を節約するため"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "一つの条件の影響を調べるため",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_011_inflated_220_adv_220",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】アサガオの種を水に浸すとどうなる？ (類似問題2)",
+        "options": [
+          "発芽しなくなる",
+          "種がふくらみやすくなる",
+          "色が変わる",
+          "種が腐る"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "水を吸って発芽の準備が整う",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_012_inflated_221_adv_221",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】トウモロコシの子葉は何枚か？ (類似問題2)",
+        "options": [
+          "4枚",
+          "3枚",
+          "2枚",
+          "1枚"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "単子葉植物の子葉は1枚",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_013_inflated_222_adv_222",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】インゲンマメの子葉は何枚か？ (類似問題2)",
+        "options": [
+          "3枚",
+          "1枚",
+          "2枚",
+          "4枚"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "双子葉植物の子葉は2枚",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_014_inflated_223_adv_223",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】種子が発芽するときのエネルギーはどこから来る？ (類似問題2)",
+        "options": [
+          "種子の中の栄養分（デンプン）",
+          "空気中",
+          "水",
+          "土の中"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "発芽中は種子の栄養分を使う",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_015_inflated_224_adv_224",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】植物が大きく成長するには何が必要か？（発芽後） (類似問題2)",
+        "options": [
+          "温度だけ",
+          "空気だけ",
+          "水だけ",
+          "日光・水・肥料"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "成長には日光・水・肥料がすべて必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_016_inflated_225_adv_225",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】メダカの雄と雌の見分け方（背びれ） (類似問題2)",
+        "options": [
+          "雄は背びれに切れ込みがある",
+          "雌に切れ込みがある",
+          "どちらも同じ",
+          "色で見分ける"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "背びれの切れ込みで雄を見分ける",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_017_inflated_226_adv_226",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】メダカの雌の腹びれの特徴は？ (類似問題2)",
+        "options": [
+          "雌の方が大きい",
+          "同じ大きさ",
+          "どちらもない",
+          "雄の方が大きい"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "雌の腹びれは大きく丸い",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_018_inflated_227_adv_227",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】メダカの卵はどこに産まれる？ (類似問題2)",
+        "options": [
+          "水面上",
+          "石の下",
+          "水草などに産み付ける",
+          "砂の中"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "水草などに産み付けます",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_019_inflated_228_adv_228",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】メダカの卵を育てるとき何を使う？ (類似問題2)",
+        "options": [
+          "ビーカー",
+          "電子レンジ",
+          "顕微鏡（または虫眼鏡）",
+          "試験管"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "小さな卵を観察するには顕微鏡を使う",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_020_inflated_229_adv_229",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】受精卵の変化として正しいのは？ (類似問題2)",
+        "options": [
+          "細胞分裂で体が作られる",
+          "消える",
+          "小さくなる",
+          "ずっと変わらない"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "受精後細胞分裂しながら成長する",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_021_inflated_230_adv_230",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】卵の中で心臓の動きが見えるのはいつ？ (類似問題2)",
+        "options": [
+          "受精後数日以内",
+          "生まれる直前",
+          "生まれた後",
+          "受精直後"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "受精後2〜3日で心臓の拍動が見える",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_022_inflated_231_adv_231",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】メダカが卵からかえることを何という？ (類似問題2)",
+        "options": [
+          "ふ化",
+          "脱皮",
+          "発芽",
+          "誕生"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "卵から出てくること＝ふ化",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_023_inflated_232_adv_232",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】メダカの食べ物は何か？ (類似問題2)",
+        "options": [
+          "ミジンコや小さな生物",
+          "草",
+          "土",
+          "石"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "水中の小さな生物を食べる",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_024_inflated_233_adv_233",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】人の赤ちゃんが育つ場所は？ (類似問題2)",
+        "options": [
+          "腸",
+          "胃",
+          "子宮",
+          "肺"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "母親の子宮の中で育つ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_025_inflated_234_adv_234",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】胎児が母体から栄養を受け取るものは？ (類似問題2)",
+        "options": [
+          "耳",
+          "鼻",
+          "口",
+          "へそのお（臍帯）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "へそのおで栄養と酸素を受け取る",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_026_inflated_235_adv_235",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】人の赤ちゃんはおよそ何ヶ月で生まれる？ (類似問題2)",
+        "options": [
+          "約20ヶ月",
+          "約2ヶ月",
+          "約5ヶ月",
+          "約10ヶ月（約38週）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "母親のお腹の中でおよそ38週過ごす",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_027_inflated_236_adv_236",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】胎児を包んでいる液体は何か？ (類似問題2)",
+        "options": [
+          "消化液",
+          "リンパ液",
+          "血液",
+          "羊水"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "胎児は羊水に包まれて育つ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_028_inflated_237_adv_237",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】メダカの雄が持つ特徴（しりびれ）は？ (類似問題2)",
+        "options": [
+          "しりびれが小さい",
+          "丸い形",
+          "しりびれが大きく平行四辺形に近い",
+          "しりびれがない"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "雄のしりびれは平行四辺形に近い形",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_029_inflated_238_adv_238",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】受精とはどういうことか？ (類似問題2)",
+        "options": [
+          "分裂すること",
+          "精子と卵が合体すること",
+          "卵だけで育つこと",
+          "死ぬこと"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "精子と卵が合体＝受精",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_030_inflated_239_adv_239",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】水中に産まれる卵の種類（メダカ・カエル・魚）の受精は？ (類似問題2)",
+        "options": [
+          "体外受精",
+          "分裂生殖",
+          "体内受精",
+          "無性生殖"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "水中で精子と卵が出会って受精",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_101_inflated_240_adv_240",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】食塩が水に溶けた液を何という？ (類似問題2)",
+        "options": [
+          "食塩液",
+          "食塩水（水溶液）",
+          "混合物",
+          "塩液"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "食塩が均一に溶けた水＝水溶液",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_102_inflated_241_adv_241",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が水に溶けても全体の重さはどうなる？ (類似問題2)",
+        "options": [
+          "増える",
+          "変わらない",
+          "消える",
+          "減る"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "溶けても質量は保存される",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_103_inflated_242_adv_242",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】水溶液を蒸発させると？ (類似問題2)",
+        "options": [
+          "色が変わる",
+          "水だけ残る",
+          "何も残らない",
+          "溶けていた物が出てくる"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "水を蒸発させると溶質が析出する",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_104_inflated_243_adv_243",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】食塩を水に溶かす量を増やすにはどうする？ (類似問題2)",
+        "options": [
+          "かき混ぜない",
+          "水の量を増やす・温度を上げる",
+          "冷やす",
+          "水を減らす"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "溶解度は温度と水の量に依存する",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_105_inflated_244_adv_244",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ミョウバンを水に溶かし冷やすと？ (類似問題2)",
+        "options": [
+          "結晶が出てくる",
+          "色が消える",
+          "蒸発する",
+          "溶けたまま"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "再結晶で結晶が析出する",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_106_inflated_245_adv_245",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】水100gに食塩を限界まで溶かした量（約）は？ (類似問題2)",
+        "options": [
+          "約100g",
+          "約36g",
+          "約10g",
+          "約200g"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "20℃での食塩の溶解度は約36g/100g水",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_107_inflated_246_adv_246",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】温度を上げると溶ける量が大きく増えるのはどちら？ (類似問題2)",
+        "options": [
+          "食塩",
+          "どちらも増えない",
+          "砂糖と同じ",
+          "ミョウバン"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "ミョウバンは温度で溶解度が大きく変わる",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_108_inflated_247_adv_247",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】水溶液の特徴として正しいのは？ (類似問題2)",
+        "options": [
+          "二層に分かれる",
+          "白く濁っている",
+          "透明で均一に混ざっている",
+          "底に沈殿がある"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "水溶液は透明・均一",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_109_inflated_248_adv_248",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ろ過で取り出せるものは何か？ (類似問題2)",
+        "options": [
+          "水に溶けていない粒子",
+          "水に溶けているもの",
+          "水蒸気",
+          "気体"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "ろ過では不溶性の粒子を分離できる",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_110_inflated_249_adv_249",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】水に溶けているものをろ紙で取り出せるか？ (類似問題2)",
+        "options": [
+          "一部だけ取り出せる",
+          "取り出せる",
+          "温度による",
+          "取り出せない"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "水溶液はろ紙を通り抜けてしまう",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_111_inflated_250_adv_250",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】光合成に必要なものは？ (類似問題2)",
+        "options": [
+          "光・水・二酸化炭素",
+          "土・水・風",
+          "酸素・窒素・光",
+          "水・塩・光"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "光合成:CO₂+H₂O→糖+O₂",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_112_inflated_251_adv_251",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】植物が酸素を出すはたらきは？ (類似問題2)",
+        "options": [
+          "発芽",
+          "蒸散",
+          "呼吸",
+          "光合成"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "光合成で酸素が放出される",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_113_inflated_252_adv_252",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】植物が葉から水を出すはたらきは？ (類似問題2)",
+        "options": [
+          "吸収",
+          "光合成",
+          "呼吸",
+          "蒸散"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "葉の気孔から水蒸気が出る＝蒸散",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_119_inflated_253_adv_253",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】種子植物の2つの分類は？ (類似問題2)",
+        "options": [
+          "草本と木本",
+          "被子植物と裸子植物",
+          "水草と陸草",
+          "単子葉と双子葉のみ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "種子植物：被子植物（子房あり）と裸子植物",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_121_inflated_254_adv_254",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】発芽に温度が関係することを確かめる実験で対照実験はどれ？ (類似問題2)",
+        "options": [
+          "光だけ変える",
+          "水だけ変える",
+          "同じ条件で温度だけ変えた実験",
+          "全条件を変える"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "温度の影響だけを調べるため他は同条件",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_125_inflated_255_adv_255",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】食塩水を顕微鏡で見るとどう見える？ (類似問題2)",
+        "options": [
+          "食塩の粒が見える",
+          "透明で何も見えない",
+          "色がついている",
+          "気泡が見える"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "溶けた食塩は粒として見えない",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_129_inflated_256_adv_256",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】二酸化炭素を多く含んでいるのは？ (類似問題2)",
+        "options": [
+          "はいた息（呼気）",
+          "空気全体",
+          "酸素ボンベ",
+          "吸った息"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "呼気は吸気より二酸化炭素が多い",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_131_inflated_257_adv_257",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気の約80%を占める気体は？ (類似問題2)",
+        "options": [
+          "窒素",
+          "酸素",
+          "二酸化炭素",
+          "水素"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "空気の約78%は窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_132_inflated_258_adv_258",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気の約21%を占める気体は？ (類似問題2)",
+        "options": [
+          "窒素",
+          "二酸化炭素",
+          "酸素",
+          "アルゴン"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "空気の約21%は酸素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_136_inflated_259_adv_259",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】植物の根の主なはたらきは？ (類似問題2)",
+        "options": [
+          "蒸散",
+          "受粉",
+          "水と肥料を吸収・体を支える",
+          "光合成"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "根は水・肥料の吸収と体を固定する",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_139_inflated_260_adv_260",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】水が100℃で沸騰するときの変化は？ (類似問題2)",
+        "options": [
+          "固体→気体",
+          "液体→気体",
+          "気体→液体",
+          "固体→液体"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "沸騰で液体の水が水蒸気に変わる",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_141_inflated_261_adv_261",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？ (類似問題2)",
+        "options": [
+          "酸素",
+          "窒素",
+          "二酸化炭素",
+          "水素"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_144_inflated_262_adv_262",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？ (類似問題2)",
+        "options": [
+          "金・銀",
+          "鉄・ニッケル・コバルト",
+          "銅・アルミ",
+          "プラスチック"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_147_inflated_263_adv_263",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？ (類似問題2)",
+        "options": [
+          "酸素",
+          "二酸化炭素",
+          "水素",
+          "窒素"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_150_inflated_264_adv_264",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？ (類似問題2)",
+        "options": [
+          "海（水）",
+          "陸地",
+          "空気",
+          "岩石"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_153_inflated_265_adv_265",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？ (類似問題2)",
+        "options": [
+          "二酸化炭素",
+          "水",
+          "肥料",
+          "新しい空気（酸素）の供給"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_156_inflated_266_adv_266",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？ (類似問題2)",
+        "options": [
+          "二酸化炭素",
+          "酸素",
+          "窒素",
+          "水素"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_159_inflated_267_adv_267",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？ (類似問題2)",
+        "options": [
+          "銅・アルミ",
+          "鉄・ニッケル・コバルト",
+          "プラスチック",
+          "金・銀"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_162_inflated_268_adv_268",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？ (類似問題2)",
+        "options": [
+          "酸素",
+          "二酸化炭素",
+          "窒素",
+          "水素"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_165_inflated_269_adv_269",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？ (類似問題2)",
+        "options": [
+          "海（水）",
+          "陸地",
+          "空気",
+          "岩石"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_168_inflated_270_adv_270",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？ (類似問題2)",
+        "options": [
+          "二酸化炭素",
+          "肥料",
+          "水",
+          "新しい空気（酸素）の供給"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_171_inflated_271_adv_271",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？ (類似問題2)",
+        "options": [
+          "窒素",
+          "水素",
+          "二酸化炭素",
+          "酸素"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_174_inflated_272_adv_272",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？ (類似問題2)",
+        "options": [
+          "銅・アルミ",
+          "金・銀",
+          "プラスチック",
+          "鉄・ニッケル・コバルト"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_177_inflated_273_adv_273",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？ (類似問題2)",
+        "options": [
+          "水素",
+          "二酸化炭素",
+          "窒素",
+          "酸素"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_180_inflated_274_adv_274",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？ (類似問題2)",
+        "options": [
+          "岩石",
+          "海（水）",
+          "空気",
+          "陸地"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_183_inflated_275_adv_275",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？ (類似問題2)",
+        "options": [
+          "二酸化炭素",
+          "水",
+          "新しい空気（酸素）の供給",
+          "肥料"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_186_inflated_276_adv_276",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？ (類似問題2)",
+        "options": [
+          "水素",
+          "酸素",
+          "二酸化炭素",
+          "窒素"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_189_inflated_277_adv_277",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？ (類似問題2)",
+        "options": [
+          "金・銀",
+          "プラスチック",
+          "銅・アルミ",
+          "鉄・ニッケル・コバルト"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_192_inflated_278_adv_278",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？ (類似問題2)",
+        "options": [
+          "窒素",
+          "水素",
+          "酸素",
+          "二酸化炭素"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_195_inflated_279_adv_279",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？ (類似問題2)",
+        "options": [
+          "空気",
+          "岩石",
+          "海（水）",
+          "陸地"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_198_inflated_280_adv_280",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？ (類似問題2)",
+        "options": [
+          "二酸化炭素",
+          "水",
+          "肥料",
+          "新しい空気（酸素）の供給"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_201_inflated_281_adv_281",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？ (類似問題2)",
+        "options": [
+          "二酸化炭素",
+          "窒素",
+          "水素",
+          "酸素"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_204_inflated_282_adv_282",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？ (類似問題2)",
+        "options": [
+          "金・銀",
+          "銅・アルミ",
+          "プラスチック",
+          "鉄・ニッケル・コバルト"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_207_inflated_283_adv_283",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？ (類似問題2)",
+        "options": [
+          "水素",
+          "酸素",
+          "窒素",
+          "二酸化炭素"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_210_inflated_284_adv_284",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？ (類似問題2)",
+        "options": [
+          "岩石",
+          "空気",
+          "陸地",
+          "海（水）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_213_inflated_285_adv_285",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？ (類似問題2)",
+        "options": [
+          "新しい空気（酸素）の供給",
+          "二酸化炭素",
+          "肥料",
+          "水"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_216_inflated_286_adv_286",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？ (類似問題2)",
+        "options": [
+          "水素",
+          "酸素",
+          "窒素",
+          "二酸化炭素"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_219_inflated_287_adv_287",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？ (類似問題2)",
+        "options": [
+          "銅・アルミ",
+          "金・銀",
+          "プラスチック",
+          "鉄・ニッケル・コバルト"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_222_inflated_288_adv_288",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？ (類似問題2)",
+        "options": [
+          "二酸化炭素",
+          "酸素",
+          "水素",
+          "窒素"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_225_inflated_289_adv_289",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？ (類似問題2)",
+        "options": [
+          "空気",
+          "海（水）",
+          "岩石",
+          "陸地"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_228_inflated_290_adv_290",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？ (類似問題2)",
+        "options": [
+          "新しい空気（酸素）の供給",
+          "肥料",
+          "二酸化炭素",
+          "水"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_231_inflated_291_adv_291",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？ (類似問題2)",
+        "options": [
+          "酸素",
+          "二酸化炭素",
+          "水素",
+          "窒素"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_234_inflated_292_adv_292",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？ (類似問題2)",
+        "options": [
+          "金・銀",
+          "銅・アルミ",
+          "プラスチック",
+          "鉄・ニッケル・コバルト"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_237_inflated_293_adv_293",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？ (類似問題2)",
+        "options": [
+          "二酸化炭素",
+          "窒素",
+          "水素",
+          "酸素"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_240_inflated_294_adv_294",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？ (類似問題2)",
+        "options": [
+          "海（水）",
+          "岩石",
+          "陸地",
+          "空気"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_243_inflated_295_adv_295",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】ロウソクを燃やし続けるには何が必要？ (類似問題2)",
+        "options": [
+          "水",
+          "二酸化炭素",
+          "新しい空気（酸素）の供給",
+          "肥料"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "燃焼で酸素が消費されるため補充が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_246_inflated_296_adv_296",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】空気中に最も多い気体は？ (類似問題2)",
+        "options": [
+          "水素",
+          "酸素",
+          "二酸化炭素",
+          "窒素"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "空気の約78%が窒素",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_249_inflated_297_adv_297",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】金属が磁石に引き付けられる種類は？ (類似問題2)",
+        "options": [
+          "銅・アルミ",
+          "鉄・ニッケル・コバルト",
+          "プラスチック",
+          "金・銀"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "磁石に引き付けられるのは鉄・ニッケル・コバルト",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_252_inflated_298_adv_298",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】物が燃えるために必要なものは？ (類似問題2)",
+        "options": [
+          "二酸化炭素",
+          "酸素",
+          "水素",
+          "窒素"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "燃焼には酸素が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_s_255_inflated_299_adv_299",
+        "term": "advanced",
+        "type": "science",
+        "question": "【応用】地球の表面の約70%は何か？ (類似問題2)",
+        "options": [
+          "空気",
+          "陸地",
+          "岩石",
+          "海（水）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "地球の表面積の約70%は海",
+        "isAdvanced": true
       }
     ]
   },
@@ -54019,6 +67497,4506 @@ export const generatedSubjects = [
         "correctOptionIndex": 3,
         "explanation": "Reduce＝ごみの発生を減らす",
         "isAdvanced": false
+      },
+      {
+        "id": "gen_so_001_adv_0",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で一番高い山は？",
+        "options": [
+          "富士山",
+          "北岳",
+          "白山",
+          "槍ヶ岳"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "富士山は標高3776mで日本最高峰",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_002_adv_1",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で一番長い川は？",
+        "options": [
+          "信濃川",
+          "阿賀野川",
+          "木曽川",
+          "利根川"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "信濃川は約367kmで日本最長",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_003_adv_2",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で一番広い湖は？",
+        "options": [
+          "霞ヶ浦",
+          "琵琶湖",
+          "諏訪湖",
+          "摩周湖"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "琵琶湖は滋賀県にある日本最大の湖",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_004_adv_3",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国土はほぼどんな形状か？",
+        "options": [
+          "大陸",
+          "細長い弧状（島国）",
+          "正方形",
+          "円形"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本は南北に細長い弧状列島",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_005_adv_4",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の気候の特徴は？",
+        "options": [
+          "雨がほとんど降らない",
+          "一年中寒い",
+          "一年中暑い",
+          "四季がはっきりしている"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本は四季の変化が明確",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_006_adv_5",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国土の約何%が山地か？",
+        "options": [
+          "約90%",
+          "約30%",
+          "約50%",
+          "約70%"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本の国土の約70%が山地・丘陵",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_007_adv_6",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本アルプスと呼ばれる山脈は？",
+        "options": [
+          "飛騨・木曽・赤石山脈",
+          "九州山地",
+          "奥羽山脈",
+          "中国山地"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "北・中央・南アルプスの総称",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_008_adv_7",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本海側と太平洋側の冬の天気の違いは？",
+        "options": [
+          "両方とも雨",
+          "日本海側は雪が多く、太平洋側は晴れが多い",
+          "日本海側が晴れ",
+          "同じ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "北西の季節風が日本海で雪雲を作る",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_009_adv_8",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の標準時子午線（時刻の基準）は何度？",
+        "options": [
+          "東経135度",
+          "東経120度",
+          "東経150度",
+          "西経135度"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "兵庫県明石市を通る東経135度",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_010_adv_9",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国土の東西南北の端（大まかに）",
+        "options": [
+          "北海道の北東〜沖縄の南西",
+          "北海道〜本州",
+          "関東〜近畿",
+          "九州〜四国"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "最北端は択捉島、最南端は沖ノ鳥島",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_011_adv_10",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の47都道府県のうち、島だけでできている県は？",
+        "options": [
+          "北海道のみ",
+          "東京都（島部含む）・沖縄県・鹿児島県など",
+          "全て陸続き",
+          "全て島"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "沖縄県は島だけで構成される",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_012_adv_11",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】関東地方の平野を何という？",
+        "options": [
+          "石狩平野",
+          "大阪平野",
+          "関東平野",
+          "濃尾平野"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本最大の平野は関東平野",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_013_adv_12",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】北海道の気候の特徴は？",
+        "options": [
+          "熱帯",
+          "冷帯（亜寒帯）で寒さが厳しい",
+          "温帯",
+          "砂漠気候"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "北海道は冷帯気候で冬が長い",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_014_adv_13",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】沖縄の気候の特徴は？",
+        "options": [
+          "寒冷",
+          "乾燥",
+          "冷帯",
+          "亜熱帯で年中温暖"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "沖縄は亜熱帯気候で冬も温かい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_015_adv_14",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の川の特徴は？",
+        "options": [
+          "長くて緩やか",
+          "干上がっている",
+          "短くて流れが急",
+          "砂漠の川"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "山が多いため短く急流",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_016_adv_15",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】太平洋に面していない地方は？",
+        "options": [
+          "九州地方",
+          "関東地方",
+          "内陸地方（長野・山梨など）",
+          "近畿地方"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "長野県・山梨県などは海に面していない",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_017_adv_16",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の最も降水量が多い地域はどこ？",
+        "options": [
+          "北海道",
+          "内陸部",
+          "紀伊半島・高知県（太平洋側）",
+          "東北地方"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "黒潮と地形の影響で太平洋側南部が多雨",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_018_adv_17",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で「やませ」が吹く地方は？",
+        "options": [
+          "近畿",
+          "関東",
+          "東北地方（太平洋側）",
+          "九州"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "東北太平洋側では夏に冷たいやませが吹く",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_019_adv_18",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で「フェーン現象」が起きやすい地方は？",
+        "options": [
+          "九州",
+          "日本海側（北陸・山形など）",
+          "東北太平洋側",
+          "関東"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "山を越えた風が乾燥・高温になるフェーン現象",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_020_adv_19",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の領海の範囲は基線から何海里？",
+        "options": [
+          "12海里",
+          "200海里",
+          "3海里",
+          "50海里"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "領海は基線から12海里以内",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_021_adv_20",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の農業で最も多く生産される作物は？",
+        "options": [
+          "小麦",
+          "大豆",
+          "じゃがいも",
+          "米（稲作）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本では稲作が農業の中心",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_022_adv_21",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】北海道で多く生産される農作物は？",
+        "options": [
+          "みかん",
+          "お茶",
+          "じゃがいも・小麦・大豆",
+          "パイナップル"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "北海道は畑作・酪農が盛ん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_023_adv_22",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】温暖な気候で盛んなみかんの主産地は？",
+        "options": [
+          "愛媛県・和歌山県・静岡県",
+          "北海道",
+          "東北",
+          "青森"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "温暖な太平洋側でみかんを多く生産",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_024_adv_23",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】りんごの主産地として有名な県は？",
+        "options": [
+          "福岡県",
+          "青森県",
+          "高知県",
+          "沖縄県"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "青森県は日本最大のりんご産地",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_025_adv_24",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】高知県で盛んな農業の形態は？",
+        "options": [
+          "酪農",
+          "抑制栽培",
+          "稲作のみ",
+          "促成栽培（ビニールハウス）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "温暖な気候を利用した促成栽培が盛ん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_026_adv_25",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で米の生産量が多い地方は？",
+        "options": [
+          "東北・北陸地方",
+          "東海",
+          "沖縄",
+          "九州南部"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "東北・北陸は米どころとして有名",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_027_adv_26",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】農業で「耕地面積が減っている」理由の一つは？",
+        "options": [
+          "宅地や工場への転用、農家の高齢化",
+          "雨が増えた",
+          "人口が増えた",
+          "農業が盛んになった"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "農業離れや都市化で耕地が減少",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_028_adv_27",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】野菜を通常より早い時期に出荷する栽培法は？",
+        "options": [
+          "露地栽培",
+          "有機農法",
+          "促成栽培",
+          "抑制栽培"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "暖かい地方でビニールハウスを使い早出し",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_029_adv_28",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】野菜を通常より遅い時期に出荷する栽培法は？",
+        "options": [
+          "露地栽培",
+          "有機農法",
+          "抑制栽培",
+          "促成栽培"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "涼しい高地などで時期を遅らせて出荷",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_030_adv_29",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】農業で「有機農法」とは？",
+        "options": [
+          "機械化した農法",
+          "農薬・化学肥料を使わない農法",
+          "海外で行う農法",
+          "大量に農薬を使う"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "有機農法は化学物質を使わない農業",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_031_adv_30",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の食料自給率（カロリーベース）はおおよそ何%？",
+        "options": [
+          "約60%",
+          "約38%（2020年代）",
+          "約80%",
+          "約10%"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の食料自給率は低く約38%",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_032_adv_31",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】農業従事者の高齢化が進む問題点は？",
+        "options": [
+          "農薬が増える",
+          "耕地が増える",
+          "農業の担い手不足",
+          "食料が増えすぎる"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "若者が農業を続けず担い手が減少",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_033_adv_32",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の稲作に適した気候条件は？",
+        "options": [
+          "冬の寒冷・乾燥",
+          "夏の高温・多雨",
+          "一年中乾燥",
+          "一年中高温"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "稲作は高温多湿な夏が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_034_adv_33",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】二毛作とは何か？",
+        "options": [
+          "2人で行う農業",
+          "1年に同じ土地で2種類の作物を育てること",
+          "1年に1種類",
+          "2つの農場"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "同じ田畑で年2回作物を収穫する",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_035_adv_34",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で盛んな酪農地域はどこか？",
+        "options": [
+          "高知",
+          "北海道",
+          "沖縄",
+          "東京"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "北海道は涼しい気候で酪農が発達",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_096_adv_35",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】縄文時代の人々の生活は？",
+        "options": [
+          "牧畜中心",
+          "工業化",
+          "稲作中心",
+          "狩猟・採集・漁を行った"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "縄文時代は狩猟・採集・漁が中心",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_097_adv_36",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】弥生時代に広まったのは？",
+        "options": [
+          "狩猟",
+          "稲作",
+          "牧畜",
+          "漁のみ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "弥生時代に大陸から稲作が伝わった",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_098_adv_37",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】聖徳太子が制定した「十七条の憲法」の目的は？",
+        "options": [
+          "税を集める",
+          "戦争を禁じる",
+          "官人の心得を示す",
+          "外国と貿易する"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "役人の道徳・心得を定めた",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_103_adv_38",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の首都は？",
+        "options": [
+          "京都",
+          "東京",
+          "大阪",
+          "名古屋"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の首都は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_106_adv_39",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の都道府県の数は？",
+        "options": [
+          "48",
+          "46",
+          "50",
+          "47"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "47都道府県がある",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_109_adv_40",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の周りを囲む海の名前は？",
+        "options": [
+          "インド洋",
+          "地中海",
+          "太平洋・日本海・東シナ海・オホーツク海",
+          "大西洋"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本は4つの海に囲まれている",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_112_adv_41",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】国連に加盟している国の数はおよそ何か？",
+        "options": [
+          "約300か国",
+          "約100か国",
+          "約50か国",
+          "約193か国"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "2023年時点で193か国が国連に加盟",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_115_adv_42",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国歌は？",
+        "options": [
+          "もみじ",
+          "さくら",
+          "君が代",
+          "富士山"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本の国歌は「君が代」",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_118_adv_43",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の面積（おおよそ）は？",
+        "options": [
+          "約500万km²",
+          "約38万km²",
+          "約10万km²",
+          "約100万km²"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の国土面積は約38万km²",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_121_adv_44",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】世界で最も人口が多い国は？",
+        "options": [
+          "中国",
+          "インド",
+          "ロシア",
+          "アメリカ"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "中国は約14億人（2020年代はインドが追い越す）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_124_adv_45",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国旗の正式名称は？",
+        "options": [
+          "日本旗",
+          "日章旗",
+          "国旗",
+          "日の丸"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "正式名称は日章旗（にっしょうき）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_127_adv_46",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で最も人口が多い都市は？",
+        "options": [
+          "名古屋",
+          "横浜",
+          "大阪",
+          "東京"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本の人口最大都市は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_130_adv_47",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の人口はおよそ何万人？",
+        "options": [
+          "約2億人",
+          "約5千万人",
+          "約1億2千万人",
+          "約3億人"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2020年代の日本の人口は約1億2500万人",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_133_adv_48",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の首都は？",
+        "options": [
+          "名古屋",
+          "京都",
+          "大阪",
+          "東京"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本の首都は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_136_adv_49",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の都道府県の数は？",
+        "options": [
+          "50",
+          "48",
+          "46",
+          "47"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "47都道府県がある",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_139_adv_50",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の周りを囲む海の名前は？",
+        "options": [
+          "大西洋",
+          "インド洋",
+          "太平洋・日本海・東シナ海・オホーツク海",
+          "地中海"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本は4つの海に囲まれている",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_142_adv_51",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】国連に加盟している国の数はおよそ何か？",
+        "options": [
+          "約193か国",
+          "約300か国",
+          "約50か国",
+          "約100か国"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "2023年時点で193か国が国連に加盟",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_145_adv_52",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国歌は？",
+        "options": [
+          "君が代",
+          "もみじ",
+          "富士山",
+          "さくら"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "日本の国歌は「君が代」",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_148_adv_53",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の面積（おおよそ）は？",
+        "options": [
+          "約500万km²",
+          "約38万km²",
+          "約10万km²",
+          "約100万km²"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の国土面積は約38万km²",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_151_adv_54",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】世界で最も人口が多い国は？",
+        "options": [
+          "アメリカ",
+          "インド",
+          "ロシア",
+          "中国"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "中国は約14億人（2020年代はインドが追い越す）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_154_adv_55",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国旗の正式名称は？",
+        "options": [
+          "日本旗",
+          "国旗",
+          "日章旗",
+          "日の丸"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "正式名称は日章旗（にっしょうき）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_157_adv_56",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で最も人口が多い都市は？",
+        "options": [
+          "大阪",
+          "東京",
+          "名古屋",
+          "横浜"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の人口最大都市は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_160_adv_57",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の人口はおよそ何万人？",
+        "options": [
+          "約3億人",
+          "約2億人",
+          "約1億2千万人",
+          "約5千万人"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2020年代の日本の人口は約1億2500万人",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_163_adv_58",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の首都は？",
+        "options": [
+          "名古屋",
+          "東京",
+          "大阪",
+          "京都"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の首都は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_166_adv_59",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の都道府県の数は？",
+        "options": [
+          "48",
+          "46",
+          "50",
+          "47"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "47都道府県がある",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_169_adv_60",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の周りを囲む海の名前は？",
+        "options": [
+          "大西洋",
+          "インド洋",
+          "太平洋・日本海・東シナ海・オホーツク海",
+          "地中海"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本は4つの海に囲まれている",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_172_adv_61",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】国連に加盟している国の数はおよそ何か？",
+        "options": [
+          "約300か国",
+          "約50か国",
+          "約193か国",
+          "約100か国"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2023年時点で193か国が国連に加盟",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_175_adv_62",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国歌は？",
+        "options": [
+          "さくら",
+          "富士山",
+          "もみじ",
+          "君が代"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本の国歌は「君が代」",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_178_adv_63",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の面積（おおよそ）は？",
+        "options": [
+          "約100万km²",
+          "約38万km²",
+          "約10万km²",
+          "約500万km²"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の国土面積は約38万km²",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_181_adv_64",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】世界で最も人口が多い国は？",
+        "options": [
+          "アメリカ",
+          "インド",
+          "ロシア",
+          "中国"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "中国は約14億人（2020年代はインドが追い越す）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_184_adv_65",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国旗の正式名称は？",
+        "options": [
+          "日章旗",
+          "日の丸",
+          "国旗",
+          "日本旗"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "正式名称は日章旗（にっしょうき）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_187_adv_66",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で最も人口が多い都市は？",
+        "options": [
+          "名古屋",
+          "大阪",
+          "東京",
+          "横浜"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本の人口最大都市は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_190_adv_67",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の人口はおよそ何万人？",
+        "options": [
+          "約3億人",
+          "約1億2千万人",
+          "約2億人",
+          "約5千万人"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "2020年代の日本の人口は約1億2500万人",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_193_adv_68",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の首都は？",
+        "options": [
+          "東京",
+          "名古屋",
+          "京都",
+          "大阪"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "日本の首都は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_196_adv_69",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の都道府県の数は？",
+        "options": [
+          "47",
+          "48",
+          "50",
+          "46"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "47都道府県がある",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_199_adv_70",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の周りを囲む海の名前は？",
+        "options": [
+          "太平洋・日本海・東シナ海・オホーツク海",
+          "地中海",
+          "インド洋",
+          "大西洋"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "日本は4つの海に囲まれている",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_202_adv_71",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】国連に加盟している国の数はおよそ何か？",
+        "options": [
+          "約300か国",
+          "約50か国",
+          "約193か国",
+          "約100か国"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2023年時点で193か国が国連に加盟",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_205_adv_72",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国歌は？",
+        "options": [
+          "君が代",
+          "もみじ",
+          "さくら",
+          "富士山"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "日本の国歌は「君が代」",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_208_adv_73",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の面積（おおよそ）は？",
+        "options": [
+          "約10万km²",
+          "約500万km²",
+          "約100万km²",
+          "約38万km²"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本の国土面積は約38万km²",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_211_adv_74",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】世界で最も人口が多い国は？",
+        "options": [
+          "インド",
+          "アメリカ",
+          "ロシア",
+          "中国"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "中国は約14億人（2020年代はインドが追い越す）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_214_adv_75",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国旗の正式名称は？",
+        "options": [
+          "日本旗",
+          "日章旗",
+          "日の丸",
+          "国旗"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "正式名称は日章旗（にっしょうき）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_217_adv_76",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で最も人口が多い都市は？",
+        "options": [
+          "名古屋",
+          "横浜",
+          "東京",
+          "大阪"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本の人口最大都市は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_220_adv_77",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の人口はおよそ何万人？",
+        "options": [
+          "約2億人",
+          "約1億2千万人",
+          "約3億人",
+          "約5千万人"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "2020年代の日本の人口は約1億2500万人",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_223_adv_78",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の首都は？",
+        "options": [
+          "京都",
+          "東京",
+          "大阪",
+          "名古屋"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の首都は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_226_adv_79",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の都道府県の数は？",
+        "options": [
+          "50",
+          "47",
+          "46",
+          "48"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "47都道府県がある",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_229_adv_80",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の周りを囲む海の名前は？",
+        "options": [
+          "インド洋",
+          "太平洋・日本海・東シナ海・オホーツク海",
+          "大西洋",
+          "地中海"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本は4つの海に囲まれている",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_232_adv_81",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】国連に加盟している国の数はおよそ何か？",
+        "options": [
+          "約50か国",
+          "約100か国",
+          "約300か国",
+          "約193か国"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "2023年時点で193か国が国連に加盟",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_235_adv_82",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国歌は？",
+        "options": [
+          "富士山",
+          "さくら",
+          "君が代",
+          "もみじ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本の国歌は「君が代」",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_238_adv_83",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の面積（おおよそ）は？",
+        "options": [
+          "約10万km²",
+          "約38万km²",
+          "約100万km²",
+          "約500万km²"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の国土面積は約38万km²",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_241_adv_84",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】世界で最も人口が多い国は？",
+        "options": [
+          "中国",
+          "インド",
+          "ロシア",
+          "アメリカ"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "中国は約14億人（2020年代はインドが追い越す）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_244_adv_85",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国旗の正式名称は？",
+        "options": [
+          "日本旗",
+          "国旗",
+          "日章旗",
+          "日の丸"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "正式名称は日章旗（にっしょうき）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_247_adv_86",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で最も人口が多い都市は？",
+        "options": [
+          "名古屋",
+          "横浜",
+          "大阪",
+          "東京"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本の人口最大都市は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_250_adv_87",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の人口はおよそ何万人？",
+        "options": [
+          "約3億人",
+          "約2億人",
+          "約1億2千万人",
+          "約5千万人"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2020年代の日本の人口は約1億2500万人",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_253_adv_88",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の首都は？",
+        "options": [
+          "京都",
+          "東京",
+          "名古屋",
+          "大阪"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の首都は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_256_adv_89",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の都道府県の数は？",
+        "options": [
+          "46",
+          "47",
+          "48",
+          "50"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "47都道府県がある",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_259_adv_90",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の周りを囲む海の名前は？",
+        "options": [
+          "インド洋",
+          "大西洋",
+          "太平洋・日本海・東シナ海・オホーツク海",
+          "地中海"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本は4つの海に囲まれている",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_262_adv_91",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】国連に加盟している国の数はおよそ何か？",
+        "options": [
+          "約50か国",
+          "約100か国",
+          "約193か国",
+          "約300か国"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2023年時点で193か国が国連に加盟",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_265_adv_92",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国歌は？",
+        "options": [
+          "さくら",
+          "もみじ",
+          "君が代",
+          "富士山"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本の国歌は「君が代」",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_268_adv_93",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の面積（おおよそ）は？",
+        "options": [
+          "約500万km²",
+          "約100万km²",
+          "約38万km²",
+          "約10万km²"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本の国土面積は約38万km²",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_271_adv_94",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】世界で最も人口が多い国は？",
+        "options": [
+          "アメリカ",
+          "中国",
+          "インド",
+          "ロシア"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "中国は約14億人（2020年代はインドが追い越す）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_274_adv_95",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国旗の正式名称は？",
+        "options": [
+          "日の丸",
+          "日本旗",
+          "日章旗",
+          "国旗"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "正式名称は日章旗（にっしょうき）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_277_adv_96",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で最も人口が多い都市は？",
+        "options": [
+          "名古屋",
+          "横浜",
+          "東京",
+          "大阪"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本の人口最大都市は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_280_adv_97",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の人口はおよそ何万人？",
+        "options": [
+          "約2億人",
+          "約3億人",
+          "約5千万人",
+          "約1億2千万人"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "2020年代の日本の人口は約1億2500万人",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_283_adv_98",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の首都は？",
+        "options": [
+          "東京",
+          "名古屋",
+          "大阪",
+          "京都"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "日本の首都は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_286_adv_99",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の都道府県の数は？",
+        "options": [
+          "47",
+          "50",
+          "46",
+          "48"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "47都道府県がある",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_289_adv_100",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の周りを囲む海の名前は？",
+        "options": [
+          "地中海",
+          "太平洋・日本海・東シナ海・オホーツク海",
+          "大西洋",
+          "インド洋"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本は4つの海に囲まれている",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_292_adv_101",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】国連に加盟している国の数はおよそ何か？",
+        "options": [
+          "約100か国",
+          "約300か国",
+          "約50か国",
+          "約193か国"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "2023年時点で193か国が国連に加盟",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_295_adv_102",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国歌は？",
+        "options": [
+          "もみじ",
+          "さくら",
+          "君が代",
+          "富士山"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本の国歌は「君が代」",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_298_adv_103",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の面積（おおよそ）は？",
+        "options": [
+          "約38万km²",
+          "約10万km²",
+          "約100万km²",
+          "約500万km²"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "日本の国土面積は約38万km²",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_001_inflated_104_adv_104",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で一番高い山は？ (類似問題1)",
+        "options": [
+          "富士山",
+          "北岳",
+          "白山",
+          "槍ヶ岳"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "富士山は標高3776mで日本最高峰",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_002_inflated_105_adv_105",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で一番長い川は？ (類似問題1)",
+        "options": [
+          "信濃川",
+          "阿賀野川",
+          "木曽川",
+          "利根川"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "信濃川は約367kmで日本最長",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_003_inflated_106_adv_106",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で一番広い湖は？ (類似問題1)",
+        "options": [
+          "霞ヶ浦",
+          "琵琶湖",
+          "諏訪湖",
+          "摩周湖"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "琵琶湖は滋賀県にある日本最大の湖",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_004_inflated_107_adv_107",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国土はほぼどんな形状か？ (類似問題1)",
+        "options": [
+          "大陸",
+          "細長い弧状（島国）",
+          "正方形",
+          "円形"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本は南北に細長い弧状列島",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_005_inflated_108_adv_108",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の気候の特徴は？ (類似問題1)",
+        "options": [
+          "雨がほとんど降らない",
+          "一年中寒い",
+          "一年中暑い",
+          "四季がはっきりしている"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本は四季の変化が明確",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_006_inflated_109_adv_109",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国土の約何%が山地か？ (類似問題1)",
+        "options": [
+          "約90%",
+          "約30%",
+          "約50%",
+          "約70%"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本の国土の約70%が山地・丘陵",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_007_inflated_110_adv_110",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本アルプスと呼ばれる山脈は？ (類似問題1)",
+        "options": [
+          "飛騨・木曽・赤石山脈",
+          "九州山地",
+          "奥羽山脈",
+          "中国山地"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "北・中央・南アルプスの総称",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_008_inflated_111_adv_111",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本海側と太平洋側の冬の天気の違いは？ (類似問題1)",
+        "options": [
+          "両方とも雨",
+          "日本海側は雪が多く、太平洋側は晴れが多い",
+          "日本海側が晴れ",
+          "同じ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "北西の季節風が日本海で雪雲を作る",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_009_inflated_112_adv_112",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の標準時子午線（時刻の基準）は何度？ (類似問題1)",
+        "options": [
+          "東経135度",
+          "東経120度",
+          "東経150度",
+          "西経135度"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "兵庫県明石市を通る東経135度",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_010_inflated_113_adv_113",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国土の東西南北の端（大まかに） (類似問題1)",
+        "options": [
+          "北海道の北東〜沖縄の南西",
+          "北海道〜本州",
+          "関東〜近畿",
+          "九州〜四国"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "最北端は択捉島、最南端は沖ノ鳥島",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_011_inflated_114_adv_114",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の47都道府県のうち、島だけでできている県は？ (類似問題1)",
+        "options": [
+          "北海道のみ",
+          "東京都（島部含む）・沖縄県・鹿児島県など",
+          "全て陸続き",
+          "全て島"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "沖縄県は島だけで構成される",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_012_inflated_115_adv_115",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】関東地方の平野を何という？ (類似問題1)",
+        "options": [
+          "石狩平野",
+          "大阪平野",
+          "関東平野",
+          "濃尾平野"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本最大の平野は関東平野",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_013_inflated_116_adv_116",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】北海道の気候の特徴は？ (類似問題1)",
+        "options": [
+          "熱帯",
+          "冷帯（亜寒帯）で寒さが厳しい",
+          "温帯",
+          "砂漠気候"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "北海道は冷帯気候で冬が長い",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_014_inflated_117_adv_117",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】沖縄の気候の特徴は？ (類似問題1)",
+        "options": [
+          "寒冷",
+          "乾燥",
+          "冷帯",
+          "亜熱帯で年中温暖"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "沖縄は亜熱帯気候で冬も温かい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_015_inflated_118_adv_118",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の川の特徴は？ (類似問題1)",
+        "options": [
+          "長くて緩やか",
+          "干上がっている",
+          "短くて流れが急",
+          "砂漠の川"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "山が多いため短く急流",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_016_inflated_119_adv_119",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】太平洋に面していない地方は？ (類似問題1)",
+        "options": [
+          "九州地方",
+          "関東地方",
+          "内陸地方（長野・山梨など）",
+          "近畿地方"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "長野県・山梨県などは海に面していない",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_017_inflated_120_adv_120",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の最も降水量が多い地域はどこ？ (類似問題1)",
+        "options": [
+          "北海道",
+          "内陸部",
+          "紀伊半島・高知県（太平洋側）",
+          "東北地方"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "黒潮と地形の影響で太平洋側南部が多雨",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_018_inflated_121_adv_121",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で「やませ」が吹く地方は？ (類似問題1)",
+        "options": [
+          "近畿",
+          "関東",
+          "東北地方（太平洋側）",
+          "九州"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "東北太平洋側では夏に冷たいやませが吹く",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_019_inflated_122_adv_122",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で「フェーン現象」が起きやすい地方は？ (類似問題1)",
+        "options": [
+          "九州",
+          "日本海側（北陸・山形など）",
+          "東北太平洋側",
+          "関東"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "山を越えた風が乾燥・高温になるフェーン現象",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_020_inflated_123_adv_123",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の領海の範囲は基線から何海里？ (類似問題1)",
+        "options": [
+          "12海里",
+          "200海里",
+          "3海里",
+          "50海里"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "領海は基線から12海里以内",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_021_inflated_124_adv_124",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の農業で最も多く生産される作物は？ (類似問題1)",
+        "options": [
+          "小麦",
+          "大豆",
+          "じゃがいも",
+          "米（稲作）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本では稲作が農業の中心",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_022_inflated_125_adv_125",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】北海道で多く生産される農作物は？ (類似問題1)",
+        "options": [
+          "みかん",
+          "お茶",
+          "じゃがいも・小麦・大豆",
+          "パイナップル"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "北海道は畑作・酪農が盛ん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_023_inflated_126_adv_126",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】温暖な気候で盛んなみかんの主産地は？ (類似問題1)",
+        "options": [
+          "愛媛県・和歌山県・静岡県",
+          "北海道",
+          "東北",
+          "青森"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "温暖な太平洋側でみかんを多く生産",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_024_inflated_127_adv_127",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】りんごの主産地として有名な県は？ (類似問題1)",
+        "options": [
+          "福岡県",
+          "青森県",
+          "高知県",
+          "沖縄県"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "青森県は日本最大のりんご産地",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_025_inflated_128_adv_128",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】高知県で盛んな農業の形態は？ (類似問題1)",
+        "options": [
+          "酪農",
+          "抑制栽培",
+          "稲作のみ",
+          "促成栽培（ビニールハウス）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "温暖な気候を利用した促成栽培が盛ん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_026_inflated_129_adv_129",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で米の生産量が多い地方は？ (類似問題1)",
+        "options": [
+          "東北・北陸地方",
+          "東海",
+          "沖縄",
+          "九州南部"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "東北・北陸は米どころとして有名",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_027_inflated_130_adv_130",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】農業で「耕地面積が減っている」理由の一つは？ (類似問題1)",
+        "options": [
+          "宅地や工場への転用、農家の高齢化",
+          "雨が増えた",
+          "人口が増えた",
+          "農業が盛んになった"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "農業離れや都市化で耕地が減少",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_028_inflated_131_adv_131",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】野菜を通常より早い時期に出荷する栽培法は？ (類似問題1)",
+        "options": [
+          "露地栽培",
+          "有機農法",
+          "促成栽培",
+          "抑制栽培"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "暖かい地方でビニールハウスを使い早出し",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_029_inflated_132_adv_132",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】野菜を通常より遅い時期に出荷する栽培法は？ (類似問題1)",
+        "options": [
+          "露地栽培",
+          "有機農法",
+          "抑制栽培",
+          "促成栽培"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "涼しい高地などで時期を遅らせて出荷",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_030_inflated_133_adv_133",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】農業で「有機農法」とは？ (類似問題1)",
+        "options": [
+          "機械化した農法",
+          "農薬・化学肥料を使わない農法",
+          "海外で行う農法",
+          "大量に農薬を使う"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "有機農法は化学物質を使わない農業",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_031_inflated_134_adv_134",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の食料自給率（カロリーベース）はおおよそ何%？ (類似問題1)",
+        "options": [
+          "約60%",
+          "約38%（2020年代）",
+          "約80%",
+          "約10%"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の食料自給率は低く約38%",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_032_inflated_135_adv_135",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】農業従事者の高齢化が進む問題点は？ (類似問題1)",
+        "options": [
+          "農薬が増える",
+          "耕地が増える",
+          "農業の担い手不足",
+          "食料が増えすぎる"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "若者が農業を続けず担い手が減少",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_033_inflated_136_adv_136",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の稲作に適した気候条件は？ (類似問題1)",
+        "options": [
+          "冬の寒冷・乾燥",
+          "夏の高温・多雨",
+          "一年中乾燥",
+          "一年中高温"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "稲作は高温多湿な夏が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_034_inflated_137_adv_137",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】二毛作とは何か？ (類似問題1)",
+        "options": [
+          "2人で行う農業",
+          "1年に同じ土地で2種類の作物を育てること",
+          "1年に1種類",
+          "2つの農場"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "同じ田畑で年2回作物を収穫する",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_035_inflated_138_adv_138",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で盛んな酪農地域はどこか？ (類似問題1)",
+        "options": [
+          "高知",
+          "北海道",
+          "沖縄",
+          "東京"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "北海道は涼しい気候で酪農が発達",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_096_inflated_139_adv_139",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】縄文時代の人々の生活は？ (類似問題1)",
+        "options": [
+          "牧畜中心",
+          "工業化",
+          "稲作中心",
+          "狩猟・採集・漁を行った"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "縄文時代は狩猟・採集・漁が中心",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_097_inflated_140_adv_140",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】弥生時代に広まったのは？ (類似問題1)",
+        "options": [
+          "狩猟",
+          "稲作",
+          "牧畜",
+          "漁のみ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "弥生時代に大陸から稲作が伝わった",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_098_inflated_141_adv_141",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】聖徳太子が制定した「十七条の憲法」の目的は？ (類似問題1)",
+        "options": [
+          "税を集める",
+          "戦争を禁じる",
+          "官人の心得を示す",
+          "外国と貿易する"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "役人の道徳・心得を定めた",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_103_inflated_142_adv_142",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の首都は？ (類似問題1)",
+        "options": [
+          "京都",
+          "東京",
+          "大阪",
+          "名古屋"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の首都は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_106_inflated_143_adv_143",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の都道府県の数は？ (類似問題1)",
+        "options": [
+          "48",
+          "46",
+          "50",
+          "47"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "47都道府県がある",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_109_inflated_144_adv_144",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の周りを囲む海の名前は？ (類似問題1)",
+        "options": [
+          "インド洋",
+          "地中海",
+          "太平洋・日本海・東シナ海・オホーツク海",
+          "大西洋"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本は4つの海に囲まれている",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_112_inflated_145_adv_145",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】国連に加盟している国の数はおよそ何か？ (類似問題1)",
+        "options": [
+          "約300か国",
+          "約100か国",
+          "約50か国",
+          "約193か国"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "2023年時点で193か国が国連に加盟",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_115_inflated_146_adv_146",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国歌は？ (類似問題1)",
+        "options": [
+          "もみじ",
+          "さくら",
+          "君が代",
+          "富士山"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本の国歌は「君が代」",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_118_inflated_147_adv_147",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の面積（おおよそ）は？ (類似問題1)",
+        "options": [
+          "約500万km²",
+          "約38万km²",
+          "約10万km²",
+          "約100万km²"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の国土面積は約38万km²",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_121_inflated_148_adv_148",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】世界で最も人口が多い国は？ (類似問題1)",
+        "options": [
+          "中国",
+          "インド",
+          "ロシア",
+          "アメリカ"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "中国は約14億人（2020年代はインドが追い越す）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_124_inflated_149_adv_149",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国旗の正式名称は？ (類似問題1)",
+        "options": [
+          "日本旗",
+          "日章旗",
+          "国旗",
+          "日の丸"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "正式名称は日章旗（にっしょうき）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_127_inflated_150_adv_150",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で最も人口が多い都市は？ (類似問題1)",
+        "options": [
+          "名古屋",
+          "横浜",
+          "大阪",
+          "東京"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本の人口最大都市は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_130_inflated_151_adv_151",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の人口はおよそ何万人？ (類似問題1)",
+        "options": [
+          "約2億人",
+          "約5千万人",
+          "約1億2千万人",
+          "約3億人"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2020年代の日本の人口は約1億2500万人",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_133_inflated_152_adv_152",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の首都は？ (類似問題1)",
+        "options": [
+          "名古屋",
+          "京都",
+          "大阪",
+          "東京"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本の首都は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_136_inflated_153_adv_153",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の都道府県の数は？ (類似問題1)",
+        "options": [
+          "50",
+          "48",
+          "46",
+          "47"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "47都道府県がある",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_139_inflated_154_adv_154",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の周りを囲む海の名前は？ (類似問題1)",
+        "options": [
+          "大西洋",
+          "インド洋",
+          "太平洋・日本海・東シナ海・オホーツク海",
+          "地中海"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本は4つの海に囲まれている",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_142_inflated_155_adv_155",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】国連に加盟している国の数はおよそ何か？ (類似問題1)",
+        "options": [
+          "約193か国",
+          "約300か国",
+          "約50か国",
+          "約100か国"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "2023年時点で193か国が国連に加盟",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_145_inflated_156_adv_156",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国歌は？ (類似問題1)",
+        "options": [
+          "君が代",
+          "もみじ",
+          "富士山",
+          "さくら"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "日本の国歌は「君が代」",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_148_inflated_157_adv_157",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の面積（おおよそ）は？ (類似問題1)",
+        "options": [
+          "約500万km²",
+          "約38万km²",
+          "約10万km²",
+          "約100万km²"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の国土面積は約38万km²",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_151_inflated_158_adv_158",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】世界で最も人口が多い国は？ (類似問題1)",
+        "options": [
+          "アメリカ",
+          "インド",
+          "ロシア",
+          "中国"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "中国は約14億人（2020年代はインドが追い越す）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_154_inflated_159_adv_159",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国旗の正式名称は？ (類似問題1)",
+        "options": [
+          "日本旗",
+          "国旗",
+          "日章旗",
+          "日の丸"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "正式名称は日章旗（にっしょうき）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_157_inflated_160_adv_160",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で最も人口が多い都市は？ (類似問題1)",
+        "options": [
+          "大阪",
+          "東京",
+          "名古屋",
+          "横浜"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の人口最大都市は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_160_inflated_161_adv_161",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の人口はおよそ何万人？ (類似問題1)",
+        "options": [
+          "約3億人",
+          "約2億人",
+          "約1億2千万人",
+          "約5千万人"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2020年代の日本の人口は約1億2500万人",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_163_inflated_162_adv_162",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の首都は？ (類似問題1)",
+        "options": [
+          "名古屋",
+          "東京",
+          "大阪",
+          "京都"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の首都は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_166_inflated_163_adv_163",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の都道府県の数は？ (類似問題1)",
+        "options": [
+          "48",
+          "46",
+          "50",
+          "47"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "47都道府県がある",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_169_inflated_164_adv_164",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の周りを囲む海の名前は？ (類似問題1)",
+        "options": [
+          "大西洋",
+          "インド洋",
+          "太平洋・日本海・東シナ海・オホーツク海",
+          "地中海"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本は4つの海に囲まれている",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_172_inflated_165_adv_165",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】国連に加盟している国の数はおよそ何か？ (類似問題1)",
+        "options": [
+          "約300か国",
+          "約50か国",
+          "約193か国",
+          "約100か国"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2023年時点で193か国が国連に加盟",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_175_inflated_166_adv_166",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国歌は？ (類似問題1)",
+        "options": [
+          "さくら",
+          "富士山",
+          "もみじ",
+          "君が代"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本の国歌は「君が代」",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_178_inflated_167_adv_167",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の面積（おおよそ）は？ (類似問題1)",
+        "options": [
+          "約100万km²",
+          "約38万km²",
+          "約10万km²",
+          "約500万km²"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の国土面積は約38万km²",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_181_inflated_168_adv_168",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】世界で最も人口が多い国は？ (類似問題1)",
+        "options": [
+          "アメリカ",
+          "インド",
+          "ロシア",
+          "中国"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "中国は約14億人（2020年代はインドが追い越す）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_184_inflated_169_adv_169",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国旗の正式名称は？ (類似問題1)",
+        "options": [
+          "日章旗",
+          "日の丸",
+          "国旗",
+          "日本旗"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "正式名称は日章旗（にっしょうき）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_187_inflated_170_adv_170",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で最も人口が多い都市は？ (類似問題1)",
+        "options": [
+          "名古屋",
+          "大阪",
+          "東京",
+          "横浜"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本の人口最大都市は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_190_inflated_171_adv_171",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の人口はおよそ何万人？ (類似問題1)",
+        "options": [
+          "約3億人",
+          "約1億2千万人",
+          "約2億人",
+          "約5千万人"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "2020年代の日本の人口は約1億2500万人",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_193_inflated_172_adv_172",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の首都は？ (類似問題1)",
+        "options": [
+          "東京",
+          "名古屋",
+          "京都",
+          "大阪"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "日本の首都は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_196_inflated_173_adv_173",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の都道府県の数は？ (類似問題1)",
+        "options": [
+          "47",
+          "48",
+          "50",
+          "46"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "47都道府県がある",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_199_inflated_174_adv_174",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の周りを囲む海の名前は？ (類似問題1)",
+        "options": [
+          "太平洋・日本海・東シナ海・オホーツク海",
+          "地中海",
+          "インド洋",
+          "大西洋"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "日本は4つの海に囲まれている",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_202_inflated_175_adv_175",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】国連に加盟している国の数はおよそ何か？ (類似問題1)",
+        "options": [
+          "約300か国",
+          "約50か国",
+          "約193か国",
+          "約100か国"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2023年時点で193か国が国連に加盟",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_205_inflated_176_adv_176",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国歌は？ (類似問題1)",
+        "options": [
+          "君が代",
+          "もみじ",
+          "さくら",
+          "富士山"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "日本の国歌は「君が代」",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_208_inflated_177_adv_177",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の面積（おおよそ）は？ (類似問題1)",
+        "options": [
+          "約10万km²",
+          "約500万km²",
+          "約100万km²",
+          "約38万km²"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本の国土面積は約38万km²",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_211_inflated_178_adv_178",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】世界で最も人口が多い国は？ (類似問題1)",
+        "options": [
+          "インド",
+          "アメリカ",
+          "ロシア",
+          "中国"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "中国は約14億人（2020年代はインドが追い越す）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_214_inflated_179_adv_179",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国旗の正式名称は？ (類似問題1)",
+        "options": [
+          "日本旗",
+          "日章旗",
+          "日の丸",
+          "国旗"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "正式名称は日章旗（にっしょうき）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_217_inflated_180_adv_180",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で最も人口が多い都市は？ (類似問題1)",
+        "options": [
+          "名古屋",
+          "横浜",
+          "東京",
+          "大阪"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本の人口最大都市は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_220_inflated_181_adv_181",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の人口はおよそ何万人？ (類似問題1)",
+        "options": [
+          "約2億人",
+          "約1億2千万人",
+          "約3億人",
+          "約5千万人"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "2020年代の日本の人口は約1億2500万人",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_223_inflated_182_adv_182",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の首都は？ (類似問題1)",
+        "options": [
+          "京都",
+          "東京",
+          "大阪",
+          "名古屋"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の首都は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_226_inflated_183_adv_183",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の都道府県の数は？ (類似問題1)",
+        "options": [
+          "50",
+          "47",
+          "46",
+          "48"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "47都道府県がある",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_229_inflated_184_adv_184",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の周りを囲む海の名前は？ (類似問題1)",
+        "options": [
+          "インド洋",
+          "太平洋・日本海・東シナ海・オホーツク海",
+          "大西洋",
+          "地中海"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本は4つの海に囲まれている",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_232_inflated_185_adv_185",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】国連に加盟している国の数はおよそ何か？ (類似問題1)",
+        "options": [
+          "約50か国",
+          "約100か国",
+          "約300か国",
+          "約193か国"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "2023年時点で193か国が国連に加盟",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_235_inflated_186_adv_186",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国歌は？ (類似問題1)",
+        "options": [
+          "富士山",
+          "さくら",
+          "君が代",
+          "もみじ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本の国歌は「君が代」",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_238_inflated_187_adv_187",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の面積（おおよそ）は？ (類似問題1)",
+        "options": [
+          "約10万km²",
+          "約38万km²",
+          "約100万km²",
+          "約500万km²"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の国土面積は約38万km²",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_241_inflated_188_adv_188",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】世界で最も人口が多い国は？ (類似問題1)",
+        "options": [
+          "中国",
+          "インド",
+          "ロシア",
+          "アメリカ"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "中国は約14億人（2020年代はインドが追い越す）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_244_inflated_189_adv_189",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国旗の正式名称は？ (類似問題1)",
+        "options": [
+          "日本旗",
+          "国旗",
+          "日章旗",
+          "日の丸"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "正式名称は日章旗（にっしょうき）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_247_inflated_190_adv_190",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で最も人口が多い都市は？ (類似問題1)",
+        "options": [
+          "名古屋",
+          "横浜",
+          "大阪",
+          "東京"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本の人口最大都市は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_250_inflated_191_adv_191",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の人口はおよそ何万人？ (類似問題1)",
+        "options": [
+          "約3億人",
+          "約2億人",
+          "約1億2千万人",
+          "約5千万人"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2020年代の日本の人口は約1億2500万人",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_253_inflated_192_adv_192",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の首都は？ (類似問題1)",
+        "options": [
+          "京都",
+          "東京",
+          "名古屋",
+          "大阪"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の首都は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_256_inflated_193_adv_193",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の都道府県の数は？ (類似問題1)",
+        "options": [
+          "46",
+          "47",
+          "48",
+          "50"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "47都道府県がある",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_259_inflated_194_adv_194",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の周りを囲む海の名前は？ (類似問題1)",
+        "options": [
+          "インド洋",
+          "大西洋",
+          "太平洋・日本海・東シナ海・オホーツク海",
+          "地中海"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本は4つの海に囲まれている",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_262_inflated_195_adv_195",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】国連に加盟している国の数はおよそ何か？ (類似問題1)",
+        "options": [
+          "約50か国",
+          "約100か国",
+          "約193か国",
+          "約300か国"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2023年時点で193か国が国連に加盟",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_265_inflated_196_adv_196",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国歌は？ (類似問題1)",
+        "options": [
+          "さくら",
+          "もみじ",
+          "君が代",
+          "富士山"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本の国歌は「君が代」",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_268_inflated_197_adv_197",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の面積（おおよそ）は？ (類似問題1)",
+        "options": [
+          "約500万km²",
+          "約100万km²",
+          "約38万km²",
+          "約10万km²"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本の国土面積は約38万km²",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_271_inflated_198_adv_198",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】世界で最も人口が多い国は？ (類似問題1)",
+        "options": [
+          "アメリカ",
+          "中国",
+          "インド",
+          "ロシア"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "中国は約14億人（2020年代はインドが追い越す）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_274_inflated_199_adv_199",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国旗の正式名称は？ (類似問題1)",
+        "options": [
+          "日の丸",
+          "日本旗",
+          "日章旗",
+          "国旗"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "正式名称は日章旗（にっしょうき）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_277_inflated_200_adv_200",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で最も人口が多い都市は？ (類似問題1)",
+        "options": [
+          "名古屋",
+          "横浜",
+          "東京",
+          "大阪"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本の人口最大都市は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_280_inflated_201_adv_201",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の人口はおよそ何万人？ (類似問題1)",
+        "options": [
+          "約2億人",
+          "約3億人",
+          "約5千万人",
+          "約1億2千万人"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "2020年代の日本の人口は約1億2500万人",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_283_inflated_202_adv_202",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の首都は？ (類似問題1)",
+        "options": [
+          "東京",
+          "名古屋",
+          "大阪",
+          "京都"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "日本の首都は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_286_inflated_203_adv_203",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の都道府県の数は？ (類似問題1)",
+        "options": [
+          "47",
+          "50",
+          "46",
+          "48"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "47都道府県がある",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_289_inflated_204_adv_204",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の周りを囲む海の名前は？ (類似問題1)",
+        "options": [
+          "地中海",
+          "太平洋・日本海・東シナ海・オホーツク海",
+          "大西洋",
+          "インド洋"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本は4つの海に囲まれている",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_292_inflated_205_adv_205",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】国連に加盟している国の数はおよそ何か？ (類似問題1)",
+        "options": [
+          "約100か国",
+          "約300か国",
+          "約50か国",
+          "約193か国"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "2023年時点で193か国が国連に加盟",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_295_inflated_206_adv_206",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国歌は？ (類似問題1)",
+        "options": [
+          "もみじ",
+          "さくら",
+          "君が代",
+          "富士山"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本の国歌は「君が代」",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_298_inflated_207_adv_207",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の面積（おおよそ）は？ (類似問題1)",
+        "options": [
+          "約38万km²",
+          "約10万km²",
+          "約100万km²",
+          "約500万km²"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "日本の国土面積は約38万km²",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_001_inflated_208_adv_208",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で一番高い山は？ (類似問題2)",
+        "options": [
+          "富士山",
+          "北岳",
+          "白山",
+          "槍ヶ岳"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "富士山は標高3776mで日本最高峰",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_002_inflated_209_adv_209",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で一番長い川は？ (類似問題2)",
+        "options": [
+          "信濃川",
+          "阿賀野川",
+          "木曽川",
+          "利根川"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "信濃川は約367kmで日本最長",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_003_inflated_210_adv_210",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で一番広い湖は？ (類似問題2)",
+        "options": [
+          "霞ヶ浦",
+          "琵琶湖",
+          "諏訪湖",
+          "摩周湖"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "琵琶湖は滋賀県にある日本最大の湖",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_004_inflated_211_adv_211",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国土はほぼどんな形状か？ (類似問題2)",
+        "options": [
+          "大陸",
+          "細長い弧状（島国）",
+          "正方形",
+          "円形"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本は南北に細長い弧状列島",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_005_inflated_212_adv_212",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の気候の特徴は？ (類似問題2)",
+        "options": [
+          "雨がほとんど降らない",
+          "一年中寒い",
+          "一年中暑い",
+          "四季がはっきりしている"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本は四季の変化が明確",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_006_inflated_213_adv_213",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国土の約何%が山地か？ (類似問題2)",
+        "options": [
+          "約90%",
+          "約30%",
+          "約50%",
+          "約70%"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本の国土の約70%が山地・丘陵",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_007_inflated_214_adv_214",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本アルプスと呼ばれる山脈は？ (類似問題2)",
+        "options": [
+          "飛騨・木曽・赤石山脈",
+          "九州山地",
+          "奥羽山脈",
+          "中国山地"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "北・中央・南アルプスの総称",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_008_inflated_215_adv_215",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本海側と太平洋側の冬の天気の違いは？ (類似問題2)",
+        "options": [
+          "両方とも雨",
+          "日本海側は雪が多く、太平洋側は晴れが多い",
+          "日本海側が晴れ",
+          "同じ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "北西の季節風が日本海で雪雲を作る",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_009_inflated_216_adv_216",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の標準時子午線（時刻の基準）は何度？ (類似問題2)",
+        "options": [
+          "東経135度",
+          "東経120度",
+          "東経150度",
+          "西経135度"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "兵庫県明石市を通る東経135度",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_010_inflated_217_adv_217",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国土の東西南北の端（大まかに） (類似問題2)",
+        "options": [
+          "北海道の北東〜沖縄の南西",
+          "北海道〜本州",
+          "関東〜近畿",
+          "九州〜四国"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "最北端は択捉島、最南端は沖ノ鳥島",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_011_inflated_218_adv_218",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の47都道府県のうち、島だけでできている県は？ (類似問題2)",
+        "options": [
+          "北海道のみ",
+          "東京都（島部含む）・沖縄県・鹿児島県など",
+          "全て陸続き",
+          "全て島"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "沖縄県は島だけで構成される",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_012_inflated_219_adv_219",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】関東地方の平野を何という？ (類似問題2)",
+        "options": [
+          "石狩平野",
+          "大阪平野",
+          "関東平野",
+          "濃尾平野"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本最大の平野は関東平野",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_013_inflated_220_adv_220",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】北海道の気候の特徴は？ (類似問題2)",
+        "options": [
+          "熱帯",
+          "冷帯（亜寒帯）で寒さが厳しい",
+          "温帯",
+          "砂漠気候"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "北海道は冷帯気候で冬が長い",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_014_inflated_221_adv_221",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】沖縄の気候の特徴は？ (類似問題2)",
+        "options": [
+          "寒冷",
+          "乾燥",
+          "冷帯",
+          "亜熱帯で年中温暖"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "沖縄は亜熱帯気候で冬も温かい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_015_inflated_222_adv_222",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の川の特徴は？ (類似問題2)",
+        "options": [
+          "長くて緩やか",
+          "干上がっている",
+          "短くて流れが急",
+          "砂漠の川"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "山が多いため短く急流",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_016_inflated_223_adv_223",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】太平洋に面していない地方は？ (類似問題2)",
+        "options": [
+          "九州地方",
+          "関東地方",
+          "内陸地方（長野・山梨など）",
+          "近畿地方"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "長野県・山梨県などは海に面していない",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_017_inflated_224_adv_224",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の最も降水量が多い地域はどこ？ (類似問題2)",
+        "options": [
+          "北海道",
+          "内陸部",
+          "紀伊半島・高知県（太平洋側）",
+          "東北地方"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "黒潮と地形の影響で太平洋側南部が多雨",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_018_inflated_225_adv_225",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で「やませ」が吹く地方は？ (類似問題2)",
+        "options": [
+          "近畿",
+          "関東",
+          "東北地方（太平洋側）",
+          "九州"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "東北太平洋側では夏に冷たいやませが吹く",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_019_inflated_226_adv_226",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で「フェーン現象」が起きやすい地方は？ (類似問題2)",
+        "options": [
+          "九州",
+          "日本海側（北陸・山形など）",
+          "東北太平洋側",
+          "関東"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "山を越えた風が乾燥・高温になるフェーン現象",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_020_inflated_227_adv_227",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の領海の範囲は基線から何海里？ (類似問題2)",
+        "options": [
+          "12海里",
+          "200海里",
+          "3海里",
+          "50海里"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "領海は基線から12海里以内",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_021_inflated_228_adv_228",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の農業で最も多く生産される作物は？ (類似問題2)",
+        "options": [
+          "小麦",
+          "大豆",
+          "じゃがいも",
+          "米（稲作）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本では稲作が農業の中心",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_022_inflated_229_adv_229",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】北海道で多く生産される農作物は？ (類似問題2)",
+        "options": [
+          "みかん",
+          "お茶",
+          "じゃがいも・小麦・大豆",
+          "パイナップル"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "北海道は畑作・酪農が盛ん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_023_inflated_230_adv_230",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】温暖な気候で盛んなみかんの主産地は？ (類似問題2)",
+        "options": [
+          "愛媛県・和歌山県・静岡県",
+          "北海道",
+          "東北",
+          "青森"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "温暖な太平洋側でみかんを多く生産",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_024_inflated_231_adv_231",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】りんごの主産地として有名な県は？ (類似問題2)",
+        "options": [
+          "福岡県",
+          "青森県",
+          "高知県",
+          "沖縄県"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "青森県は日本最大のりんご産地",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_025_inflated_232_adv_232",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】高知県で盛んな農業の形態は？ (類似問題2)",
+        "options": [
+          "酪農",
+          "抑制栽培",
+          "稲作のみ",
+          "促成栽培（ビニールハウス）"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "温暖な気候を利用した促成栽培が盛ん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_026_inflated_233_adv_233",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で米の生産量が多い地方は？ (類似問題2)",
+        "options": [
+          "東北・北陸地方",
+          "東海",
+          "沖縄",
+          "九州南部"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "東北・北陸は米どころとして有名",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_027_inflated_234_adv_234",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】農業で「耕地面積が減っている」理由の一つは？ (類似問題2)",
+        "options": [
+          "宅地や工場への転用、農家の高齢化",
+          "雨が増えた",
+          "人口が増えた",
+          "農業が盛んになった"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "農業離れや都市化で耕地が減少",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_028_inflated_235_adv_235",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】野菜を通常より早い時期に出荷する栽培法は？ (類似問題2)",
+        "options": [
+          "露地栽培",
+          "有機農法",
+          "促成栽培",
+          "抑制栽培"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "暖かい地方でビニールハウスを使い早出し",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_029_inflated_236_adv_236",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】野菜を通常より遅い時期に出荷する栽培法は？ (類似問題2)",
+        "options": [
+          "露地栽培",
+          "有機農法",
+          "抑制栽培",
+          "促成栽培"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "涼しい高地などで時期を遅らせて出荷",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_030_inflated_237_adv_237",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】農業で「有機農法」とは？ (類似問題2)",
+        "options": [
+          "機械化した農法",
+          "農薬・化学肥料を使わない農法",
+          "海外で行う農法",
+          "大量に農薬を使う"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "有機農法は化学物質を使わない農業",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_031_inflated_238_adv_238",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の食料自給率（カロリーベース）はおおよそ何%？ (類似問題2)",
+        "options": [
+          "約60%",
+          "約38%（2020年代）",
+          "約80%",
+          "約10%"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の食料自給率は低く約38%",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_032_inflated_239_adv_239",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】農業従事者の高齢化が進む問題点は？ (類似問題2)",
+        "options": [
+          "農薬が増える",
+          "耕地が増える",
+          "農業の担い手不足",
+          "食料が増えすぎる"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "若者が農業を続けず担い手が減少",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_033_inflated_240_adv_240",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の稲作に適した気候条件は？ (類似問題2)",
+        "options": [
+          "冬の寒冷・乾燥",
+          "夏の高温・多雨",
+          "一年中乾燥",
+          "一年中高温"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "稲作は高温多湿な夏が必要",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_034_inflated_241_adv_241",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】二毛作とは何か？ (類似問題2)",
+        "options": [
+          "2人で行う農業",
+          "1年に同じ土地で2種類の作物を育てること",
+          "1年に1種類",
+          "2つの農場"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "同じ田畑で年2回作物を収穫する",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_035_inflated_242_adv_242",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で盛んな酪農地域はどこか？ (類似問題2)",
+        "options": [
+          "高知",
+          "北海道",
+          "沖縄",
+          "東京"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "北海道は涼しい気候で酪農が発達",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_096_inflated_243_adv_243",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】縄文時代の人々の生活は？ (類似問題2)",
+        "options": [
+          "牧畜中心",
+          "工業化",
+          "稲作中心",
+          "狩猟・採集・漁を行った"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "縄文時代は狩猟・採集・漁が中心",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_097_inflated_244_adv_244",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】弥生時代に広まったのは？ (類似問題2)",
+        "options": [
+          "狩猟",
+          "稲作",
+          "牧畜",
+          "漁のみ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "弥生時代に大陸から稲作が伝わった",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_098_inflated_245_adv_245",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】聖徳太子が制定した「十七条の憲法」の目的は？ (類似問題2)",
+        "options": [
+          "税を集める",
+          "戦争を禁じる",
+          "官人の心得を示す",
+          "外国と貿易する"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "役人の道徳・心得を定めた",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_103_inflated_246_adv_246",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の首都は？ (類似問題2)",
+        "options": [
+          "京都",
+          "東京",
+          "大阪",
+          "名古屋"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の首都は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_106_inflated_247_adv_247",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の都道府県の数は？ (類似問題2)",
+        "options": [
+          "48",
+          "46",
+          "50",
+          "47"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "47都道府県がある",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_109_inflated_248_adv_248",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の周りを囲む海の名前は？ (類似問題2)",
+        "options": [
+          "インド洋",
+          "地中海",
+          "太平洋・日本海・東シナ海・オホーツク海",
+          "大西洋"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本は4つの海に囲まれている",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_112_inflated_249_adv_249",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】国連に加盟している国の数はおよそ何か？ (類似問題2)",
+        "options": [
+          "約300か国",
+          "約100か国",
+          "約50か国",
+          "約193か国"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "2023年時点で193か国が国連に加盟",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_115_inflated_250_adv_250",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国歌は？ (類似問題2)",
+        "options": [
+          "もみじ",
+          "さくら",
+          "君が代",
+          "富士山"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本の国歌は「君が代」",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_118_inflated_251_adv_251",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の面積（おおよそ）は？ (類似問題2)",
+        "options": [
+          "約500万km²",
+          "約38万km²",
+          "約10万km²",
+          "約100万km²"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の国土面積は約38万km²",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_121_inflated_252_adv_252",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】世界で最も人口が多い国は？ (類似問題2)",
+        "options": [
+          "中国",
+          "インド",
+          "ロシア",
+          "アメリカ"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "中国は約14億人（2020年代はインドが追い越す）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_124_inflated_253_adv_253",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国旗の正式名称は？ (類似問題2)",
+        "options": [
+          "日本旗",
+          "日章旗",
+          "国旗",
+          "日の丸"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "正式名称は日章旗（にっしょうき）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_127_inflated_254_adv_254",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で最も人口が多い都市は？ (類似問題2)",
+        "options": [
+          "名古屋",
+          "横浜",
+          "大阪",
+          "東京"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本の人口最大都市は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_130_inflated_255_adv_255",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の人口はおよそ何万人？ (類似問題2)",
+        "options": [
+          "約2億人",
+          "約5千万人",
+          "約1億2千万人",
+          "約3億人"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2020年代の日本の人口は約1億2500万人",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_133_inflated_256_adv_256",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の首都は？ (類似問題2)",
+        "options": [
+          "名古屋",
+          "京都",
+          "大阪",
+          "東京"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本の首都は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_136_inflated_257_adv_257",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の都道府県の数は？ (類似問題2)",
+        "options": [
+          "50",
+          "48",
+          "46",
+          "47"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "47都道府県がある",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_139_inflated_258_adv_258",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の周りを囲む海の名前は？ (類似問題2)",
+        "options": [
+          "大西洋",
+          "インド洋",
+          "太平洋・日本海・東シナ海・オホーツク海",
+          "地中海"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本は4つの海に囲まれている",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_142_inflated_259_adv_259",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】国連に加盟している国の数はおよそ何か？ (類似問題2)",
+        "options": [
+          "約193か国",
+          "約300か国",
+          "約50か国",
+          "約100か国"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "2023年時点で193か国が国連に加盟",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_145_inflated_260_adv_260",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国歌は？ (類似問題2)",
+        "options": [
+          "君が代",
+          "もみじ",
+          "富士山",
+          "さくら"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "日本の国歌は「君が代」",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_148_inflated_261_adv_261",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の面積（おおよそ）は？ (類似問題2)",
+        "options": [
+          "約500万km²",
+          "約38万km²",
+          "約10万km²",
+          "約100万km²"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の国土面積は約38万km²",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_151_inflated_262_adv_262",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】世界で最も人口が多い国は？ (類似問題2)",
+        "options": [
+          "アメリカ",
+          "インド",
+          "ロシア",
+          "中国"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "中国は約14億人（2020年代はインドが追い越す）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_154_inflated_263_adv_263",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国旗の正式名称は？ (類似問題2)",
+        "options": [
+          "日本旗",
+          "国旗",
+          "日章旗",
+          "日の丸"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "正式名称は日章旗（にっしょうき）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_157_inflated_264_adv_264",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で最も人口が多い都市は？ (類似問題2)",
+        "options": [
+          "大阪",
+          "東京",
+          "名古屋",
+          "横浜"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の人口最大都市は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_160_inflated_265_adv_265",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の人口はおよそ何万人？ (類似問題2)",
+        "options": [
+          "約3億人",
+          "約2億人",
+          "約1億2千万人",
+          "約5千万人"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2020年代の日本の人口は約1億2500万人",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_163_inflated_266_adv_266",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の首都は？ (類似問題2)",
+        "options": [
+          "名古屋",
+          "東京",
+          "大阪",
+          "京都"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の首都は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_166_inflated_267_adv_267",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の都道府県の数は？ (類似問題2)",
+        "options": [
+          "48",
+          "46",
+          "50",
+          "47"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "47都道府県がある",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_169_inflated_268_adv_268",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の周りを囲む海の名前は？ (類似問題2)",
+        "options": [
+          "大西洋",
+          "インド洋",
+          "太平洋・日本海・東シナ海・オホーツク海",
+          "地中海"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本は4つの海に囲まれている",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_172_inflated_269_adv_269",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】国連に加盟している国の数はおよそ何か？ (類似問題2)",
+        "options": [
+          "約300か国",
+          "約50か国",
+          "約193か国",
+          "約100か国"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2023年時点で193か国が国連に加盟",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_175_inflated_270_adv_270",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国歌は？ (類似問題2)",
+        "options": [
+          "さくら",
+          "富士山",
+          "もみじ",
+          "君が代"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本の国歌は「君が代」",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_178_inflated_271_adv_271",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の面積（おおよそ）は？ (類似問題2)",
+        "options": [
+          "約100万km²",
+          "約38万km²",
+          "約10万km²",
+          "約500万km²"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の国土面積は約38万km²",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_181_inflated_272_adv_272",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】世界で最も人口が多い国は？ (類似問題2)",
+        "options": [
+          "アメリカ",
+          "インド",
+          "ロシア",
+          "中国"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "中国は約14億人（2020年代はインドが追い越す）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_184_inflated_273_adv_273",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国旗の正式名称は？ (類似問題2)",
+        "options": [
+          "日章旗",
+          "日の丸",
+          "国旗",
+          "日本旗"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "正式名称は日章旗（にっしょうき）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_187_inflated_274_adv_274",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で最も人口が多い都市は？ (類似問題2)",
+        "options": [
+          "名古屋",
+          "大阪",
+          "東京",
+          "横浜"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本の人口最大都市は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_190_inflated_275_adv_275",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の人口はおよそ何万人？ (類似問題2)",
+        "options": [
+          "約3億人",
+          "約1億2千万人",
+          "約2億人",
+          "約5千万人"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "2020年代の日本の人口は約1億2500万人",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_193_inflated_276_adv_276",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の首都は？ (類似問題2)",
+        "options": [
+          "東京",
+          "名古屋",
+          "京都",
+          "大阪"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "日本の首都は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_196_inflated_277_adv_277",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の都道府県の数は？ (類似問題2)",
+        "options": [
+          "47",
+          "48",
+          "50",
+          "46"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "47都道府県がある",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_199_inflated_278_adv_278",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の周りを囲む海の名前は？ (類似問題2)",
+        "options": [
+          "太平洋・日本海・東シナ海・オホーツク海",
+          "地中海",
+          "インド洋",
+          "大西洋"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "日本は4つの海に囲まれている",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_202_inflated_279_adv_279",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】国連に加盟している国の数はおよそ何か？ (類似問題2)",
+        "options": [
+          "約300か国",
+          "約50か国",
+          "約193か国",
+          "約100か国"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2023年時点で193か国が国連に加盟",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_205_inflated_280_adv_280",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国歌は？ (類似問題2)",
+        "options": [
+          "君が代",
+          "もみじ",
+          "さくら",
+          "富士山"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "日本の国歌は「君が代」",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_208_inflated_281_adv_281",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の面積（おおよそ）は？ (類似問題2)",
+        "options": [
+          "約10万km²",
+          "約500万km²",
+          "約100万km²",
+          "約38万km²"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本の国土面積は約38万km²",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_211_inflated_282_adv_282",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】世界で最も人口が多い国は？ (類似問題2)",
+        "options": [
+          "インド",
+          "アメリカ",
+          "ロシア",
+          "中国"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "中国は約14億人（2020年代はインドが追い越す）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_214_inflated_283_adv_283",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国旗の正式名称は？ (類似問題2)",
+        "options": [
+          "日本旗",
+          "日章旗",
+          "日の丸",
+          "国旗"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "正式名称は日章旗（にっしょうき）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_217_inflated_284_adv_284",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で最も人口が多い都市は？ (類似問題2)",
+        "options": [
+          "名古屋",
+          "横浜",
+          "東京",
+          "大阪"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本の人口最大都市は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_220_inflated_285_adv_285",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の人口はおよそ何万人？ (類似問題2)",
+        "options": [
+          "約2億人",
+          "約1億2千万人",
+          "約3億人",
+          "約5千万人"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "2020年代の日本の人口は約1億2500万人",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_223_inflated_286_adv_286",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の首都は？ (類似問題2)",
+        "options": [
+          "京都",
+          "東京",
+          "大阪",
+          "名古屋"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の首都は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_226_inflated_287_adv_287",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の都道府県の数は？ (類似問題2)",
+        "options": [
+          "50",
+          "47",
+          "46",
+          "48"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "47都道府県がある",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_229_inflated_288_adv_288",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の周りを囲む海の名前は？ (類似問題2)",
+        "options": [
+          "インド洋",
+          "太平洋・日本海・東シナ海・オホーツク海",
+          "大西洋",
+          "地中海"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本は4つの海に囲まれている",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_232_inflated_289_adv_289",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】国連に加盟している国の数はおよそ何か？ (類似問題2)",
+        "options": [
+          "約50か国",
+          "約100か国",
+          "約300か国",
+          "約193か国"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "2023年時点で193か国が国連に加盟",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_235_inflated_290_adv_290",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国歌は？ (類似問題2)",
+        "options": [
+          "富士山",
+          "さくら",
+          "君が代",
+          "もみじ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本の国歌は「君が代」",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_238_inflated_291_adv_291",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の面積（おおよそ）は？ (類似問題2)",
+        "options": [
+          "約10万km²",
+          "約38万km²",
+          "約100万km²",
+          "約500万km²"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の国土面積は約38万km²",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_241_inflated_292_adv_292",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】世界で最も人口が多い国は？ (類似問題2)",
+        "options": [
+          "中国",
+          "インド",
+          "ロシア",
+          "アメリカ"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "中国は約14億人（2020年代はインドが追い越す）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_244_inflated_293_adv_293",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の国旗の正式名称は？ (類似問題2)",
+        "options": [
+          "日本旗",
+          "国旗",
+          "日章旗",
+          "日の丸"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "正式名称は日章旗（にっしょうき）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_247_inflated_294_adv_294",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本で最も人口が多い都市は？ (類似問題2)",
+        "options": [
+          "名古屋",
+          "横浜",
+          "大阪",
+          "東京"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "日本の人口最大都市は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_250_inflated_295_adv_295",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の人口はおよそ何万人？ (類似問題2)",
+        "options": [
+          "約3億人",
+          "約2億人",
+          "約1億2千万人",
+          "約5千万人"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2020年代の日本の人口は約1億2500万人",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_253_inflated_296_adv_296",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の首都は？ (類似問題2)",
+        "options": [
+          "京都",
+          "東京",
+          "名古屋",
+          "大阪"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "日本の首都は東京",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_256_inflated_297_adv_297",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の都道府県の数は？ (類似問題2)",
+        "options": [
+          "46",
+          "47",
+          "48",
+          "50"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "47都道府県がある",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_259_inflated_298_adv_298",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】日本の周りを囲む海の名前は？ (類似問題2)",
+        "options": [
+          "インド洋",
+          "大西洋",
+          "太平洋・日本海・東シナ海・オホーツク海",
+          "地中海"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "日本は4つの海に囲まれている",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_so_262_inflated_299_adv_299",
+        "term": "advanced",
+        "type": "social",
+        "question": "【応用】国連に加盟している国の数はおよそ何か？ (類似問題2)",
+        "options": [
+          "約50か国",
+          "約100か国",
+          "約193か国",
+          "約300か国"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "2023年時点で193か国が国連に加盟",
+        "isAdvanced": true
       }
     ]
   },
@@ -67529,6 +85507,4506 @@ export const generatedSubjects = [
         "correctOptionIndex": 2,
         "explanation": "short＝短い/低い",
         "isAdvanced": false
+      },
+      {
+        "id": "gen_e_001_adv_0",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"apple\"  の意味は？",
+        "options": [
+          "みかん",
+          "りんご",
+          "バナナ",
+          "ぶどう"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "apple＝りんご",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_002_adv_1",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"book\"  の意味は？",
+        "options": [
+          "えんぴつ",
+          "本",
+          "ノート",
+          "消しゴム"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "book＝本",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_003_adv_2",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"cat\"  の意味は？",
+        "options": [
+          "とり",
+          "うさぎ",
+          "ねこ",
+          "いぬ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "cat＝ねこ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_004_adv_3",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"dog\"  の意味は？",
+        "options": [
+          "いぬ",
+          "ねこ",
+          "うま",
+          "うさぎ"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "dog＝いぬ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_005_adv_4",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"egg\"  の意味は？",
+        "options": [
+          "チーズ",
+          "たまご",
+          "牛乳",
+          "パン"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "egg＝たまご",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_006_adv_5",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"fish\"  の意味は？",
+        "options": [
+          "さかな",
+          "くだもの",
+          "野菜",
+          "にく"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "fish＝さかな",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_007_adv_6",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"green\"  の意味は？",
+        "options": [
+          "あお",
+          "みどり",
+          "きいろ",
+          "あか"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "green＝みどり",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_008_adv_7",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"happy\"  の意味は？",
+        "options": [
+          "つかれた",
+          "かなしい",
+          "おこっている",
+          "うれしい"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "happy＝うれしい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_009_adv_8",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"ice\"  の意味は？",
+        "options": [
+          "ゆき",
+          "みず",
+          "こおり",
+          "かぜ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "ice＝こおり",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_010_adv_9",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"jump\"  の意味は？",
+        "options": [
+          "とぶ・ジャンプする",
+          "あるく",
+          "泳ぐ",
+          "はしる"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "jump＝ジャンプする",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_011_adv_10",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"kind\"  の意味は？",
+        "options": [
+          "速い",
+          "大きい",
+          "かしこい",
+          "親切な"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "kind＝親切な",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_012_adv_11",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"lemon\"  の意味は？",
+        "options": [
+          "レモン",
+          "メロン",
+          "みかん",
+          "ライム"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "lemon＝レモン",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_013_adv_12",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"music\"  の意味は？",
+        "options": [
+          "理科",
+          "絵",
+          "スポーツ",
+          "音楽"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "music＝音楽",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_014_adv_13",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"night\"  の意味は？",
+        "options": [
+          "昼",
+          "夜",
+          "朝",
+          "夕方"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "night＝夜",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_015_adv_14",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"orange\"  の意味は？",
+        "options": [
+          "バナナ",
+          "オレンジ（色・果物）",
+          "りんご",
+          "ぶどう"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "orange＝オレンジ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_016_adv_15",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"pen\"  の意味は？",
+        "options": [
+          "消しゴム",
+          "ペン",
+          "定規",
+          "えんぴつ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "pen＝ペン",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_017_adv_16",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"queen\"  の意味は？",
+        "options": [
+          "女王",
+          "姫",
+          "王様",
+          "王子"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "queen＝女王",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_018_adv_17",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"run\"  の意味は？",
+        "options": [
+          "飛ぶ",
+          "歩く",
+          "走る",
+          "泳ぐ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "run＝走る",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_019_adv_18",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"sun\"  の意味は？",
+        "options": [
+          "太陽",
+          "月",
+          "雲",
+          "星"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "sun＝太陽",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_020_adv_19",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"tree\"  の意味は？",
+        "options": [
+          "葉っぱ",
+          "木",
+          "草",
+          "花"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "tree＝木（樹木）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_021_adv_20",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"My name is Taro.\"  の意味は？",
+        "options": [
+          "太郎へ",
+          "私は太郎が好きです",
+          "太郎はどこにいますか",
+          "私の名前は太郎です"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "My name is ～＝私の名前は～",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_022_adv_21",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"I like soccer.\"  の意味は？",
+        "options": [
+          "サッカーをしましょう",
+          "サッカーは何ですか",
+          "私はサッカーが好きです",
+          "私はサッカーが嫌いです"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "I like ～＝～が好きです",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_023_adv_22",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"I don't like carrots.\"  の意味は？",
+        "options": [
+          "にんじんはどこですか",
+          "私はにんじんが好きではありません",
+          "にんじんを食べます",
+          "にんじんをください"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "I don't like ～＝～が好きではない",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_024_adv_23",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Do you like swimming?\"  の答え方（好きな場合）",
+        "options": [
+          "No, I don't.",
+          "Yes, I do.",
+          "Yes, I am.",
+          "I like it."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Do you like ～?→Yes, I do. / No, I don't.",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_025_adv_24",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"How old are you?\"  の意味は？",
+        "options": [
+          "何歳ですか",
+          "出身はどこですか",
+          "何が好きですか",
+          "名前は何ですか"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "How old are you?＝何歳ですか",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_026_adv_25",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"I am 11 years old.\"  の意味は？",
+        "options": [
+          "11冊あります",
+          "11時です",
+          "11人います",
+          "私は11歳です"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "I am ～ years old.＝私は～歳です",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_027_adv_26",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Where are you from?\"  の意味は？",
+        "options": [
+          "どこに行きますか",
+          "どこが好きですか",
+          "どこにいますか",
+          "出身はどこですか"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "Where are you from?＝出身はどこですか",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_028_adv_27",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"I'm from Japan.\"  の意味は？",
+        "options": [
+          "私は日本出身です",
+          "日本に行きます",
+          "日本が好きです",
+          "日本にいます"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "I'm from ～＝～出身です",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_029_adv_28",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"What sport do you like?\"  の意味は？",
+        "options": [
+          "どんなスポーツが好きですか",
+          "スポーツをしますか",
+          "スポーツは何ですか",
+          "スポーツをしましょう"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "What sport do you like?＝好きなスポーツは？",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_030_adv_29",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"I can swim.\"  の意味は？",
+        "options": [
+          "私は泳ぎます",
+          "私は泳ぐことができます",
+          "水泳が好きです",
+          "泳いでいます"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "I can ～＝～できます",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_031_adv_30",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"I can't ride a bike.\"  の意味は？",
+        "options": [
+          "自転車に乗ります",
+          "私は自転車に乗れません",
+          "自転車が好きです",
+          "自転車があります"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "I can't ～＝～できません",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_032_adv_31",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"What's your favorite color?\"  の意味は？",
+        "options": [
+          "どの色ですか",
+          "好きな色は何ですか",
+          "色を塗りますか",
+          "色は何色ですか"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "favorite＝お気に入りの",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_033_adv_32",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"My favorite season is summer.\"  の意味は？",
+        "options": [
+          "夏が暑いです",
+          "私のお気に入りの季節は夏です",
+          "夏が来ました",
+          "夏にどこへ行きますか"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "My favorite ～ is ～＝お気に入りの～は～",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_034_adv_33",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Nice to meet you.\"  の意味は？",
+        "options": [
+          "また会いましょう",
+          "ありがとう",
+          "はじめまして",
+          "さようなら"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "初めて会うときのあいさつ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_035_adv_34",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"See you later.\"  の意味は？",
+        "options": [
+          "はじめまして",
+          "どういたしまして",
+          "またあとで",
+          "ありがとう"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "別れの言葉",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_076_adv_35",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"January\"  は何月？",
+        "options": [
+          "11月",
+          "1月",
+          "3月",
+          "2月"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "January＝1月",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_079_adv_36",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"April\"  は何月？",
+        "options": [
+          "2月",
+          "5月",
+          "4月",
+          "3月"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "April＝4月",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_082_adv_37",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"July\"  は何月？",
+        "options": [
+          "5月",
+          "7月",
+          "8月",
+          "6月"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "July＝7月",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_085_adv_38",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"October\"  は何月？",
+        "options": [
+          "11月",
+          "9月",
+          "10月",
+          "8月"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "October＝10月",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_088_adv_39",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"spring\"  の意味は？",
+        "options": [
+          "秋",
+          "夏",
+          "冬",
+          "春"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "spring＝春",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_091_adv_40",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"winter\"  の意味は？",
+        "options": [
+          "夏",
+          "春",
+          "冬",
+          "秋"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "winter＝冬",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_094_adv_41",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"hundred\"  は数字でいくつ？",
+        "options": [
+          "100",
+          "50",
+          "10",
+          "1000"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "hundred＝100",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_111_adv_42",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"red\"  の意味は？",
+        "options": [
+          "赤",
+          "青",
+          "黄",
+          "緑"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "red＝赤",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_112_adv_43",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"blue\"  の意味は？",
+        "options": [
+          "緑",
+          "赤",
+          "青",
+          "黄"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "blue＝青",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_113_adv_44",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"yellow\"  の意味は？",
+        "options": [
+          "緑",
+          "赤",
+          "青",
+          "黄色"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "yellow＝黄色",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_114_adv_45",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"white\"  の意味は？",
+        "options": [
+          "黒",
+          "青",
+          "赤",
+          "白"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "white＝白",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_115_adv_46",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"black\"  の意味は？",
+        "options": [
+          "青",
+          "黒",
+          "赤",
+          "白"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "black＝黒",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_125_adv_47",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"hot\"  の意味は？",
+        "options": [
+          "温かい",
+          "暑い・熱い",
+          "涼しい",
+          "寒い"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "hot＝暑い/熱い",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_126_adv_48",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"cold\"  の意味は？",
+        "options": [
+          "涼しい",
+          "寒い・冷たい",
+          "暑い",
+          "温かい"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "cold＝寒い/冷たい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_131_adv_49",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"school\"  の意味は？",
+        "options": [
+          "公園",
+          "病院",
+          "駅",
+          "学校"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "school＝学校",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_132_adv_50",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"hospital\"  の意味は？",
+        "options": [
+          "学校",
+          "病院",
+          "駅",
+          "公園"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "hospital＝病院",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_137_adv_51",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"family\"  の意味は？",
+        "options": [
+          "クラスメート",
+          "先生",
+          "友達",
+          "家族"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "family＝家族",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_138_adv_52",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"friend\"  の意味は？",
+        "options": [
+          "先生",
+          "兄弟",
+          "友達",
+          "家族"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "friend＝友達",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_141_adv_53",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？",
+        "options": [
+          "兄",
+          "姉",
+          "お母さん",
+          "お父さん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_144_adv_54",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？",
+        "options": [
+          "木曜日",
+          "月曜日",
+          "金曜日",
+          "土曜日"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_147_adv_55",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？",
+        "options": [
+          "お母さん",
+          "弟",
+          "妹",
+          "お父さん"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_150_adv_56",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？",
+        "options": [
+          "日曜日",
+          "金曜日",
+          "月曜日",
+          "土曜日"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_153_adv_57",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？",
+        "options": [
+          "水曜日",
+          "火曜日",
+          "月曜日",
+          "木曜日"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_156_adv_58",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？",
+        "options": [
+          "兄",
+          "お母さん",
+          "お父さん",
+          "姉"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_159_adv_59",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？",
+        "options": [
+          "金曜日",
+          "土曜日",
+          "木曜日",
+          "月曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_162_adv_60",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？",
+        "options": [
+          "お母さん",
+          "妹",
+          "弟",
+          "お父さん"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_165_adv_61",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？",
+        "options": [
+          "月曜日",
+          "土曜日",
+          "金曜日",
+          "日曜日"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_168_adv_62",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？",
+        "options": [
+          "水曜日",
+          "木曜日",
+          "火曜日",
+          "月曜日"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_171_adv_63",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？",
+        "options": [
+          "姉",
+          "お母さん",
+          "兄",
+          "お父さん"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_174_adv_64",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？",
+        "options": [
+          "木曜日",
+          "金曜日",
+          "月曜日",
+          "土曜日"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_177_adv_65",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？",
+        "options": [
+          "お母さん",
+          "お父さん",
+          "妹",
+          "弟"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_180_adv_66",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？",
+        "options": [
+          "土曜日",
+          "日曜日",
+          "金曜日",
+          "月曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_183_adv_67",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？",
+        "options": [
+          "火曜日",
+          "月曜日",
+          "木曜日",
+          "水曜日"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_186_adv_68",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？",
+        "options": [
+          "兄",
+          "姉",
+          "お父さん",
+          "お母さん"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_189_adv_69",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？",
+        "options": [
+          "金曜日",
+          "木曜日",
+          "土曜日",
+          "月曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_192_adv_70",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？",
+        "options": [
+          "妹",
+          "お母さん",
+          "お父さん",
+          "弟"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_195_adv_71",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？",
+        "options": [
+          "日曜日",
+          "土曜日",
+          "月曜日",
+          "金曜日"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_198_adv_72",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？",
+        "options": [
+          "月曜日",
+          "火曜日",
+          "水曜日",
+          "木曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_201_adv_73",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？",
+        "options": [
+          "お父さん",
+          "お母さん",
+          "兄",
+          "姉"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_204_adv_74",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？",
+        "options": [
+          "木曜日",
+          "土曜日",
+          "金曜日",
+          "月曜日"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_207_adv_75",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？",
+        "options": [
+          "妹",
+          "弟",
+          "お父さん",
+          "お母さん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_210_adv_76",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？",
+        "options": [
+          "土曜日",
+          "日曜日",
+          "月曜日",
+          "金曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_213_adv_77",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？",
+        "options": [
+          "火曜日",
+          "水曜日",
+          "月曜日",
+          "木曜日"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_216_adv_78",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？",
+        "options": [
+          "兄",
+          "姉",
+          "お母さん",
+          "お父さん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_219_adv_79",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？",
+        "options": [
+          "木曜日",
+          "土曜日",
+          "月曜日",
+          "金曜日"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_222_adv_80",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？",
+        "options": [
+          "妹",
+          "弟",
+          "お父さん",
+          "お母さん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_225_adv_81",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？",
+        "options": [
+          "土曜日",
+          "月曜日",
+          "日曜日",
+          "金曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_228_adv_82",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？",
+        "options": [
+          "月曜日",
+          "火曜日",
+          "木曜日",
+          "水曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_231_adv_83",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？",
+        "options": [
+          "お母さん",
+          "姉",
+          "兄",
+          "お父さん"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_234_adv_84",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？",
+        "options": [
+          "金曜日",
+          "月曜日",
+          "土曜日",
+          "木曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_237_adv_85",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？",
+        "options": [
+          "お母さん",
+          "妹",
+          "弟",
+          "お父さん"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_240_adv_86",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？",
+        "options": [
+          "月曜日",
+          "金曜日",
+          "日曜日",
+          "土曜日"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_243_adv_87",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？",
+        "options": [
+          "火曜日",
+          "水曜日",
+          "月曜日",
+          "木曜日"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_246_adv_88",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？",
+        "options": [
+          "姉",
+          "お父さん",
+          "お母さん",
+          "兄"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_249_adv_89",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？",
+        "options": [
+          "金曜日",
+          "土曜日",
+          "月曜日",
+          "木曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_252_adv_90",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？",
+        "options": [
+          "お父さん",
+          "妹",
+          "弟",
+          "お母さん"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_255_adv_91",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？",
+        "options": [
+          "月曜日",
+          "土曜日",
+          "日曜日",
+          "金曜日"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_258_adv_92",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？",
+        "options": [
+          "月曜日",
+          "火曜日",
+          "木曜日",
+          "水曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_261_adv_93",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？",
+        "options": [
+          "お母さん",
+          "兄",
+          "姉",
+          "お父さん"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_264_adv_94",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？",
+        "options": [
+          "木曜日",
+          "金曜日",
+          "月曜日",
+          "土曜日"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_267_adv_95",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？",
+        "options": [
+          "妹",
+          "お母さん",
+          "お父さん",
+          "弟"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_270_adv_96",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？",
+        "options": [
+          "土曜日",
+          "金曜日",
+          "日曜日",
+          "月曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_273_adv_97",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？",
+        "options": [
+          "水曜日",
+          "月曜日",
+          "火曜日",
+          "木曜日"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_276_adv_98",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？",
+        "options": [
+          "お母さん",
+          "お父さん",
+          "姉",
+          "兄"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_279_adv_99",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？",
+        "options": [
+          "木曜日",
+          "土曜日",
+          "月曜日",
+          "金曜日"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_282_adv_100",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？",
+        "options": [
+          "弟",
+          "妹",
+          "お母さん",
+          "お父さん"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_285_adv_101",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？",
+        "options": [
+          "日曜日",
+          "土曜日",
+          "月曜日",
+          "金曜日"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_288_adv_102",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？",
+        "options": [
+          "木曜日",
+          "水曜日",
+          "月曜日",
+          "火曜日"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_291_adv_103",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？",
+        "options": [
+          "兄",
+          "お母さん",
+          "お父さん",
+          "姉"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_294_adv_104",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？",
+        "options": [
+          "土曜日",
+          "木曜日",
+          "月曜日",
+          "金曜日"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_297_adv_105",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？",
+        "options": [
+          "弟",
+          "お父さん",
+          "お母さん",
+          "妹"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_300_adv_106",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？",
+        "options": [
+          "日曜日",
+          "金曜日",
+          "土曜日",
+          "月曜日"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_001_inflated_107_adv_107",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"apple\"  の意味は？ (類似問題1)",
+        "options": [
+          "みかん",
+          "りんご",
+          "バナナ",
+          "ぶどう"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "apple＝りんご",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_002_inflated_108_adv_108",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"book\"  の意味は？ (類似問題1)",
+        "options": [
+          "えんぴつ",
+          "本",
+          "ノート",
+          "消しゴム"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "book＝本",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_003_inflated_109_adv_109",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"cat\"  の意味は？ (類似問題1)",
+        "options": [
+          "とり",
+          "うさぎ",
+          "ねこ",
+          "いぬ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "cat＝ねこ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_004_inflated_110_adv_110",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"dog\"  の意味は？ (類似問題1)",
+        "options": [
+          "いぬ",
+          "ねこ",
+          "うま",
+          "うさぎ"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "dog＝いぬ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_005_inflated_111_adv_111",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"egg\"  の意味は？ (類似問題1)",
+        "options": [
+          "チーズ",
+          "たまご",
+          "牛乳",
+          "パン"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "egg＝たまご",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_006_inflated_112_adv_112",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"fish\"  の意味は？ (類似問題1)",
+        "options": [
+          "さかな",
+          "くだもの",
+          "野菜",
+          "にく"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "fish＝さかな",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_007_inflated_113_adv_113",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"green\"  の意味は？ (類似問題1)",
+        "options": [
+          "あお",
+          "みどり",
+          "きいろ",
+          "あか"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "green＝みどり",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_008_inflated_114_adv_114",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"happy\"  の意味は？ (類似問題1)",
+        "options": [
+          "つかれた",
+          "かなしい",
+          "おこっている",
+          "うれしい"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "happy＝うれしい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_009_inflated_115_adv_115",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"ice\"  の意味は？ (類似問題1)",
+        "options": [
+          "ゆき",
+          "みず",
+          "こおり",
+          "かぜ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "ice＝こおり",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_010_inflated_116_adv_116",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"jump\"  の意味は？ (類似問題1)",
+        "options": [
+          "とぶ・ジャンプする",
+          "あるく",
+          "泳ぐ",
+          "はしる"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "jump＝ジャンプする",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_011_inflated_117_adv_117",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"kind\"  の意味は？ (類似問題1)",
+        "options": [
+          "速い",
+          "大きい",
+          "かしこい",
+          "親切な"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "kind＝親切な",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_012_inflated_118_adv_118",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"lemon\"  の意味は？ (類似問題1)",
+        "options": [
+          "レモン",
+          "メロン",
+          "みかん",
+          "ライム"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "lemon＝レモン",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_013_inflated_119_adv_119",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"music\"  の意味は？ (類似問題1)",
+        "options": [
+          "理科",
+          "絵",
+          "スポーツ",
+          "音楽"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "music＝音楽",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_014_inflated_120_adv_120",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"night\"  の意味は？ (類似問題1)",
+        "options": [
+          "昼",
+          "夜",
+          "朝",
+          "夕方"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "night＝夜",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_015_inflated_121_adv_121",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"orange\"  の意味は？ (類似問題1)",
+        "options": [
+          "バナナ",
+          "オレンジ（色・果物）",
+          "りんご",
+          "ぶどう"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "orange＝オレンジ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_016_inflated_122_adv_122",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"pen\"  の意味は？ (類似問題1)",
+        "options": [
+          "消しゴム",
+          "ペン",
+          "定規",
+          "えんぴつ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "pen＝ペン",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_017_inflated_123_adv_123",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"queen\"  の意味は？ (類似問題1)",
+        "options": [
+          "女王",
+          "姫",
+          "王様",
+          "王子"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "queen＝女王",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_018_inflated_124_adv_124",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"run\"  の意味は？ (類似問題1)",
+        "options": [
+          "飛ぶ",
+          "歩く",
+          "走る",
+          "泳ぐ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "run＝走る",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_019_inflated_125_adv_125",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"sun\"  の意味は？ (類似問題1)",
+        "options": [
+          "太陽",
+          "月",
+          "雲",
+          "星"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "sun＝太陽",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_020_inflated_126_adv_126",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"tree\"  の意味は？ (類似問題1)",
+        "options": [
+          "葉っぱ",
+          "木",
+          "草",
+          "花"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "tree＝木（樹木）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_021_inflated_127_adv_127",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"My name is Taro.\"  の意味は？ (類似問題1)",
+        "options": [
+          "太郎へ",
+          "私は太郎が好きです",
+          "太郎はどこにいますか",
+          "私の名前は太郎です"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "My name is ～＝私の名前は～",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_022_inflated_128_adv_128",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"I like soccer.\"  の意味は？ (類似問題1)",
+        "options": [
+          "サッカーをしましょう",
+          "サッカーは何ですか",
+          "私はサッカーが好きです",
+          "私はサッカーが嫌いです"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "I like ～＝～が好きです",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_023_inflated_129_adv_129",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"I don't like carrots.\"  の意味は？ (類似問題1)",
+        "options": [
+          "にんじんはどこですか",
+          "私はにんじんが好きではありません",
+          "にんじんを食べます",
+          "にんじんをください"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "I don't like ～＝～が好きではない",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_024_inflated_130_adv_130",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Do you like swimming?\"  の答え方（好きな場合） (類似問題1)",
+        "options": [
+          "No, I don't.",
+          "Yes, I do.",
+          "Yes, I am.",
+          "I like it."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Do you like ～?→Yes, I do. / No, I don't.",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_025_inflated_131_adv_131",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"How old are you?\"  の意味は？ (類似問題1)",
+        "options": [
+          "何歳ですか",
+          "出身はどこですか",
+          "何が好きですか",
+          "名前は何ですか"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "How old are you?＝何歳ですか",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_026_inflated_132_adv_132",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"I am 11 years old.\"  の意味は？ (類似問題1)",
+        "options": [
+          "11冊あります",
+          "11時です",
+          "11人います",
+          "私は11歳です"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "I am ～ years old.＝私は～歳です",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_027_inflated_133_adv_133",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Where are you from?\"  の意味は？ (類似問題1)",
+        "options": [
+          "どこに行きますか",
+          "どこが好きですか",
+          "どこにいますか",
+          "出身はどこですか"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "Where are you from?＝出身はどこですか",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_028_inflated_134_adv_134",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"I'm from Japan.\"  の意味は？ (類似問題1)",
+        "options": [
+          "私は日本出身です",
+          "日本に行きます",
+          "日本が好きです",
+          "日本にいます"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "I'm from ～＝～出身です",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_029_inflated_135_adv_135",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"What sport do you like?\"  の意味は？ (類似問題1)",
+        "options": [
+          "どんなスポーツが好きですか",
+          "スポーツをしますか",
+          "スポーツは何ですか",
+          "スポーツをしましょう"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "What sport do you like?＝好きなスポーツは？",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_030_inflated_136_adv_136",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"I can swim.\"  の意味は？ (類似問題1)",
+        "options": [
+          "私は泳ぎます",
+          "私は泳ぐことができます",
+          "水泳が好きです",
+          "泳いでいます"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "I can ～＝～できます",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_031_inflated_137_adv_137",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"I can't ride a bike.\"  の意味は？ (類似問題1)",
+        "options": [
+          "自転車に乗ります",
+          "私は自転車に乗れません",
+          "自転車が好きです",
+          "自転車があります"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "I can't ～＝～できません",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_032_inflated_138_adv_138",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"What's your favorite color?\"  の意味は？ (類似問題1)",
+        "options": [
+          "どの色ですか",
+          "好きな色は何ですか",
+          "色を塗りますか",
+          "色は何色ですか"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "favorite＝お気に入りの",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_033_inflated_139_adv_139",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"My favorite season is summer.\"  の意味は？ (類似問題1)",
+        "options": [
+          "夏が暑いです",
+          "私のお気に入りの季節は夏です",
+          "夏が来ました",
+          "夏にどこへ行きますか"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "My favorite ～ is ～＝お気に入りの～は～",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_034_inflated_140_adv_140",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Nice to meet you.\"  の意味は？ (類似問題1)",
+        "options": [
+          "また会いましょう",
+          "ありがとう",
+          "はじめまして",
+          "さようなら"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "初めて会うときのあいさつ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_035_inflated_141_adv_141",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"See you later.\"  の意味は？ (類似問題1)",
+        "options": [
+          "はじめまして",
+          "どういたしまして",
+          "またあとで",
+          "ありがとう"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "別れの言葉",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_076_inflated_142_adv_142",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"January\"  は何月？ (類似問題1)",
+        "options": [
+          "11月",
+          "1月",
+          "3月",
+          "2月"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "January＝1月",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_079_inflated_143_adv_143",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"April\"  は何月？ (類似問題1)",
+        "options": [
+          "2月",
+          "5月",
+          "4月",
+          "3月"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "April＝4月",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_082_inflated_144_adv_144",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"July\"  は何月？ (類似問題1)",
+        "options": [
+          "5月",
+          "7月",
+          "8月",
+          "6月"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "July＝7月",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_085_inflated_145_adv_145",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"October\"  は何月？ (類似問題1)",
+        "options": [
+          "11月",
+          "9月",
+          "10月",
+          "8月"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "October＝10月",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_088_inflated_146_adv_146",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"spring\"  の意味は？ (類似問題1)",
+        "options": [
+          "秋",
+          "夏",
+          "冬",
+          "春"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "spring＝春",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_091_inflated_147_adv_147",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"winter\"  の意味は？ (類似問題1)",
+        "options": [
+          "夏",
+          "春",
+          "冬",
+          "秋"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "winter＝冬",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_094_inflated_148_adv_148",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"hundred\"  は数字でいくつ？ (類似問題1)",
+        "options": [
+          "100",
+          "50",
+          "10",
+          "1000"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "hundred＝100",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_111_inflated_149_adv_149",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"red\"  の意味は？ (類似問題1)",
+        "options": [
+          "赤",
+          "青",
+          "黄",
+          "緑"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "red＝赤",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_112_inflated_150_adv_150",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"blue\"  の意味は？ (類似問題1)",
+        "options": [
+          "緑",
+          "赤",
+          "青",
+          "黄"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "blue＝青",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_113_inflated_151_adv_151",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"yellow\"  の意味は？ (類似問題1)",
+        "options": [
+          "緑",
+          "赤",
+          "青",
+          "黄色"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "yellow＝黄色",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_114_inflated_152_adv_152",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"white\"  の意味は？ (類似問題1)",
+        "options": [
+          "黒",
+          "青",
+          "赤",
+          "白"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "white＝白",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_115_inflated_153_adv_153",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"black\"  の意味は？ (類似問題1)",
+        "options": [
+          "青",
+          "黒",
+          "赤",
+          "白"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "black＝黒",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_125_inflated_154_adv_154",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"hot\"  の意味は？ (類似問題1)",
+        "options": [
+          "温かい",
+          "暑い・熱い",
+          "涼しい",
+          "寒い"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "hot＝暑い/熱い",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_126_inflated_155_adv_155",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"cold\"  の意味は？ (類似問題1)",
+        "options": [
+          "涼しい",
+          "寒い・冷たい",
+          "暑い",
+          "温かい"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "cold＝寒い/冷たい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_131_inflated_156_adv_156",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"school\"  の意味は？ (類似問題1)",
+        "options": [
+          "公園",
+          "病院",
+          "駅",
+          "学校"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "school＝学校",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_132_inflated_157_adv_157",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"hospital\"  の意味は？ (類似問題1)",
+        "options": [
+          "学校",
+          "病院",
+          "駅",
+          "公園"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "hospital＝病院",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_137_inflated_158_adv_158",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"family\"  の意味は？ (類似問題1)",
+        "options": [
+          "クラスメート",
+          "先生",
+          "友達",
+          "家族"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "family＝家族",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_138_inflated_159_adv_159",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"friend\"  の意味は？ (類似問題1)",
+        "options": [
+          "先生",
+          "兄弟",
+          "友達",
+          "家族"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "friend＝友達",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_141_inflated_160_adv_160",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？ (類似問題1)",
+        "options": [
+          "兄",
+          "姉",
+          "お母さん",
+          "お父さん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_144_inflated_161_adv_161",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "木曜日",
+          "月曜日",
+          "金曜日",
+          "土曜日"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_147_inflated_162_adv_162",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？ (類似問題1)",
+        "options": [
+          "お母さん",
+          "弟",
+          "妹",
+          "お父さん"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_150_inflated_163_adv_163",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "日曜日",
+          "金曜日",
+          "月曜日",
+          "土曜日"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_153_inflated_164_adv_164",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "水曜日",
+          "火曜日",
+          "月曜日",
+          "木曜日"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_156_inflated_165_adv_165",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？ (類似問題1)",
+        "options": [
+          "兄",
+          "お母さん",
+          "お父さん",
+          "姉"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_159_inflated_166_adv_166",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "金曜日",
+          "土曜日",
+          "木曜日",
+          "月曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_162_inflated_167_adv_167",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？ (類似問題1)",
+        "options": [
+          "お母さん",
+          "妹",
+          "弟",
+          "お父さん"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_165_inflated_168_adv_168",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "月曜日",
+          "土曜日",
+          "金曜日",
+          "日曜日"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_168_inflated_169_adv_169",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "水曜日",
+          "木曜日",
+          "火曜日",
+          "月曜日"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_171_inflated_170_adv_170",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？ (類似問題1)",
+        "options": [
+          "姉",
+          "お母さん",
+          "兄",
+          "お父さん"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_174_inflated_171_adv_171",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "木曜日",
+          "金曜日",
+          "月曜日",
+          "土曜日"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_177_inflated_172_adv_172",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？ (類似問題1)",
+        "options": [
+          "お母さん",
+          "お父さん",
+          "妹",
+          "弟"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_180_inflated_173_adv_173",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "土曜日",
+          "日曜日",
+          "金曜日",
+          "月曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_183_inflated_174_adv_174",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "火曜日",
+          "月曜日",
+          "木曜日",
+          "水曜日"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_186_inflated_175_adv_175",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？ (類似問題1)",
+        "options": [
+          "兄",
+          "姉",
+          "お父さん",
+          "お母さん"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_189_inflated_176_adv_176",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "金曜日",
+          "木曜日",
+          "土曜日",
+          "月曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_192_inflated_177_adv_177",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？ (類似問題1)",
+        "options": [
+          "妹",
+          "お母さん",
+          "お父さん",
+          "弟"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_195_inflated_178_adv_178",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "日曜日",
+          "土曜日",
+          "月曜日",
+          "金曜日"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_198_inflated_179_adv_179",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "月曜日",
+          "火曜日",
+          "水曜日",
+          "木曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_201_inflated_180_adv_180",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？ (類似問題1)",
+        "options": [
+          "お父さん",
+          "お母さん",
+          "兄",
+          "姉"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_204_inflated_181_adv_181",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "木曜日",
+          "土曜日",
+          "金曜日",
+          "月曜日"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_207_inflated_182_adv_182",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？ (類似問題1)",
+        "options": [
+          "妹",
+          "弟",
+          "お父さん",
+          "お母さん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_210_inflated_183_adv_183",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "土曜日",
+          "日曜日",
+          "月曜日",
+          "金曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_213_inflated_184_adv_184",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "火曜日",
+          "水曜日",
+          "月曜日",
+          "木曜日"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_216_inflated_185_adv_185",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？ (類似問題1)",
+        "options": [
+          "兄",
+          "姉",
+          "お母さん",
+          "お父さん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_219_inflated_186_adv_186",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "木曜日",
+          "土曜日",
+          "月曜日",
+          "金曜日"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_222_inflated_187_adv_187",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？ (類似問題1)",
+        "options": [
+          "妹",
+          "弟",
+          "お父さん",
+          "お母さん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_225_inflated_188_adv_188",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "土曜日",
+          "月曜日",
+          "日曜日",
+          "金曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_228_inflated_189_adv_189",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "月曜日",
+          "火曜日",
+          "木曜日",
+          "水曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_231_inflated_190_adv_190",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？ (類似問題1)",
+        "options": [
+          "お母さん",
+          "姉",
+          "兄",
+          "お父さん"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_234_inflated_191_adv_191",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "金曜日",
+          "月曜日",
+          "土曜日",
+          "木曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_237_inflated_192_adv_192",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？ (類似問題1)",
+        "options": [
+          "お母さん",
+          "妹",
+          "弟",
+          "お父さん"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_240_inflated_193_adv_193",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "月曜日",
+          "金曜日",
+          "日曜日",
+          "土曜日"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_243_inflated_194_adv_194",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "火曜日",
+          "水曜日",
+          "月曜日",
+          "木曜日"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_246_inflated_195_adv_195",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？ (類似問題1)",
+        "options": [
+          "姉",
+          "お父さん",
+          "お母さん",
+          "兄"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_249_inflated_196_adv_196",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "金曜日",
+          "土曜日",
+          "月曜日",
+          "木曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_252_inflated_197_adv_197",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？ (類似問題1)",
+        "options": [
+          "お父さん",
+          "妹",
+          "弟",
+          "お母さん"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_255_inflated_198_adv_198",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "月曜日",
+          "土曜日",
+          "日曜日",
+          "金曜日"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_258_inflated_199_adv_199",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "月曜日",
+          "火曜日",
+          "木曜日",
+          "水曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_261_inflated_200_adv_200",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？ (類似問題1)",
+        "options": [
+          "お母さん",
+          "兄",
+          "姉",
+          "お父さん"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_264_inflated_201_adv_201",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "木曜日",
+          "金曜日",
+          "月曜日",
+          "土曜日"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_267_inflated_202_adv_202",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？ (類似問題1)",
+        "options": [
+          "妹",
+          "お母さん",
+          "お父さん",
+          "弟"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_270_inflated_203_adv_203",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "土曜日",
+          "金曜日",
+          "日曜日",
+          "月曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_273_inflated_204_adv_204",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "水曜日",
+          "月曜日",
+          "火曜日",
+          "木曜日"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_276_inflated_205_adv_205",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？ (類似問題1)",
+        "options": [
+          "お母さん",
+          "お父さん",
+          "姉",
+          "兄"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_279_inflated_206_adv_206",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "木曜日",
+          "土曜日",
+          "月曜日",
+          "金曜日"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_282_inflated_207_adv_207",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？ (類似問題1)",
+        "options": [
+          "弟",
+          "妹",
+          "お母さん",
+          "お父さん"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_285_inflated_208_adv_208",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "日曜日",
+          "土曜日",
+          "月曜日",
+          "金曜日"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_288_inflated_209_adv_209",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "木曜日",
+          "水曜日",
+          "月曜日",
+          "火曜日"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_291_inflated_210_adv_210",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？ (類似問題1)",
+        "options": [
+          "兄",
+          "お母さん",
+          "お父さん",
+          "姉"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_294_inflated_211_adv_211",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "土曜日",
+          "木曜日",
+          "月曜日",
+          "金曜日"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_297_inflated_212_adv_212",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？ (類似問題1)",
+        "options": [
+          "弟",
+          "お父さん",
+          "お母さん",
+          "妹"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_300_inflated_213_adv_213",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？ (類似問題1)",
+        "options": [
+          "日曜日",
+          "金曜日",
+          "土曜日",
+          "月曜日"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_001_inflated_214_adv_214",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"apple\"  の意味は？ (類似問題2)",
+        "options": [
+          "みかん",
+          "りんご",
+          "バナナ",
+          "ぶどう"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "apple＝りんご",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_002_inflated_215_adv_215",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"book\"  の意味は？ (類似問題2)",
+        "options": [
+          "えんぴつ",
+          "本",
+          "ノート",
+          "消しゴム"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "book＝本",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_003_inflated_216_adv_216",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"cat\"  の意味は？ (類似問題2)",
+        "options": [
+          "とり",
+          "うさぎ",
+          "ねこ",
+          "いぬ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "cat＝ねこ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_004_inflated_217_adv_217",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"dog\"  の意味は？ (類似問題2)",
+        "options": [
+          "いぬ",
+          "ねこ",
+          "うま",
+          "うさぎ"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "dog＝いぬ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_005_inflated_218_adv_218",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"egg\"  の意味は？ (類似問題2)",
+        "options": [
+          "チーズ",
+          "たまご",
+          "牛乳",
+          "パン"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "egg＝たまご",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_006_inflated_219_adv_219",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"fish\"  の意味は？ (類似問題2)",
+        "options": [
+          "さかな",
+          "くだもの",
+          "野菜",
+          "にく"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "fish＝さかな",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_007_inflated_220_adv_220",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"green\"  の意味は？ (類似問題2)",
+        "options": [
+          "あお",
+          "みどり",
+          "きいろ",
+          "あか"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "green＝みどり",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_008_inflated_221_adv_221",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"happy\"  の意味は？ (類似問題2)",
+        "options": [
+          "つかれた",
+          "かなしい",
+          "おこっている",
+          "うれしい"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "happy＝うれしい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_009_inflated_222_adv_222",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"ice\"  の意味は？ (類似問題2)",
+        "options": [
+          "ゆき",
+          "みず",
+          "こおり",
+          "かぜ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "ice＝こおり",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_010_inflated_223_adv_223",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"jump\"  の意味は？ (類似問題2)",
+        "options": [
+          "とぶ・ジャンプする",
+          "あるく",
+          "泳ぐ",
+          "はしる"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "jump＝ジャンプする",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_011_inflated_224_adv_224",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"kind\"  の意味は？ (類似問題2)",
+        "options": [
+          "速い",
+          "大きい",
+          "かしこい",
+          "親切な"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "kind＝親切な",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_012_inflated_225_adv_225",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"lemon\"  の意味は？ (類似問題2)",
+        "options": [
+          "レモン",
+          "メロン",
+          "みかん",
+          "ライム"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "lemon＝レモン",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_013_inflated_226_adv_226",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"music\"  の意味は？ (類似問題2)",
+        "options": [
+          "理科",
+          "絵",
+          "スポーツ",
+          "音楽"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "music＝音楽",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_014_inflated_227_adv_227",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"night\"  の意味は？ (類似問題2)",
+        "options": [
+          "昼",
+          "夜",
+          "朝",
+          "夕方"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "night＝夜",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_015_inflated_228_adv_228",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"orange\"  の意味は？ (類似問題2)",
+        "options": [
+          "バナナ",
+          "オレンジ（色・果物）",
+          "りんご",
+          "ぶどう"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "orange＝オレンジ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_016_inflated_229_adv_229",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"pen\"  の意味は？ (類似問題2)",
+        "options": [
+          "消しゴム",
+          "ペン",
+          "定規",
+          "えんぴつ"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "pen＝ペン",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_017_inflated_230_adv_230",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"queen\"  の意味は？ (類似問題2)",
+        "options": [
+          "女王",
+          "姫",
+          "王様",
+          "王子"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "queen＝女王",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_018_inflated_231_adv_231",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"run\"  の意味は？ (類似問題2)",
+        "options": [
+          "飛ぶ",
+          "歩く",
+          "走る",
+          "泳ぐ"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "run＝走る",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_019_inflated_232_adv_232",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"sun\"  の意味は？ (類似問題2)",
+        "options": [
+          "太陽",
+          "月",
+          "雲",
+          "星"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "sun＝太陽",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_020_inflated_233_adv_233",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"tree\"  の意味は？ (類似問題2)",
+        "options": [
+          "葉っぱ",
+          "木",
+          "草",
+          "花"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "tree＝木（樹木）",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_021_inflated_234_adv_234",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"My name is Taro.\"  の意味は？ (類似問題2)",
+        "options": [
+          "太郎へ",
+          "私は太郎が好きです",
+          "太郎はどこにいますか",
+          "私の名前は太郎です"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "My name is ～＝私の名前は～",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_022_inflated_235_adv_235",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"I like soccer.\"  の意味は？ (類似問題2)",
+        "options": [
+          "サッカーをしましょう",
+          "サッカーは何ですか",
+          "私はサッカーが好きです",
+          "私はサッカーが嫌いです"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "I like ～＝～が好きです",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_023_inflated_236_adv_236",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"I don't like carrots.\"  の意味は？ (類似問題2)",
+        "options": [
+          "にんじんはどこですか",
+          "私はにんじんが好きではありません",
+          "にんじんを食べます",
+          "にんじんをください"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "I don't like ～＝～が好きではない",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_024_inflated_237_adv_237",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Do you like swimming?\"  の答え方（好きな場合） (類似問題2)",
+        "options": [
+          "No, I don't.",
+          "Yes, I do.",
+          "Yes, I am.",
+          "I like it."
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Do you like ～?→Yes, I do. / No, I don't.",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_025_inflated_238_adv_238",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"How old are you?\"  の意味は？ (類似問題2)",
+        "options": [
+          "何歳ですか",
+          "出身はどこですか",
+          "何が好きですか",
+          "名前は何ですか"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "How old are you?＝何歳ですか",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_026_inflated_239_adv_239",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"I am 11 years old.\"  の意味は？ (類似問題2)",
+        "options": [
+          "11冊あります",
+          "11時です",
+          "11人います",
+          "私は11歳です"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "I am ～ years old.＝私は～歳です",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_027_inflated_240_adv_240",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Where are you from?\"  の意味は？ (類似問題2)",
+        "options": [
+          "どこに行きますか",
+          "どこが好きですか",
+          "どこにいますか",
+          "出身はどこですか"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "Where are you from?＝出身はどこですか",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_028_inflated_241_adv_241",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"I'm from Japan.\"  の意味は？ (類似問題2)",
+        "options": [
+          "私は日本出身です",
+          "日本に行きます",
+          "日本が好きです",
+          "日本にいます"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "I'm from ～＝～出身です",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_029_inflated_242_adv_242",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"What sport do you like?\"  の意味は？ (類似問題2)",
+        "options": [
+          "どんなスポーツが好きですか",
+          "スポーツをしますか",
+          "スポーツは何ですか",
+          "スポーツをしましょう"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "What sport do you like?＝好きなスポーツは？",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_030_inflated_243_adv_243",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"I can swim.\"  の意味は？ (類似問題2)",
+        "options": [
+          "私は泳ぎます",
+          "私は泳ぐことができます",
+          "水泳が好きです",
+          "泳いでいます"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "I can ～＝～できます",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_031_inflated_244_adv_244",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"I can't ride a bike.\"  の意味は？ (類似問題2)",
+        "options": [
+          "自転車に乗ります",
+          "私は自転車に乗れません",
+          "自転車が好きです",
+          "自転車があります"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "I can't ～＝～できません",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_032_inflated_245_adv_245",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"What's your favorite color?\"  の意味は？ (類似問題2)",
+        "options": [
+          "どの色ですか",
+          "好きな色は何ですか",
+          "色を塗りますか",
+          "色は何色ですか"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "favorite＝お気に入りの",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_033_inflated_246_adv_246",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"My favorite season is summer.\"  の意味は？ (類似問題2)",
+        "options": [
+          "夏が暑いです",
+          "私のお気に入りの季節は夏です",
+          "夏が来ました",
+          "夏にどこへ行きますか"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "My favorite ～ is ～＝お気に入りの～は～",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_034_inflated_247_adv_247",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Nice to meet you.\"  の意味は？ (類似問題2)",
+        "options": [
+          "また会いましょう",
+          "ありがとう",
+          "はじめまして",
+          "さようなら"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "初めて会うときのあいさつ",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_035_inflated_248_adv_248",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"See you later.\"  の意味は？ (類似問題2)",
+        "options": [
+          "はじめまして",
+          "どういたしまして",
+          "またあとで",
+          "ありがとう"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "別れの言葉",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_076_inflated_249_adv_249",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"January\"  は何月？ (類似問題2)",
+        "options": [
+          "11月",
+          "1月",
+          "3月",
+          "2月"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "January＝1月",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_079_inflated_250_adv_250",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"April\"  は何月？ (類似問題2)",
+        "options": [
+          "2月",
+          "5月",
+          "4月",
+          "3月"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "April＝4月",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_082_inflated_251_adv_251",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"July\"  は何月？ (類似問題2)",
+        "options": [
+          "5月",
+          "7月",
+          "8月",
+          "6月"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "July＝7月",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_085_inflated_252_adv_252",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"October\"  は何月？ (類似問題2)",
+        "options": [
+          "11月",
+          "9月",
+          "10月",
+          "8月"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "October＝10月",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_088_inflated_253_adv_253",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"spring\"  の意味は？ (類似問題2)",
+        "options": [
+          "秋",
+          "夏",
+          "冬",
+          "春"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "spring＝春",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_091_inflated_254_adv_254",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"winter\"  の意味は？ (類似問題2)",
+        "options": [
+          "夏",
+          "春",
+          "冬",
+          "秋"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "winter＝冬",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_094_inflated_255_adv_255",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"hundred\"  は数字でいくつ？ (類似問題2)",
+        "options": [
+          "100",
+          "50",
+          "10",
+          "1000"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "hundred＝100",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_111_inflated_256_adv_256",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"red\"  の意味は？ (類似問題2)",
+        "options": [
+          "赤",
+          "青",
+          "黄",
+          "緑"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "red＝赤",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_112_inflated_257_adv_257",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"blue\"  の意味は？ (類似問題2)",
+        "options": [
+          "緑",
+          "赤",
+          "青",
+          "黄"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "blue＝青",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_113_inflated_258_adv_258",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"yellow\"  の意味は？ (類似問題2)",
+        "options": [
+          "緑",
+          "赤",
+          "青",
+          "黄色"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "yellow＝黄色",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_114_inflated_259_adv_259",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"white\"  の意味は？ (類似問題2)",
+        "options": [
+          "黒",
+          "青",
+          "赤",
+          "白"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "white＝白",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_115_inflated_260_adv_260",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"black\"  の意味は？ (類似問題2)",
+        "options": [
+          "青",
+          "黒",
+          "赤",
+          "白"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "black＝黒",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_125_inflated_261_adv_261",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"hot\"  の意味は？ (類似問題2)",
+        "options": [
+          "温かい",
+          "暑い・熱い",
+          "涼しい",
+          "寒い"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "hot＝暑い/熱い",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_126_inflated_262_adv_262",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"cold\"  の意味は？ (類似問題2)",
+        "options": [
+          "涼しい",
+          "寒い・冷たい",
+          "暑い",
+          "温かい"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "cold＝寒い/冷たい",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_131_inflated_263_adv_263",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"school\"  の意味は？ (類似問題2)",
+        "options": [
+          "公園",
+          "病院",
+          "駅",
+          "学校"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "school＝学校",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_132_inflated_264_adv_264",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"hospital\"  の意味は？ (類似問題2)",
+        "options": [
+          "学校",
+          "病院",
+          "駅",
+          "公園"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "hospital＝病院",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_137_inflated_265_adv_265",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"family\"  の意味は？ (類似問題2)",
+        "options": [
+          "クラスメート",
+          "先生",
+          "友達",
+          "家族"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "family＝家族",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_138_inflated_266_adv_266",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"friend\"  の意味は？ (類似問題2)",
+        "options": [
+          "先生",
+          "兄弟",
+          "友達",
+          "家族"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "friend＝友達",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_141_inflated_267_adv_267",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？ (類似問題2)",
+        "options": [
+          "兄",
+          "姉",
+          "お母さん",
+          "お父さん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_144_inflated_268_adv_268",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？ (類似問題2)",
+        "options": [
+          "木曜日",
+          "月曜日",
+          "金曜日",
+          "土曜日"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_147_inflated_269_adv_269",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？ (類似問題2)",
+        "options": [
+          "お母さん",
+          "弟",
+          "妹",
+          "お父さん"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_150_inflated_270_adv_270",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？ (類似問題2)",
+        "options": [
+          "日曜日",
+          "金曜日",
+          "月曜日",
+          "土曜日"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_153_inflated_271_adv_271",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？ (類似問題2)",
+        "options": [
+          "水曜日",
+          "火曜日",
+          "月曜日",
+          "木曜日"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_156_inflated_272_adv_272",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？ (類似問題2)",
+        "options": [
+          "兄",
+          "お母さん",
+          "お父さん",
+          "姉"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_159_inflated_273_adv_273",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？ (類似問題2)",
+        "options": [
+          "金曜日",
+          "土曜日",
+          "木曜日",
+          "月曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_162_inflated_274_adv_274",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？ (類似問題2)",
+        "options": [
+          "お母さん",
+          "妹",
+          "弟",
+          "お父さん"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_165_inflated_275_adv_275",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？ (類似問題2)",
+        "options": [
+          "月曜日",
+          "土曜日",
+          "金曜日",
+          "日曜日"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_168_inflated_276_adv_276",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？ (類似問題2)",
+        "options": [
+          "水曜日",
+          "木曜日",
+          "火曜日",
+          "月曜日"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_171_inflated_277_adv_277",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？ (類似問題2)",
+        "options": [
+          "姉",
+          "お母さん",
+          "兄",
+          "お父さん"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_174_inflated_278_adv_278",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？ (類似問題2)",
+        "options": [
+          "木曜日",
+          "金曜日",
+          "月曜日",
+          "土曜日"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_177_inflated_279_adv_279",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？ (類似問題2)",
+        "options": [
+          "お母さん",
+          "お父さん",
+          "妹",
+          "弟"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_180_inflated_280_adv_280",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？ (類似問題2)",
+        "options": [
+          "土曜日",
+          "日曜日",
+          "金曜日",
+          "月曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_183_inflated_281_adv_281",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？ (類似問題2)",
+        "options": [
+          "火曜日",
+          "月曜日",
+          "木曜日",
+          "水曜日"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_186_inflated_282_adv_282",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？ (類似問題2)",
+        "options": [
+          "兄",
+          "姉",
+          "お父さん",
+          "お母さん"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_189_inflated_283_adv_283",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？ (類似問題2)",
+        "options": [
+          "金曜日",
+          "木曜日",
+          "土曜日",
+          "月曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_192_inflated_284_adv_284",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？ (類似問題2)",
+        "options": [
+          "妹",
+          "お母さん",
+          "お父さん",
+          "弟"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_195_inflated_285_adv_285",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？ (類似問題2)",
+        "options": [
+          "日曜日",
+          "土曜日",
+          "月曜日",
+          "金曜日"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_198_inflated_286_adv_286",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？ (類似問題2)",
+        "options": [
+          "月曜日",
+          "火曜日",
+          "水曜日",
+          "木曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_201_inflated_287_adv_287",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？ (類似問題2)",
+        "options": [
+          "お父さん",
+          "お母さん",
+          "兄",
+          "姉"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_204_inflated_288_adv_288",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？ (類似問題2)",
+        "options": [
+          "木曜日",
+          "土曜日",
+          "金曜日",
+          "月曜日"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_207_inflated_289_adv_289",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？ (類似問題2)",
+        "options": [
+          "妹",
+          "弟",
+          "お父さん",
+          "お母さん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_210_inflated_290_adv_290",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？ (類似問題2)",
+        "options": [
+          "土曜日",
+          "日曜日",
+          "月曜日",
+          "金曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_213_inflated_291_adv_291",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？ (類似問題2)",
+        "options": [
+          "火曜日",
+          "水曜日",
+          "月曜日",
+          "木曜日"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_216_inflated_292_adv_292",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？ (類似問題2)",
+        "options": [
+          "兄",
+          "姉",
+          "お母さん",
+          "お父さん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_219_inflated_293_adv_293",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？ (類似問題2)",
+        "options": [
+          "木曜日",
+          "土曜日",
+          "月曜日",
+          "金曜日"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_222_inflated_294_adv_294",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？ (類似問題2)",
+        "options": [
+          "妹",
+          "弟",
+          "お父さん",
+          "お母さん"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_225_inflated_295_adv_295",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Saturday\"  は何曜日？ (類似問題2)",
+        "options": [
+          "土曜日",
+          "月曜日",
+          "日曜日",
+          "金曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Saturday＝土曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_228_inflated_296_adv_296",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Monday\"  は何曜日？ (類似問題2)",
+        "options": [
+          "月曜日",
+          "火曜日",
+          "木曜日",
+          "水曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Monday＝月曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_231_inflated_297_adv_297",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"mother\"  の意味は？ (類似問題2)",
+        "options": [
+          "お母さん",
+          "姉",
+          "兄",
+          "お父さん"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "mother＝お母さん",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_234_inflated_298_adv_298",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"Friday\"  は何曜日？ (類似問題2)",
+        "options": [
+          "金曜日",
+          "月曜日",
+          "土曜日",
+          "木曜日"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "Friday＝金曜日",
+        "isAdvanced": true
+      },
+      {
+        "id": "gen_e_237_inflated_299_adv_299",
+        "term": "advanced",
+        "type": "english",
+        "question": "【応用】\"father\"  の意味は？ (類似問題2)",
+        "options": [
+          "お母さん",
+          "妹",
+          "弟",
+          "お父さん"
+        ],
+        "correctOptionIndex": 3,
+        "explanation": "father＝お父さん",
+        "isAdvanced": true
       }
     ]
   }
