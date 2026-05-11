@@ -10,6 +10,7 @@ import CalcDrillScreen from './components/CalcDrillScreen';
 import { quizData as initialQuizData } from './data/quizData';
 import { getStats, getTermAccuracy, recordResult, buildAdaptiveQuiz } from './utils/storage';
 import { startBGM, stopBGM, setVolume, setMuted } from './utils/gymBGM';
+import { initGA, trackEvent, trackPage } from './utils/analytics';
 
 // 選択肢をシャッフルするヘルパー関数
 const shuffleQuestion = (q) => {
@@ -62,6 +63,13 @@ function App() {
     localStorage.setItem('bgm_muted', next);
   };
 
+  // GA4 初期化
+  useEffect(() => {
+    initGA();
+    trackPage('ホーム');
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   // 初期値をBGMモジュールに反映
   useEffect(() => {
     setVolume(volume);
@@ -79,12 +87,13 @@ function App() {
 
     // 計算ドリルは専用の選択画面へ
     if (subject.isCalcDrill) {
+      trackEvent('subject_selected', { subject: subjectKey, mode: 'calc_drill' });
       setCurrentScreen('calc_drill_selector');
       return;
     }
 
     if (mode === 'advanced') {
-      // ホーム画面から直接「応用問題」を起動する
+      trackEvent('subject_selected', { subject: subjectKey, mode: 'advanced' });
       setSelectedTerm('advanced');
       const advPool = subject.questions.filter(q => q.isAdvanced);
       const shuffled = [...advPool].sort(() => 0.5 - Math.random());
@@ -94,6 +103,7 @@ function App() {
       return;
     }
 
+    trackEvent('subject_selected', { subject: subjectKey, mode: 'normal' });
     // 通常モード: 全学期・全カテゴリからアダプティブに10問選択（学期選択をスキップ）
     setSelectedTerm('mix');
     const normalPool = subject.questions.filter(q => !q.isAdvanced && q.term !== 'advanced');
@@ -182,15 +192,30 @@ function App() {
 
   const handleNormalComplete = (finalScore) => {
     setNormalScore(finalScore);
+    trackEvent('quiz_completed', {
+      subject: selectedSubject,
+      quiz_type: 'normal',
+      score: finalScore,
+      total: currentNormalQuestions.length,
+      accuracy: currentNormalQuestions.length > 0 ? Math.round((finalScore / currentNormalQuestions.length) * 100) : 0,
+    });
     setCurrentScreen('normal_result');
   };
 
   const handleStartAdvanced = () => {
+    trackEvent('advanced_quiz_started', { subject: selectedSubject });
     setCurrentScreen('advanced_quiz');
   };
 
   const handleAdvancedComplete = (finalScore) => {
     setAdvancedScore(finalScore);
+    trackEvent('quiz_completed', {
+      subject: selectedSubject,
+      quiz_type: 'advanced',
+      score: finalScore,
+      total: currentAdvancedQuestions.length,
+      accuracy: currentAdvancedQuestions.length > 0 ? Math.round((finalScore / currentAdvancedQuestions.length) * 100) : 0,
+    });
     setCurrentScreen('final_result');
   };
 
@@ -220,6 +245,11 @@ function App() {
 
   const handleAnswer = (questionId, isCorrect) => {
     recordResult(selectedSubject, selectedTerm, questionId, isCorrect);
+    trackEvent('question_answered', {
+      subject: selectedSubject,
+      question_id: questionId,
+      is_correct: isCorrect,
+    });
   };
 
   const subjectData = selectedSubject ? quizData[selectedSubject] : null;
