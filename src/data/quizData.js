@@ -32,7 +32,7 @@ export const baseQuizData = {
     ]
   },
   math: {
-    title: "算数 (教育出版 小5)",
+    title: "算数 (啓林館 小5)",
     color: "#74b9ff",
     characterName: "アルセウス",
     description: "最強の相棒。威厳を持って計算バトル ⚔️ を挑んでくる。",
@@ -52,7 +52,7 @@ export const baseQuizData = {
     ]
   },
   science: {
-    title: "理科 (東京書籍 小5)",
+    title: "理科 (啓林館 小5)",
     color: "#55efc4",
     characterName: "スイクン",
     description: "好奇心旺盛な研究員。自然のふしぎ 🧪 を共に調査する。",
@@ -72,7 +72,7 @@ export const baseQuizData = {
     ]
   },
   society: {
-    title: "社会 (教育出版 小5)",
+    title: "社会 (東京書籍 小5)",
     color: "#fdcb6e",
     characterName: "ザマゼンタ",
     description: "熱血な探検家。日本のひみつ 🗺️ を探す旅へ連れ出す。",

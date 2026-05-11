@@ -98,11 +98,11 @@ function App() {
     setSelectedTerm('mix');
     const normalPool = subject.questions.filter(q => !q.isAdvanced && q.term !== 'advanced');
     const selected = buildAdaptiveQuiz(subjectKey, normalPool, 10, 2);
-    setCurrentNormalQuestions(selected);
+    setCurrentNormalQuestions(selected.map(shuffleQuestion));
 
     const advPool = subject.questions.filter(q => q.isAdvanced);
     const shuffledAdv = [...advPool].sort(() => 0.5 - Math.random());
-    setCurrentAdvancedQuestions(shuffledAdv.slice(0, 1)); // 応用は最後に1問
+    setCurrentAdvancedQuestions(shuffledAdv.slice(0, 3).map(shuffleQuestion)); // 応用は最後に3問
 
     setCurrentScreen('normal_quiz');
   };
