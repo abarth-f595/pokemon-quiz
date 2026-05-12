@@ -435,6 +435,7 @@ function App() {
           onAnswer={handleAnswer}
           onComplete={handleNormalComplete}
           onBack={handleGoHome}
+          onGoHome={handleGoHome}
         />
       )}
       
@@ -458,7 +459,8 @@ function App() {
           description={subjectData.description}
           onAnswer={handleAnswer}
           onComplete={handleAdvancedComplete}
-          onBack={handleGoHome}
+          onBack={() => setCurrentScreen('normal_result')}
+          onGoHome={handleGoHome}
         />
       )}
 

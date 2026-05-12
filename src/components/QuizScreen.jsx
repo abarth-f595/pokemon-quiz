@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const QuizScreen = ({ title, questions, imageUrl, characterName, description, onAnswer, onComplete, onBack }) => {
+const QuizScreen = ({ title, questions, imageUrl, characterName, description, onAnswer, onComplete, onBack, onGoHome }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState(null);
   const [isAnswered, setIsAnswered] = useState(false);
@@ -97,30 +97,44 @@ const QuizScreen = ({ title, questions, imageUrl, characterName, description, on
       </div>
       
       <div className="quiz-header">
-        <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
           {onBack && (
             <button
-              onClick={() => {
-                if (window.confirm('ホームに戻りますか？（進行中のクイズは終了します）')) {
-                  onBack();
-                }
-              }}
+              onClick={onBack}
               style={{
                 background: 'rgba(255,255,255,0.18)',
                 border: '1.5px solid rgba(255,255,255,0.5)',
                 borderRadius: '8px',
                 color: '#fff',
-                fontSize: '13px',
+                fontSize: '12px',
                 fontWeight: 'bold',
-                padding: '4px 12px',
+                padding: '4px 10px',
                 cursor: 'pointer',
                 whiteSpace: 'nowrap',
               }}
             >
-              ← 戻る
+              ← 前の画面に戻る
             </button>
           )}
-          <span>{title}</span>
+          {onGoHome && (
+            <button
+              onClick={onGoHome}
+              style={{
+                background: 'rgba(255,215,0,0.22)',
+                border: '1.5px solid rgba(255,215,0,0.6)',
+                borderRadius: '8px',
+                color: '#fff',
+                fontSize: '12px',
+                fontWeight: 'bold',
+                padding: '4px 10px',
+                cursor: 'pointer',
+                whiteSpace: 'nowrap',
+              }}
+            >
+              🏠 ホームに戻る
+            </button>
+          )}
+          <span style={{ fontSize: '13px' }}>{title}</span>
         </div>
         <div className="question-counter">
           {currentQuestion.isAdvanced && (

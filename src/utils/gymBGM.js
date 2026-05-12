@@ -180,7 +180,7 @@ let masterGain = null;
 let isPlaying  = false;
 let loopTimer  = null;
 let loopStart  = 0;
-let userVolume = 1.0;  // ユーザー設定の音量 (0〜1)
+let userVolume = 0.5;  // ユーザー設定の音量 (0〜1)
 let userMuted  = false; // ミュート状態
 
 /** 現在の実効ゲイン値を計算 */
