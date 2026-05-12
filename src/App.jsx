@@ -37,7 +37,7 @@ function App() {
   // 音量設定（localStorage で永続化）
   const [volume, setVolumeState] = useState(() => {
     const saved = localStorage.getItem('bgm_volume');
-    return saved !== null ? parseFloat(saved) : 1.0;
+    return saved !== null ? parseFloat(saved) : 0.5;
   });
   const [muted, setMutedState] = useState(() => {
     return localStorage.getItem('bgm_muted') === 'true';
@@ -426,7 +426,7 @@ function App() {
       )}
       
       {currentScreen === 'normal_quiz' && subjectData && currentNormalQuestions.length > 0 && (
-        <QuizScreen 
+        <QuizScreen
           title={`${subjectData.title} (${getTermTitle(selectedTerm)} / 通常)`}
           questions={currentNormalQuestions}
           imageUrl={subjectData.imageUrl}
@@ -434,6 +434,7 @@ function App() {
           description={subjectData.description}
           onAnswer={handleAnswer}
           onComplete={handleNormalComplete}
+          onBack={handleGoHome}
         />
       )}
       
@@ -449,7 +450,7 @@ function App() {
       )}
 
       {currentScreen === 'advanced_quiz' && subjectData && currentAdvancedQuestions.length > 0 && (
-        <QuizScreen 
+        <QuizScreen
           title={`${subjectData.title} (${getTermTitle(selectedTerm)} / 応用)`}
           questions={currentAdvancedQuestions}
           imageUrl={subjectData.imageUrl}
@@ -457,6 +458,7 @@ function App() {
           description={subjectData.description}
           onAnswer={handleAnswer}
           onComplete={handleAdvancedComplete}
+          onBack={handleGoHome}
         />
       )}
 
